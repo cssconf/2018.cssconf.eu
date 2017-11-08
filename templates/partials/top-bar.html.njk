@@ -1,0 +1,66 @@
+{% from "../_macros.njk" import svgIcon %}
+{% set navData = contents['navigation.json'].metadata %}
+
+<div class="top-bar">
+    <a class="top-bar__title" href="/">
+        CSSconf EU 2017
+    </a>
+    <div class="top-bar__nav">
+        {#{% for pageId in site.data.main_nav %}#}
+        {#{% assign linkedPage = site.pages | where: "page_id", pageId | first %}#}
+        {#<a href="{{ linkedPage.permalink }}" class="top-bar__nav-link {% if page.url == linkedPage.url %}top-bar__nav-link--active{% endif %}">#}
+        {#{{ linkedPage.title }}#}
+        {#</a>#}
+        {#{% endfor %}#}
+        {# add .top-bar__nav-link--active #}
+
+        {% for item in navData.items %}
+            <a href="{{ contents[item.file].url }}" class="top-bar__nav-link">
+                {{ item.label }}
+            </a>
+        {% endfor %}
+
+        <a href="#" class="top-bar__nav-link">Something</a>
+
+        <a href="http://blog.cssconf.eu" class="top-bar__nav-link">Blog</a>
+    </div>
+    <div class="top-bar__cta">
+        <a class="link--button link--animated link--top-bar"
+           href="{{ site.newsletter_url }}">
+            Subscribe to our Newsletter
+        </a>
+    </div>
+    <div class="mobile-menu">
+        <label for="mobile-menu" class="mobile-menu__control">
+            {{ svgIcon('nav-dots', '0 0 9 38') }}
+        </label>
+        <input type="checkbox" id="mobile-menu" class="mobile-menu__state">
+        <nav class="mobile-menu__container">
+            <div class="mobile-menu__header">
+                <div class="mobile-menu__title">
+                    CSSconf EU<br>
+                    Berlin, May 5th 2017
+                </div>
+                <label for="mobile-menu"
+                       class="mobile-menu__control mobile-menu__control--active">
+                    {{ svgIcon('nav-dots', '0 0 9 38') }}
+                </label>
+            </div>
+            <ul class="mobile-menu__links">
+                {#{% for pageId in site.data.main_nav_mobile %}#}
+                    {#<li class="mobile-menu__links-item">#}
+                        {#{% assign linkedPage = site.pages | where: "page_id", pageId | first %}#}
+                        {#<a href="{{ linkedPage.permalink }}"#}
+                           {#class="mobile-menu__link">{{ linkedPage.title }}</a>#}
+                    {#</li>#}
+                {#{% endfor %}#}
+                <li class="mobile-menu__links-item">
+                    <a href="#" class="mobile-menu__link">Something</a>
+                </li>
+                <li class="mobile-menu__links-item">
+                    <a href="http://blog.cssconf.eu" class="mobile-menu__link">Blog</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>

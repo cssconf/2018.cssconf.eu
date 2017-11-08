@@ -1,0 +1,26 @@
+.c-schedule {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 66rem;
+  padding: 0;
+  position: relative;
+  @media (--medium-ish) {
+    padding-top: 4rem;
+  }
+}
+
+.c-schedule::after {
+  background-color: rgba(33, 48, 59, .1);
+  content: " ";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 2px;
+  z-index: -1;
+}
+
+.c-schedule__item {
+  margin: 0;
+  padding: 3rem 0;
+}

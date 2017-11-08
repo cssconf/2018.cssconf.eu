@@ -1,0 +1,42 @@
+{
+  "locals": {
+    "url": "https://blog.cssconf.eu",
+    "name": "CSSconf EU Blog",
+    "owner": "CSSconf EU Team",
+    "description": ""
+  },
+  "plugins": ["./plugins/postcss.js", "./plugins/nunjucks.js"],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "nunjucks": {
+    "filterdir": "./templates/filters",
+    "filters": ["log"]
+  },
+  "postcss": {
+    "entrypoint": "css/main.css",
+    "from": "contents/css/main.css",
+    "plugins": [
+      "postcss-import",
+      {
+        "path": "postcss-custom-properties",
+        "params": {"preserve": true}
+      },
+      "postcss-nested",
+      "postcss-media-minmax",
+      "postcss-custom-media",
+      "autoprefixer",
+      "css-mqpacker",
+      "cssnano"
+    ]
+  }
+}

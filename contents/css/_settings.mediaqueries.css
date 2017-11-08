@@ -1,0 +1,31 @@
+/* USAGE */
+/*
+@media (--medium-ish) {
+  p {
+    background: red;
+  }
+}
+this resolves to:
+@media (min-width: 64em) {
+  p {
+    background:red;
+  }
+}
+*/
+
+/* mobile first media queries, use these whenever possible */
+
+@custom-media --xsmall-ish (width >= 30rem); /* 480px */
+@custom-media --small-ish (width >= 40rem); /* 640px */
+@custom-media --medium-ish (width >= 64rem); /* 1024px */
+@custom-media --large-ish (width >= 87.5rem); /* 1400px */
+@custom-media --huge-ish (width >= 110rem); /* 1600px */
+
+
+/* max-width media queries, only use when necessary */
+
+@custom-media --max-xsmall-ish (width <= 30rem); /* 480px */
+@custom-media --max-small-ish (width <= 40rem); /* 640px */
+@custom-media --max-medium-ish (width <= 64rem); /* 1024px */
+@custom-media --max-large-ish (width <= 87.5rem); /* 1400px */
+@custom-media --max-huge-ish (width <= 110rem); /* 1600px */

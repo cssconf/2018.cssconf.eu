@@ -1,0 +1,23 @@
+.add-ons {
+  display: flex;
+  flex-direction: column;
+  @media (--small-ish) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.add-on {
+  box-sizing: border-box;
+  padding: 1rem;
+  @media (--small-ish) {
+    width: 50%;
+  }
+  @media (--medium-ish) {
+    padding: 2rem;
+    width: 33%;
+  }
+  @media (--large-ish) {
+    width: 25%;
+  }
+}

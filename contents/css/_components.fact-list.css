@@ -1,0 +1,9 @@
+.fact-list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-green);
+}
+
+.fact-list__title {
+  color: var(--color-grey-dark);
+}

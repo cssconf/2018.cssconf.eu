@@ -1,0 +1,157 @@
+.c-team-photos {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  @media (--small-ish) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.c-team-photos--overlapping {
+  @media (--small-ish) {
+    margin-bottom: 4rem;
+    margin-top: -9rem; /* Negative margin for overlapping with previous module */
+  }
+
+  @media (--medium-ish) {
+    margin-bottom: 6rem;
+    margin-top: -16rem;
+  }
+}
+
+.c-team-photos__item {
+  list-style: none;
+  position: relative;
+  text-align: center;
+
+  @media (--small-ish) { flex: 0 1 26.5%; }
+}
+
+.c-team-photos__link { display: block; }
+
+.c-team-photos__img {
+  box-shadow: 0 .5rem 2rem rgba(43,43,43,.25);
+  margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+
+  @media (--medium-ish) { margin-bottom: 1.35rem; }
+}
+
+.c-team-photos__caption {
+  font-size: 1.25em;
+  line-height: 1;
+
+  @media (--small-ish) {
+    margin: 0 auto;
+    width: 60%;
+  }
+
+  @media (--medium-ish) { font-size: 1.5em; }
+}
+
+.c-team-photos__shapes { position: absolute; }
+
+.c-team-photos__shapes--one-first {
+  left: -2.3rem;
+  top: -1.8rem;
+  width: 5rem;
+
+  @media (--small-ish) {
+    left: -1.7rem;
+    top: -1.5rem;
+    width: 4rem;
+  }
+
+  @media (--medium-ish) {
+    left: -4rem;
+    top: -3.5rem;
+    width: 8rem;
+  }
+}
+
+.c-team-photos__shapes--one-last {
+  bottom: 6rem;
+  right: -1rem;
+  width: 2.5rem;
+  z-index: 2;
+
+  @media (--small-ish) {
+    right: -.8rem;
+    width: 1.7rem;
+  }
+
+  @media (--medium-ish) { bottom: 9rem; }
+}
+
+.c-team-photos__shapes--two-first {
+  left: -2rem;
+  top: 1.4rem;
+  width: 4.5rem;
+  z-index: 3;
+
+  @media (--small-ish) {
+    left: -1.2rem;
+    top: 0.5rem;
+    width: 2.5rem;
+  }
+
+  @media (--medium-ish) {
+    left: -2rem;
+    top: 1.4rem;
+    width: 4.5rem;
+  }
+}
+
+.c-team-photos__shapes--two-last {
+  right: -2.2rem;
+  bottom: 7rem;
+  width: 5rem;
+
+  @media (--small-ish) {
+    right: -1.7rem;
+    bottom: 6.5rem;
+    width: 4rem;
+  }
+
+  @media (--medium-ish) {
+    right: -3.4rem;
+    bottom: 9rem;
+    width: 7rem;
+  }
+}
+
+.c-team-photos__shapes--three-first {
+  right: -1.2rem;
+  top: -0.5rem;
+  width: 4rem;
+
+  @media (--medium-ish) {
+    right: -1.5rem;
+    top: -.8rem;
+    width: 6rem;
+  }
+}
+
+.c-team-photos__shapes--three-last {
+  bottom: 6.5rem;
+  left: -1.2rem;
+  width: 3.5rem;
+  z-index: 2;
+
+  @media (--small-ish) {
+    bottom: 7rem;
+    left: -.7rem;
+    width: 2rem;
+  }
+
+  @media (--medium-ish) {
+    bottom: 9.5rem;
+    left: -1rem;
+    width: 3.5rem;
+  }
+}

@@ -1,0 +1,14 @@
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  .link--footer {
+    display: block;
+    padding: .5em 1em;
+    @media (--small-ish) {
+      display: inline-block;
+    }
+    @media (--medium-ish) {
+      padding: 1em 2em;
+    }
+  }
+}

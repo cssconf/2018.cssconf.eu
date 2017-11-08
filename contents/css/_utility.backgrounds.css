@@ -1,0 +1,75 @@
+.bg--white {
+  background-color: var(--color-white);
+}
+
+.bg--off-white {
+  background-color: var(--color-off-white);
+}
+
+.bg--white-grey {
+  background-color: var(--color-white-grey);
+}
+
+.bg--grey-dark {
+  background-color: var(--color-white-grey);
+}
+
+.bg--salmon {
+  background-color: var(--color-salmon);
+}
+
+.bg--red {
+  background-color: var(--color-red);
+}
+
+.bg--mint {
+  background-color: var(--color-mint);
+}
+
+.bg--green {
+  background-color: var(--color-green);
+}
+
+.bg--yellow {
+  background-color: var(--color-yellow);
+}
+
+.bg--yolk {
+  background-color: var(--color-yolk);
+}
+
+.bg--yellow-50 {
+  background-color: var(--color-yellow-50);
+}
+
+.bg--rose {
+  background-color: var(--color-rose);
+}
+
+.bg--plum {
+  background-color: var(--color-plum);
+}
+
+.bg--blue {
+  background-color: var(--color-blue);
+}
+
+.bg--blue-dark {
+  background-color: var(--color-blue-dark);
+}
+
+.bg--blue-light {
+  background-color: var(--color-blue-light);
+}
+
+.bg--img-combined-shapes-a {
+  background-image: url('/assets/svg/combined-shapes-a.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.bg--img-combined-shapes-b {
+  background-image: url('/assets/svg/combined-shapes-b.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+}

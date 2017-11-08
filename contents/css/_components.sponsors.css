@@ -1,0 +1,7 @@
+.box--sponsor {
+  padding: 0.72rem 1rem 0.75rem;
+
+  @media (--small-ish) {
+    padding: 1.25rem 2rem 1.5rem;
+  }
+}

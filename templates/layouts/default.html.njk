@@ -1,0 +1,95 @@
+{% from "../_macros.njk" import svgIcon %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>
+        {% if page.name %}
+            {{ page.name }} -
+        {% endif %}
+        {{ name }}
+    </title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ contents.css["main.css"].url }}">
+    {#<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">#}
+    <link rel="alternate" type="application/rss+xml" title="{{ locals.name }}"
+          href="{{ locals.url + '/feed.xml' }}">
+
+    <meta property="og:url" content="http://2017.cssconf.eu"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title"
+          content="CSSconf EU | Friday, May 5 2017 | Berlin, Germany"/>
+    <meta property="og:description"
+          content="CSSconf EU is conference dedicated to all those passionate about design, CSS, and the Web. For the community, by the community."/>
+    <meta property="og:image"
+          content="{{ contents.images['open-graph-image.png'].url }}"/>
+    {% include "../partials/favicon.html.njk" %}
+</head>
+<body class="sticky-footer-container">
+<div style="height: 0; width: 0; position: absolute; visibility: hidden;">
+    {% include "../sprite.svg" %}
+</div>
+
+{% include "../partials/top-bar.html.njk" %}
+
+<div class="sticky-footer-container__content">
+    {% block headerRaw %}
+        <header class="header"></header>
+    {% endblock %}
+
+    {% block content %}
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-md-8 col-md-offset-1">
+                        <h2 class="h1 color--blue">missing page-content</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                        <p>The inheriting template needs to override the block content</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    {% endblock %}
+</div>
+
+<section>
+    <div class="container">
+        <div class="c-globe">
+            <div class="c-globe__element-wrapper">
+                {{ svgIcon('globe') }}
+
+                <div class="c-globe__orb-1"></div>
+                <div class="c-globe__orb-2"></div>
+                <div class="c-globe__orb-3"></div>
+            </div>
+        </div>
+        <p class="mini mt2 tc">Part of the international <a href="http://cssconf.org/">CSSconf family</a></p>
+    </div>
+</section>
+
+{% include "../partials/footer.html.njk" %}
+
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-41264845-2', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

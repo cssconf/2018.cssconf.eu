@@ -1,0 +1,67 @@
+.venue {
+  position: relative;
+}
+
+.venue__details,
+.venue__shape {
+  position: absolute;
+}
+
+.venue__details {
+  bottom: -8rem;
+  left: 2.75rem;
+  right: 2.75rem;
+  @media (--xsmall-ish) {
+    bottom: -9rem;
+  }
+  @media (--small-ish) {
+    bottom: 13%;
+    margin-left: 0;
+    margin-right: 0;
+    left: 45%;
+    right: auto;
+    width: 35%;
+  }
+}
+
+.venue__title {
+  font-size: 1.75rem;
+  margin-bottom: .5rem;
+  @media (--xsmall-ish) {
+    font-size: 2.75rem;
+  }
+  @media (--small-ish) {
+    font-size: 1.75rem;
+  }
+  @media only screen and (min-width: 73.75rem) {
+    font-size: 3.75rem;
+  }
+}
+
+.venue__shape .svg {
+  display: block;
+}
+
+.venue__shape--circle {
+  top: 10%;
+  left: 58%;
+  width: 4%;
+}
+
+.venue__shape--ring {
+  bottom: 28%;
+  left: 21%;
+  width: 12%;
+}
+
+.venue__shape--triangle {
+  top: 26%;
+  right: 22%;
+  width: 10%;
+}
+
+.venue__shape--half-pill {
+  left: 32%;
+  top: 20%;
+  width: 6%;
+}

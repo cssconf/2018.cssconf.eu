@@ -1,0 +1,62 @@
+.top-bar {
+  align-items: center;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  height: var(--height-top-bar);
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; /* to be above svg visuals, even if many svgs are present */
+  @media (--large-ish) {
+    height: calc(1.25 * var(--height-top-bar));
+  }
+}
+
+.top-bar__title {
+  color: var(--color-grey-dark);
+  flex-grow: 1;
+  font-size: 1em;
+  line-height: 1;
+  margin-bottom: 0;
+  span {
+    color: var(--color-blue);
+  }
+  @media (min-width: 50em) {
+    flex-grow: initial;
+  }
+  @media (--large-ish) {
+    font-size: 1.125rem; /* 18px */
+  }
+}
+
+.top-bar__cta {
+  flex-shrink: 0;
+}
+
+.top-bar__nav {
+  display: none;
+
+  @media (min-width: 50em) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.top-bar__nav-link {
+  padding: 0 .25rem;
+  margin: 0 .5rem;
+  @media (--small-ish) {
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+  }
+}
+
+.top-bar__nav-link--active {
+  color: var(--color-green);
+}

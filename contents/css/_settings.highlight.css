@@ -1,0 +1,6 @@
+:root {
+  --highlight-vstart: 0.4em;
+  --highlight-vend: 0.9em;
+  --highlight-color: var(--color-yellow);
+  --highlight-range: 100%;
+}

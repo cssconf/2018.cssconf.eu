@@ -1,0 +1,12 @@
+.twitter-tweet {
+  padding: 1rem;
+  margin: 0;
+  width: 100% !important;
+}
+
+.twitter-tweet-rendered {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+  transform: scale(1.01) !important;
+}

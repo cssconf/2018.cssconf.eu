@@ -1,0 +1,8 @@
+figure {
+  margin: 0 0 calc(var(--fraction) * 3);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

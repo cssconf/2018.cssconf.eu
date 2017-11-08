@@ -1,0 +1,20 @@
+.svg-cssconf-family-globe {
+  max-width: 8rem;
+  padding-top: 4rem;
+}
+
+.circle-yellow {
+  fill: var(--color-yolk);
+}
+.circle-red {
+  fill: var(--color-red);
+}
+.circle-blue {
+  fill: var(--color-blue);
+}
+[class^="type__letter"] {
+  fill: var(--color-red);
+}
+[class^="globe__"] {
+  fill: var(--color-blue-dark);
+}

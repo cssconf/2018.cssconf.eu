@@ -1,0 +1,17 @@
+.highlight {
+  mix-blend-mode: multiply;
+  background:
+    linear-gradient(to bottom,
+      white,
+      white var(--highlight-vstart),
+      transparent var(--highlight-vstart),
+      transparent var(--highlight-vend),
+      white var(--highlight-vend),
+      white),
+
+    linear-gradient(to right,
+      var(--highlight-color),
+      var(--highlight-color) var(--highlight-range),
+      white var(--highlight-range),
+      white);
+}

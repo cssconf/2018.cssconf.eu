@@ -1,0 +1,51 @@
+.sponsor-options-legend {
+  margin: 0 1rem 3rem 1rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  &::before,
+  &::after {
+    background-color: var(--color-blue);
+    content: " ";
+    height: 2rem;
+    position: absolute;
+    top: .75rem;
+    width: 1px;
+  }
+
+  &::before { left: -1px; }
+
+  &::after { right: -1px; }
+
+  @media (--medium-ish) {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}
+
+.sponsor-options-legend__label {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    background-color: var(--color-blue);
+    content: " ";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: .75rem;
+    width: 100%;
+  }
+}
+
+.sponsor-options-legend__text {
+  background-color: var(--color-white);
+  padding: 0 .5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.sponsor-options-legend--add-ons {
+  margin-bottom: 1.5rem;
+}

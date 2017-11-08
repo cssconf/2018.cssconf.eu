@@ -1,0 +1,88 @@
+/*
+
+This file contains dev styles for the styleguide.
+Don't use in production
+
+*/
+
+.styleguide {
+  /* breakpoint testing helper */
+    position: relative;
+    &:before {
+      position: fixed;
+      width: auto;
+      top: 0;
+      right: 50%;
+      font-size: 10px;
+      padding: 3px;
+      background-color: rose;
+      color: black;
+      z-index: 100;
+      transition: all .1s ease-in-out;
+      content: 'No breakpoint active';
+      opacity: .8;
+      @media (--small-ish) {
+        content: 'We’re on breakpoint SMALL';
+        background-color: yellow;
+        color: black;
+      }
+      @media (--medium-ish) {
+        content: 'We’re on breakpoint MEDIUM';
+        background-color: green;
+      }
+      @media (--large-ish) {
+        content: 'We’re on breakpoint LARGE';
+        background-color: red;
+      }
+      @media (--huge-ish) {
+        content: 'We’re on breakpoint HUGE';
+        background-color: black;
+        color: white;
+      }
+    }
+
+
+  .container {
+    /*background-color: rgba(255,255,0,.1);*/
+  }
+
+  /* makes grid visible when applied to container */
+  .dev-grid {
+    background-color: transparent;
+    background-image:
+      linear-gradient(0deg, transparent calc(1rem - 1px), rgba(255,100,0,.2) calc(1rem - 1px), transparent 1rem),
+      linear-gradient(90deg, rgba(100,0,255,.05) calc(100% - 22px), transparent calc(100% - 22px), transparent calc(100% - 21px));
+    height: 100%;
+    background-size: calc(8.33334% + 2px) 1rem;
+    background-position: 0 0;
+  }
+
+  .box {
+    background: lightblue;
+    margin-bottom: 22px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+
+  code {
+    background-color: var(--color-white-grey);
+    color: var(--color-blue-dark);
+    font-family: Menlo, monospace;
+    font-size: .7em;
+    padding: 3px;
+  }
+
+}
+
+
+/* makes grid visible when applied to container */
+.dev-grid {
+  background-color: transparent;
+  background-image:
+    linear-gradient(0deg, transparent calc(1rem - 1px), rgba(255,100,0,.2) calc(1rem - 1px), transparent 1rem),
+    linear-gradient(90deg, rgba(100,0,255,.05) calc(100% - 22px), transparent calc(100% - 22px), transparent calc(100% - 21px));
+  height: 100%;
+  background-size: calc(8.33334% + 2px) 1rem;
+  background-position: 0 0;
+}
