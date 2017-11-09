@@ -40,6 +40,29 @@ We're using the [nunjucks template-engine][]. It's great. It's a clone of the ve
 
 Have a look at the [templating docs][] if you don't know it yet. Also contains hints about editor-support you might want to install.
 
+### data in templates
+
+Data from the `locals`-section from `config.json` as well as node-modules loaded via `require` in `config.json` is available in the templates as global variables, so a variable `locals.someValue === "something"` is accessible via `{{ someValue }}` in all templates.
+
+The current page is always accessible via `page`, the values from the frontmatter via `page.metadata`. The public URL for the current page is in `page.url`.
+
+It is always possible to access any content from everywhere in the content-tree (that is what the `contents`-directory is called internally).
+That is what the variable `contents` is for. This represents the contents-directory as a object-hierarchy. So, to get the URL of the file `contents/images/some-image.png`, you can use `{{ contents.images['some-image.png'].url }}`.
+
+## debugging wintersmith..
+
+There might be better ways, but this works for me:
+
+First, start application with `--inspect` flag:
+
+    node --inspect node_modules/.bin/wintersmith --verbose preview`
+    
+Next, go to [chrome://inspect](chrome://inspect) in chrome and "Open dedicated DevTools for Node". This should connect a new devtools-instance to the wintersmith-server running in node.
+
+Depending on what you want to debug, find the corresponding file, set a breakpoint or enable break on caught exceptions or whatever. To have a look at the content-tree you can do this:
+
+In the sources-panel, search for and open (Cmd+O) the file `plugins/nunjucks.js`, find the `NunjucksTemplate.render`-function towards the bottom of the file and put a breakpoint there. Reload the page.
+
 
 [gh-pages]: https://github.com/cssconf/2018.cssconf.eu/tree/gh-pages
 [nunjucks template-engine]: https://mozilla.github.io/nunjucks/
