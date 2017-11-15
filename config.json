@@ -1,9 +1,9 @@
 {
   "locals": {
-    "url": "https://blog.cssconf.eu",
-    "name": "CSSconf EU Blog",
+    "url": "https://2018.cssconf.eu",
+    "name": "CSSconf EU | Friday, June 1 2018 | Berlin, Germany",
     "owner": "CSSconf EU Team",
-    "description": ""
+    "description": "CSSconf EU is conference dedicated to all those passionate about design, CSS, and the web. For the community, by the community."
   },
   "plugins": ["./plugins/postcss.js", "./plugins/nunjucks.js"],
   "require": {
