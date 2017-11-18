@@ -1,184 +1,67 @@
+body {
+  font-family: var(--ff-sans-serif-regular);
+}
+
+body,
+.copy {
+  font-size: 1.3125rem; /* 21 */
+  line-height: 1.523809524; /* 32 */
+}
+
+.copy--mini {
+  font-size: .875rem; /* 14 */
+  line-height: 1.571428571; /* 22 */
+}
+
+.copy--max {
+  font-size: 1.75rem; /* 28 */
+  line-height: 1.285714286; /* 36 */
+}
+
+.copy--center {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
 h4,
-h5,
-h6,
-ul,
-ol,
-dd,
+h5 {
+  color: var(--c-blue-violet);
+}
+
 p,
-figure,
-pre,
-table,
-fieldset,
-hr {
+ul,
+ol {
   margin-top: 0;
-  font-weight: 400;
 }
 
-body {
-  font-family: var(--ff-sans-serif-regular);
-  font-size: .875rem; /* 14px */
-  line-height: 1.7143; /* 24px */
-  color: var(--color-grey-dark);
-  font-weight: 400;
-
-  @media (--small-ish) {
-    font-size: 1rem; /* 16px */
-    line-height: 1.5; /* 24px */
-  }
-
-  @media (--medium-ish) {
-    font-size: 1.125rem; /* 18px */
-    line-height: 1.444444; /* 26px */
-  }
+h1,
+.fz--alpha {
+  font-size: 12.5rem; /* 200 */
+  line-height: .75; /* 150 */
 }
 
-em, i {
-  font-style: normal; /* we don't serve an italic font */
+h2,
+.fz--beta {
+  font-size: 7.5rem; /* 120 */
+  line-height: .916666667; /* 110 */
 }
 
-/* paragraphs */
-
-p {
-  margin-bottom: 1.7143rem; /* 24px */
+h3,
+.fz--gamma {
+  font-size: 5.5rem; /* 88 */
+  line-height: .795454545; /* 70 */
 }
 
-/* lists */
-
-ul, ol {
-  li {
-    padding-top: .5em;
-    padding-bottom: .5em;
-  }
+h4,
+.fz--delta {
+  font-size: 2.75rem; /* 44 */
+  line-height: 1.090909091; /* 48 */
 }
 
-/* headings */
-/* h1 as described in the type chart in issue #14 */
-
-h1, .h1 {
-  font-family: var(--ff-sans-serif-medium);
-  font-size: 2.5rem; /* 40px */
-  line-height: 1; /* 40px */
-  margin-bottom: calc(4 * var(--vertical-factor));
-
-  @media (--small-ish) {
-    font-size: 3.75rem; /* 60px */
-    line-height: .916666667; /* 55px */
-  }
-
-  @media (--medium-ish) {
-    font-size: 6.25rem; /* 100px */
-    line-height: 1.111111; /* 90px */
-    margin-bottom: calc(8 * var(--vertical-factor));
-  }
-}
-
-/* h3 as described in the type chart in issue #14 */
-
-h2, .h2 {
-  font-family: var(--ff-sans-serif-medium);
-  font-size: .875rem; /* 14px */
-  line-height: 1.57143; /* 22px */
-
-  @media (--small-ish) {
-    font-size: 1.375rem; /* 22px */
-    line-height: 1.272727273; /* 28px */
-  }
-
-  @media (--medium-ish) {
-    font-size: 1.75rem; /* 28px */
-    line-height: 1.2857143; /* 36px */
-  }
-}
-
-h3, .h3 {
-  font-family: var(--ff-sans-serif-medium);
-  font-size: inherit; /* same as body */
-  line-height: inherit; /* same as body */
-}
-
-h4, .h4 {
-  font-family: var(--ff-sans-serif-medium);
-  font-size: inherit; /* same as body */
-  line-height: inherit; /* same as body */
-
-  @media (--small-ish) {
-    font-size: 1rem;
-    line-height: 1.375;
-  }
-
-  @media (--medium-ish) {
-    font-size: 1.3125rem;
-    line-height: 1.238095238;
-  }
-}
-
-h5, .h5 {
-  font-size: inherit; /* same as body */
-  line-height: inherit; /* same as body */
-  margin-bottom: 0;
-}
-
-h6, .h6 {
-  font-size: inherit; /* same as body */
-  line-height: inherit; /* same as body */
-}
-
-.h1--company-name {
-  opacity: 1;
-  transition: opacity .5s ease-in-out;
-}
-
-.h1--company-name.is-transparent {
-  opacity: 0;
-}
-
-/* paragraphs */
-/* copy max as described in the type chart in issue #14 */
-
-.intro {
-  font-family: var(--ff-sans-serif-medium);
-  font-size: .875rem; /* 14px */
-  line-height: 1.57143; /* 22px */
-
-  @media (--small-ish) {
-    font-size: 1.375rem; /* 22px */
-    line-height: 1.272727273; /* 28px */
-  }
-
-  @media (--medium-ish) {
-    font-size: 1.75rem; /* 28px */
-    line-height: 1.2857143; /* 36px */
-  }
-}
-
-/* copy normal as described in the type chart in issue #14 */
-
-.default {
-  font-size: .875rem; /* 14px */
-  line-height: 1.7143; /* 24px */
-
-  @media (--small-ish) {
-    font-size: 1rem; /* 16px */
-    line-height: 1.5; /* 24px */
-  }
-
-  @media (--medium-ish) {
-    font-size: 1.125rem; /* 18px */
-    line-height: 1.444444; /* 26px */
-  }
-}
-
-/* copy mini as described in the type chart in issue #14 */
-
-.mini {
-  font-size: .875rem; /* 14px */
-  line-height: 1.7143; /* 24px */
-
-  @media (--small-ish) {
-    font-size: .875rem; /* 14px */
-    line-height: 1.57143; /* 22px */
-  }
+h5,
+.fz--epsilon {
+  font-size: 1.75rem; /* 28 */
+  line-height: 1.285714286; /* 26 */
 }

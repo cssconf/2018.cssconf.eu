@@ -1,0 +1,17 @@
+.c-header-global {
+  align-items: center;
+  background-color: var(--c-martinique);
+  color: var(--c-puerto-rico);
+  display: flex;
+  justify-content: space-between;
+  padding: calc(var(--l-unit) * 2);
+  flex-grow: 0;
+}
+
+.c-header-global__text--date {
+  color: var(--c-cinnabar);
+}
+
+.c-header-global__text--location {
+  color: var(--c-white);
+}

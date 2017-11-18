@@ -1,0 +1,12 @@
+.c-btn {
+  background-color: var(--c-puerto-rico);
+  border: 0;
+  border-radius: 0;
+  color: var(--c-blue-violet);
+  cursor: pointer;
+  padding: var(--l-unit) calc(var(--l-unit) * 2);
+}
+
+.c-btn:hover {
+  outline: 2px solid var(--c-white);
+}

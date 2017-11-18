@@ -1,43 +1,24 @@
-@import 'normalize.css';
-@import '_settings.mediaqueries.css';
-@import '_settings.typography.css';
-@import '_settings.colors.css';
-@import '_settings.page.css';
-@import '_settings.image.css';
-@import '_settings.top-bar.css';
-@import '_settings.highlight.css';
-@import '_base.typography.css';
-@import '_base.page.css';
-@import '_base.grid.css';
-@import '_base.links.css';
-@import '_base.image.css';
-@import '_components.image.css';
-@import '_components.top-bar.css';
-@import '_components.mobile-menu.css';
-@import '_components.header.css';
-@import '_components.footer.css';
-@import '_components.cssconf-family-footer.css';
-@import '_components.package.css';
-@import '_components.fact-list.css';
-@import '_components.visuals.css';
-@import '_components.twitter-tweet.css';
-@import '_components.globe.css';
-@import '_components.jsconfeu.css';
-@import '_components.speaker.css';
-@import '_components.speaker-item.css';
-@import '_components.team-photos.css';
-@import '_components.sponsor-options-legend.css';
-@import '_components.sponsors.css';
-@import '_components.add-ons.css';
-@import '_components.venue.css';
-@import '_components.schedule.css';
-@import '_components.schedule-item.css';
-@import '_utility.backgrounds.css';
-@import '_utility.colors.css';
-@import '_utility.helpers.css';
-@import '_utility.highlight.css';
-@import '_utility.margins.css';
-@import '_utility.paddings.css';
-@import '_utility.overflow-content.css';
-@import '_utility.text-align.css';
-@import '_styleguide.css';
+/* Vendor */
+@import "_vendor.normalize.css";
+
+/* Settings */
+@import "_settings.colors.css";
+@import "_settings.grid.css";
+@import "_settings.typography.css";
+
+/* Base */
+@import "_base.grid.css";
+@import "_base.page.css";
+@import "_base.typography.css";
+
+/* Components */
+@import "_components.btn.css";
+@import "_components.footer-global.css";
+@import "_components.globe.css";
+@import "_components.header-global.css";
+@import "_components.intro.css";
+@import "_components.nav-list.css";
+@import "_components.nav-pages.css";
+@import "_components.nav-social.css";
+
+/* Utilities */

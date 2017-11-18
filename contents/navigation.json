@@ -1,7 +1,16 @@
 {
   "items": [
-    {"label": "One", "file": "test.json"},
-    {"label": "Two", "file": "test.json"},
-    {"label": "Three", "file": "test.json"}
+    {
+      "label": "One",
+      "file": "test.json"
+    },
+    {
+      "label": "Two",
+      "file": "test.json"
+    },
+    {
+      "label": "Three",
+      "file": "test.json"
+    }
   ]
 }

@@ -1,8 +1,0 @@
-.u-overflow-content {
-  @media (--small-ish) { overflow: visible; }
-}
-
-.u-overflow-content--mr {
-  @media (--small-ish) { margin-bottom: 8rem; }
-  @media (--medium-ish) { margin-bottom: 14rem; }
-}
