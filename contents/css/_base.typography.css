@@ -5,6 +5,7 @@ body {
 body,
 .copy {
   font-size: 1.125rem;
+  line-height: 1.4; /* 32 */
 
   @media(--s) {
     font-size: 1.3125rem; /* 21 */
@@ -39,6 +40,11 @@ h5 {
   color: var(--c-blue-violet);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
 p,
 ul,
 ol {
@@ -77,8 +83,12 @@ h3,
 
 h4,
 .fz--delta {
-  font-size: 2.75rem; /* 44 */
-  line-height: 1.090909091; /* 48 */
+  font-size: 2rem;
+
+  @media(--s) {
+    font-size: 2.75rem; /* 44 */
+    line-height: 1.090909091; /* 48 */
+  }
 }
 
 h5,
