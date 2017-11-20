@@ -2,11 +2,14 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  margin-bottom: var(--l-gutter);
+  margin-top: calc(var(--l-gutter) * 3);
   z-index: 1;
 }
 
-.c-globe__element-wrapper { position: relative; }
+.c-globe__element-wrapper {
+  position: relative;
+}
 
 .svg-globe {
   height: 6rem;
@@ -23,7 +26,7 @@
 
 .c-globe__orb-1 {
   animation: GYRATE 5s infinite ease-in-out;
-  background-color: var(--color-salmon);
+  background-color: var(--c-cinnabar);
   height: 2rem;
   left: -4.2rem;
   top: 0;
@@ -32,16 +35,16 @@
 
 .c-globe__orb-2 {
   animation: GYRATE 4s infinite ease-in-out;
-  background-color: var(--color-mint);
+  background-color: var(--c-puerto-rico);
   height: 1rem;
   left: -3rem;
   top: 4rem;
   width: 1rem;
 }
-  
+
 .c-globe__orb-3 {
   animation: GYRATE 6s infinite ease-in-out;
-  background-color: var(--color-blue);
+  background-color: var(--c-blue-violet);
   height: 1.5rem;
   left: -3.9rem;
   top: 2.4rem;
@@ -54,7 +57,9 @@
     transform: translateX(0) scale(1);
   }
 
-  50% { transform: translateX(13rem) scale(1); }
+  50% {
+    transform: translateX(13rem) scale(1);
+  }
 
   100% {
     transform: scale(1) translateX(0);

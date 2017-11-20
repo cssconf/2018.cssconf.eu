@@ -1,0 +1,17 @@
+.c-nav-list {
+  margin-bottom: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+.c-nav-list--footer-global {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.c-nav-list--footer-global .c-nav-list__anchor {
+  color: currentColor;
+  margin-left: var(--l-unit);
+  margin-right: var(--l-unit);
+}

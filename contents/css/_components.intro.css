@@ -1,0 +1,13 @@
+.c-intro {
+  border-bottom: calc(var(--l-gutter) / 2) solid var(--c-big-pink);
+  margin-bottom: calc(var(--l-gutter) * 2);
+  padding-bottom: calc(var(--l-gutter) * 2);
+}
+
+.c-intro__title {
+  color: var(--c-black);
+}
+
+.c-intro__text {
+  color: var(--c-blue-violet);
+}

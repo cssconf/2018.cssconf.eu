@@ -1,132 +1,20 @@
-html { box-sizing: border-box; }
-
-*,
-*::before,
-*::after { box-sizing: inherit; }
-
 body {
-  background-color: white;
-}
-
-section, header, footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-section {
-  overflow: hidden;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  @media (--medium-ish) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-  @media (--large-ish) {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-}
-
-.section--padding-huge {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  @media (--medium-ish) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  }
-  @media (--large-ish) {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-  }
-}
-
-/* for speaker list, which has no padding top */
-.section--block-list-home {
-  padding-top: 0;
-}
-
-/* for speaker list, which has no padding left/right on mobile */
-.section--block-list {
-  @media (--max-xsmall-ish) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-/* inner content */
-
-.container {
-  max-width: 1082px;
-  width: auto !important;
-  margin: 0 auto;
-}
-
-/* box styling */
-
-.box--twitter {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 32.5rem;
-  margin-bottom: 2rem;
-}
-
-.box--add-on {
-  height: 100%;
-  margin-bottom: 0 !important;
-}
-
-.box--padded {
-  padding: 1.25rem 2rem 1.5rem;
-  > :last-child {
-    margin-bottom: 0;
-  }
-}
-
-.box--slightly-padded {
-  padding: .5rem .75rem .75rem;
-  > :last-child {
-    margin-bottom: 0;
-  }
-}
-
-.box--fill-height {
-  height: 100%;
-}
-
-.box--shadow {
-  box-shadow: 0 .5rem 2rem rgba(43,43,43,.175);
-  overflow: hidden;
-  margin-bottom: 1.375rem;
-}
-
-.box--nutshell {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  padding: 1.75rem 2rem 2rem;
+  min-height: 100vh;
 }
 
-.box--sponsor .svg {
-  display: block;
+.l-wrapper {
+  flex-grow: 1;
 }
 
-.box--venue {
-  margin-bottom: 8rem;
-  overflow: visible;
-  @media (--xsmall-ish) {
-    margin-bottom: 9rem;
-  }
-  @media (--small-ish) {
-    margin-bottom: 0;
-  }
-  @media screen and (min-width: 70.75rem) {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
-  }
-  @media screen and (min-width: 73.75rem) {
-    margin-left: -3rem;
-    margin-right: -3rem;
-  }
+a {
+  color: var(--c-illusion);
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:visited {
+  color: var(--c-cinnabar);
 }

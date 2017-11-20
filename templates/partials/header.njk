@@ -1,0 +1,16 @@
+{% from "../_macros.njk" import svgIcon %}
+{% set navData = contents['navigation.json'].metadata %}
+
+{#{% for item in navData.items %}#}
+  {#<a href="{{ contents[item.file].url }}"#}
+     {#class="top-bar__nav-link {% if contents[item.file].url === page.url %}top-bar__nav-link--active{% endif %}">#}
+    {#{{ item.label }}#}
+  {#</a>#}
+{#{% endfor %}#}
+
+<header class="c-header-global">
+  <div>
+    CSSconf EU<span class="c-header-global__text--date">Friday, June 1st 2018</span><span class="c-header-global__text--location">Berlin, Germany</span>
+  </div>
+  <a class="c-btn" href="#">Call for Speakers</a>
+</header>
