@@ -5,6 +5,7 @@
 @import "_settings.colors.css";
 @import "_settings.grid.css";
 @import "_settings.typography.css";
+@import "_settings.mediaqueries.css";
 
 /* Base */
 @import "_base.grid.css";
