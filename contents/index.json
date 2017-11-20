@@ -1,3 +1,4 @@
 {
+  "filename": "index.html",
   "template": "pages/landingpage.html.njk"
 }
