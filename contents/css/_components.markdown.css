@@ -6,7 +6,7 @@
     @media(--s) { padding-left: calc(var(--l-unit) * 8); }
   }
 
-  ul {
+  ul, ol {
     padding-left: calc(var(--l-unit) * 9);
     @media(--s) { padding-left: calc(var(--l-unit) * 12); }
   }
