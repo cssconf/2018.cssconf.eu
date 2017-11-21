@@ -1,3 +1,4 @@
 {
-  "template": "pages/test.html.njk"
+  "template": "pages/test.html.njk",
+  "title": "Test"
 }
