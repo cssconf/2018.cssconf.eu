@@ -1,5 +1,48 @@
 {% extends "../layouts/default.html.njk" %}
 
 {% block content %}
-  Call for Speakers
+  <section class="c-intro">
+    <div class="l-container">
+      <h1 class="c-intro__title">Call For Speakers</h1>
+      <p class="c-intro__text copy--max">
+        {{ contents.copy.cfs['intro.md'].metadata.introText }}
+      </p>
+    </div>
+  </section>
+
+  <div class="l-container">
+    <main>
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['open-until.md'].html }}
+      </div>
+
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['topics.md'].html }}
+      </div>
+
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['we-can-help.md'].html }}
+      </div>
+
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['perks.md'].html }}
+      </div>
+
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['selection-process.md'].html }}
+      </div>
+
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['guidelines.md'].html }}
+      </div>
+
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['video-recordings.md'].html }}
+      </div>
+
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.cfs['coc.md'].html }}
+      </div>
+    </main>
+  </div>
 {% endblock %}
