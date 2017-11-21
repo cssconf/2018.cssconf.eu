@@ -10,8 +10,10 @@
 
 .c-header-global__text--date {
   color: var(--c-cinnabar);
+  margin-left: .4rem;
 }
 
 .c-header-global__text--location {
   color: var(--c-white);
+  margin-left: .4rem
 }
