@@ -1,4 +1,4 @@
 {
   "filename": "index.html",
-  "template": "pages/landingpage.html.njk"
+  "template": "pages/index.html.njk"
 }
