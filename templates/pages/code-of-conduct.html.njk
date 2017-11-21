@@ -1,9 +1,11 @@
 {% extends "../layouts/default.html.njk" %}
 
+{% block bodyClass -%}page--coc{%- endblock %}
+
 {% block content %}
   <section class="c-intro">
     <div class="l-container">
-      <h1 class="c-intro__title">Code Of Conduct</h1>
+      <h1 class="c-intro__title">{{ contents.copy.coc['main.md'].metadata.title }}</h1>
       <p class="c-intro__text copy--max">
         {{ contents.copy.coc['main.md'].metadata.introText }}
       </p>
@@ -16,16 +18,13 @@
         {{ contents.copy.coc['main.md'].html }}
       </div>
 
+      <p class="page-coc--footnote">
+        Original source and credit: <a href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a>
+        & <a href="https://adainitiative.org/">The Ada Initiative</a>.<br>
+        Please help by translating or improving:
+        <a href="https://github.com/leftlogic/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a>.<br><br>
 
-      <h2 class="fz--delta">Application Form</h2>
-      <p class="paragraph--is-indented">
-        The deadline for scholarship applications has now passed. If you applied for a scholarship, you will be notified
-        about the outcome of your application in the coming weeks.
-      </p>
-      <h2 class="fz--delta">Contact</h2>
-      <p class="paragraph--is-indented">
-        If you have any questions please don’t hesitate to contact us at <a href="#">contact@cssconf.eu</a>. You can
-        also follow us on Twitter and subscribe to our newsletter to stay up to date.
+        This work is licensed under a Creative Commons Attribution 3.0 Unported License
       </p>
     </main>
   </div>

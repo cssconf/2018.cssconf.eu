@@ -24,3 +24,6 @@
 @import "_components.markdown.css";
 @import "_component.paragraph-indent.css";
 /* Utilities */
+
+/* Page specific styles */
+@import "_pages.coc.css";

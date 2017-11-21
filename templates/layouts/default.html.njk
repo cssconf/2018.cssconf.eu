@@ -26,7 +26,7 @@
         content="{{ contents.images['open-graph-image.png'].url }}"/>
   {% include "../partials/favicon.html.njk" %}
 </head>
-<body>
+<body class="{% block bodyClass %}{% endblock %}">
 <div style="height: 0; width: 0; position: absolute; visibility: hidden;">
     {% include "../sprite.svg" %}
 </div>
