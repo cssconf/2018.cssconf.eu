@@ -4,8 +4,13 @@ body {
 
 body,
 .copy {
-  font-size: 1.3125rem; /* 21 */
-  line-height: 1.523809524; /* 32 */
+  font-size: 1.125rem;
+  line-height: 1.4; /* 32 */
+
+  @media(--s) {
+    font-size: 1.3125rem; /* 21 */
+    line-height: 1.523809524; /* 32 */
+  }
 }
 
 .copy--mini {
@@ -14,8 +19,13 @@ body,
 }
 
 .copy--max {
-  font-size: 1.75rem; /* 28 */
-  line-height: 1.285714286; /* 36 */
+  font-size: 1.3125rem;
+  line-height: 1.142857143;
+
+  @media(--s) {
+    font-size: 1.75rem; /* 28 */
+    line-height: 1.285714286; /* 36 */
+  }
 }
 
 .copy--center {
@@ -30,6 +40,11 @@ h5 {
   color: var(--c-blue-violet);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
 p,
 ul,
 ol {
@@ -38,14 +53,26 @@ ol {
 
 h1,
 .fz--alpha {
-  font-size: 12.5rem; /* 200 */
-  line-height: .75; /* 150 */
+  /* font-size: 3.666666667rem; */
+  font-size: 3.066667rem;
+  line-height: 1.090909091;
+
+  @media(--s) {
+    font-size: 5.5rem;
+    /* font-size: 12.5rem; */
+    line-height: 1.1; /* 150 */
+  }
 }
 
 h2,
 .fz--beta {
-  font-size: 7.5rem; /* 120 */
-  line-height: .916666667; /* 110 */
+  font-size: 1.5rem;
+  line-height: 1.166666667;
+
+  @media(--s) {
+    font-size: 7.5rem; /* 120 */
+    line-height: .916666667; /* 110 */
+  }
 }
 
 h3,
@@ -56,8 +83,12 @@ h3,
 
 h4,
 .fz--delta {
-  font-size: 2.75rem; /* 44 */
-  line-height: 1.090909091; /* 48 */
+  font-size: 2rem;
+
+  @media(--s) {
+    font-size: 2.75rem; /* 44 */
+    line-height: 1.090909091; /* 48 */
+  }
 }
 
 h5,
