@@ -5,6 +5,7 @@
   color: var(--c-blue-violet);
   cursor: pointer;
   padding: var(--l-unit) calc(var(--l-unit) * 2);
+  text-align: center;
 }
 
 .c-btn:hover {
