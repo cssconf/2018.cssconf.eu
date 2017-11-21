@@ -1,5 +1,31 @@
 {% extends "../layouts/default.html.njk" %}
 
+{% block bodyClass -%}page--coc{%- endblock %}
+
 {% block content %}
-  Code of Conduct
+  <section class="c-intro">
+    <div class="l-container">
+      <h1 class="c-intro__title">{{ contents.copy.coc['main.md'].metadata.title }}</h1>
+      <p class="c-intro__text copy--max">
+        {{ contents.copy.coc['main.md'].metadata.introText }}
+      </p>
+    </div>
+  </section>
+
+  <div class="l-container">
+    <main>
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.coc['main.md'].html }}
+      </div>
+
+      <p class="page-coc--footnote">
+        Original source and credit: <a href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a>
+        & <a href="https://adainitiative.org/">The Ada Initiative</a>.<br>
+        Please help by translating or improving:
+        <a href="https://github.com/leftlogic/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a>.<br><br>
+
+        This work is licensed under a Creative Commons Attribution 3.0 Unported License
+      </p>
+    </main>
+  </div>
 {% endblock %}
