@@ -11,3 +11,8 @@
 .c-btn:hover {
   outline: 2px solid var(--c-white);
 }
+
+.btn-block {
+  text-align: center;
+  padding: 2rem 0;
+}
