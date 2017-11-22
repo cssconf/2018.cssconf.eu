@@ -15,12 +15,16 @@
 </section>
 
 
+<div class="l-container">
+  <div>
+    {{ contents.copy.home['cfs.md'].html }}
+  </div>
+</div>
 
-
-  {#{{ contents.copy.home['header.md'].metadata.introText }}#}
-
-  {{ contents.copy.home['cfs.md'].html }}
-
-  {{ contents.copy.home['coc.md'].html }}
+<div class="l-container">
+  <div>
+    {{ contents.copy.home['coc.md'].html }}
+  </div>
+</div>
 
 {% endblock %}

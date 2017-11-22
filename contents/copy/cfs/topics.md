@@ -6,22 +6,20 @@ To get your ideas flowing, here are some areas we’re particularly interested i
   * Incredible ideas & mind-blowing experiments
   * Scale & Performance
   * Architecture & Maintainability
-  * Tools that improve CSS developers’ lives
-  * Tools & Workflows
-  * Drawing and Animating with CSS
-  * Pre-processors
-  * CSS for Games
-  * CSS for Mobile and various devices
-  * The history and future of CSS
   * CSS Grid
   * Container / Element Queries
-  * Accessibility in Design Systems
+  * Accessibility
+  * CSS in Design Systems
+  * Drawing and Animating with CSS
+  * The Future of CSS
   * Collaboration between Product, Design and Implementation
-  * Automated CSS Testing
+  * CSS Testing
   * Variables aka Custom Properties
   * Houdini
   * Naming Conventions
   * SVG
+  * CSS for Games
+  * … so much more!
 
 For further inspiration, check out the video recordings of [CSSconf EU 2017’s talks on Youtube](https://www.youtube.com/watch?v=-9lhH72KlKY&list=PL37ZVnwpeshF0XmpjKBJ3-0kvr3b5ZpJR).
 
