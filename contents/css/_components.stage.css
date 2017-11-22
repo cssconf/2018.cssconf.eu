@@ -3,12 +3,13 @@
   position: relative;
   padding-bottom: calc(var(--l-gutter) * 2);
   padding-top: calc(var(--l-gutter) * 2);
+  overflow: hidden;
 
   margin-bottom: calc(1074px - 826px);
 
-  background: url(../images/header-bg-pattern.svg);
+  background-image: url(../images/home-pattern.svg);
+  background-color: var(--c-puerto-rico);
   height: 826px;
-  box-sizing: border-box;
   border-bottom: 7px solid #191919;
 
   &__logo {
