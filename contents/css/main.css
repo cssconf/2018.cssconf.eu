@@ -13,6 +13,7 @@
 @import "_base.typography.css";
 
 /* Components */
+@import "_components.arrow-block.css";
 @import "_components.btn.css";
 @import "_components.footer-global.css";
 @import "_components.globe.css";

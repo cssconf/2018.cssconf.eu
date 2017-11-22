@@ -1,0 +1,6 @@
+.c-arrow-block {
+  background-image: url('../svg/index-bg-arrow.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
