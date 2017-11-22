@@ -41,9 +41,12 @@
 
       &__loc {
         font-size: 28px;
-        color: var(--c-puerto-rico);
       }
     }
+  }
+
+  .c-stage__facts__loc {
+    color: var(--c-puerto-rico);
   }
 
   .c-stage__facts__heading {
