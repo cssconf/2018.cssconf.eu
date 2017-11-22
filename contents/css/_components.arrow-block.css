@@ -1,14 +1,21 @@
 .c-arrow-block {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   background-image: url('../svg/index-arrow.svg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-
-  background-position: 0 50%;
-  background-size: 50%;
-
+  background-size: 130%;
+  @media(--s) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-position: 0 50%;
+    background-size: 60%;
+  }
+  @media(--m) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-size: 50%;
+  }
   p {
     max-width: 38rem;
   }
