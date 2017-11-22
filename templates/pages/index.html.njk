@@ -1,11 +1,26 @@
 {% extends "../layouts/default.html.njk" %}
 
 {% block content %}
+<section class="c-stage">
+  <div class="l-container">
+    <h1 class="c-stage__logo">
+      CSS<br />
+      <span>conf.EU</span>
+    </h1>
 
-  {{ contents.copy.index['header.md'].metadata.introText }}
+    <svg class="c-stage__facts" width="760px" height="1074px" viewBox="0 0 760 1074" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <path stroke="#191919" fill="white" stroke-width="7" d="M3.5,736.39465 L3.5,1070.49539 L756.5,1069.5046 L756.5,8.25318654 L3.5,736.39465 Z"></path>
+    </svg>
+  </div>
+</section>
 
-  {{ contents.copy.index['cfs.md'].html }}
 
-  {{ contents.copy.index['coc.md'].html }}
+
+
+  {#{{ contents.copy.home['header.md'].metadata.introText }}#}
+
+  {#{{ contents.copy.home['cfs.md'].html }}#}
+
+  {#{{ contents.copy.home['coc.md'].html }}#}
 
 {% endblock %}
