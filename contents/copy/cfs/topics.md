@@ -25,4 +25,4 @@ For further inspiration, check out the video recordings of [CSSconf EU 2017’s 
 
 And remember: Pick whatever you feel passionate about. This is your conference!
 
-PS: If you can’t find a suitable topic for CSSconf EU, or you want to try your luck at more than one event, then consider submitting a talk to our partner conference JSConf EU – it’s happening in the same venue on the same weekend, and you’re welcome to submit multiple talks.
+PS: If you can’t find a suitable topic for CSSconf EU, or you want to try your luck at more than one event, then consider submitting a talk to our partner conference [JSConf EU](https://2018.jsconf.eu) – it’s happening in the same venue on the same weekend, and you’re welcome to submit multiple talks.
