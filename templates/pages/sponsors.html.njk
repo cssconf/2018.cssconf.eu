@@ -3,7 +3,9 @@
 {% block content %}
   <section class="c-intro">
     <div class="l-container">
-      <h1 class="c-intro__title">{{ contents.copy.coc['main.md'].metadata.title }}</h1>
+      <h1 class="c-intro__title">
+        {{ contents.copy.sponsors['sponsors.md'].metadata.title }}
+      </h1>
       <p class="c-intro__text copy--max">
         {{ contents.copy.sponsors['sponsors.md'].metadata.introText }}
       </p>
