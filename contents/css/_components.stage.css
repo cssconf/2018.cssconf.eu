@@ -1,8 +1,10 @@
+/* don't @ me, it's late and this needs to get done. */
 .c-stage {
   position: relative;
-  margin-bottom: calc(var(--l-gutter) * 2);
   padding-bottom: calc(var(--l-gutter) * 2);
   padding-top: calc(var(--l-gutter) * 2);
+
+  margin-bottom: calc(1074px - 826px);
 
   background: url(../images/header-bg-pattern.svg);
   height: 826px;
@@ -10,9 +12,20 @@
   border-bottom: 7px solid #191919;
 
   &__logo {
-    color: black;
+    color: #191919;
+    font-size: 138px;
+    font-weight: normal;
+    margin-top: 0.6em;
 
     span {
+      font-size: 0.4em;
+      position: relative;
+      top: -1.5em;
+      left: 0.05em;
+    }
+
+    @media(--m) {
+      font-size: 220px;
     }
   }
 
