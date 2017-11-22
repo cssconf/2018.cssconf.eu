@@ -34,5 +34,31 @@
     top: 0;
     left: calc(50vw - 760px / 2);
     width: 760px;
+
+    font-size: 22px;
+    @media(--s) {
+      font-size: 44px;
+
+      &__loc { font-size: 28px; }
+    }
+  }
+
+  &__facts-bg {
+    width: 100%;
+  }
+
+  &__facts-content {
+    position: absolute;
+    top: 600px;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+
+    @media(--s) {
+      transform: none;
+      width: 50vw;
+      max-width: 380px;
+      top: 380px;
+    }
   }
 }
