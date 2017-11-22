@@ -1,1 +1,2 @@
 @custom-media --s (width >= 30rem);
+@custom-media --m (width >= 50rem);
