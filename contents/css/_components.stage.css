@@ -70,11 +70,18 @@
       ;
     }
     @media(--stage-3) {
+      width: 64vw;
+      transform:
+        translateX(-54%)
+        translateY(28%)
+      ;
+    }
+    @media(--stage-4) {
       width: 50vw;
       max-width: 36rem;
       transform:
         translateX(-54%)
-        translateY(40%)
+        translateY(34%)
       ;
     }
   }

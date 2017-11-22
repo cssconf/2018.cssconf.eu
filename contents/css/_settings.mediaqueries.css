@@ -2,5 +2,5 @@
 @custom-media --stage-1 (width >= 33rem);
 @custom-media --stage-2 (width >= 38rem);
 @custom-media --stage-3 (width >= 40rem);
-@custom-media --stage-3 (width >= 50rem);
+@custom-media --stage-4 (width >= 49rem);
 @custom-media --m (width >= 50rem);
