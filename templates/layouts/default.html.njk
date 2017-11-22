@@ -27,9 +27,9 @@
   {% include "../partials/favicon.html.njk" %}
 </head>
 <body class="{% block bodyClass %}{% endblock %}">
-<div style="height: 0; width: 0; position: absolute; visibility: hidden;">
-    {% include "../sprite.svg" %}
-</div>
+  <div style="height: 0; width: 0; position: absolute; visibility: hidden;">
+    {{ contents.svg['sprite.svg'].sprite }}
+  </div>
 
 {% include "../partials/header.njk" %}
 
