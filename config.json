@@ -6,7 +6,7 @@
     "description": "CSSconf EU is conference dedicated to all those passionate about design, CSS, and the web. For the community, by the community."
   },
   "filenameTemplate": ":file/index.html",
-  "plugins": ["./plugins/postcss.js", "./plugins/nunjucks.js"],
+  "plugins": ["./plugins/postcss.js", "./plugins/nunjucks.js", "./plugins/svg.js"],
   "require": {
     "moment": "moment",
     "_": "underscore",

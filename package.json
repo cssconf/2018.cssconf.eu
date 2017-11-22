@@ -18,6 +18,8 @@
     "postcss-media-minmax": "^3.0.0",
     "postcss-nested": "^2.1.2",
     "prettier": "^1.7.4",
+    "svgo": "^1.0.3",
+    "svgstore": "^2.0.2",
     "typogr": "0.5.x",
     "underscore": "1.4.x",
     "wintersmith": "^2.4.1"
