@@ -14,4 +14,7 @@
   color: currentColor;
   margin-left: var(--l-unit);
   margin-right: var(--l-unit);
+
+  &:hover,
+  &:active { color: var(--c-cinnabar); }
 }
