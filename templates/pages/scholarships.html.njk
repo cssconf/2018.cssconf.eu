@@ -3,47 +3,18 @@
 {% block content %}
   <section class="c-intro">
     <div class="l-container">
-      <h1 class="c-intro__title">Apply for a Scholarship</h1>
+      <h1 class="c-intro__title">{{ contents.copy.scholarships['scholarships.md'].metadata.title }}</h1>
       <p class="c-intro__text copy--max">
-        Applications to our Scholarship Program closed on January 17, 2018. We would like to thank everyone who applied for
-        their submissions. All applicants will be notified of the outcome of their application in the next few weeks.
+        {{ contents.copy.scholarships['scholarships.md'].metadata.introText }}
       </p>
     </div>
   </section>
 
   <div class="l-container">
     <main>
-      <p class="copy--max">
-        At CSSconf EU, we strive to bring together the most diverse group of people possible — we firmly believe in
-        equality, which is why we invite anyone and everyone to participate. In order to make this possible, we are proud
-        to announce our Scholarships Initiative for people who wouldn’t otherwise be able to attend.
-      </p>
-      <p>
-        Our scholarships fund will support individuals from underrepresented groups to attend CSSconf EU and/or JSConf EU.
-        Scholarships include a free ticket to the conference that will be awarded after an application process and
-        lottery. Depending on the funds we can raise, we plan to also fully sponsor travel expenses and accommodation,
-        if required.
-      </p>
-      <p>
-        Anyone from an underrepresented group in tech is invited to apply for a scholarship. This includes, but is not
-        limited to: women, people of colour, LGBTQIA+ people, disabled people, and people facing economic or social
-        hardships.
-      </p>
-      <p>
-        Granting these scholarships is made possible thanks to our Diversity Support Tickets initiative and the generous
-        contributions made by our sponsors. More help is needed – talk to us if you’d like to get involved:
-        <a href="#">contact@cssconf.eu</a>.
-      </p>
-      <h2 class="fz--delta">Application Form</h2>
-      <p class="paragraph--is-indented">
-        The deadline for scholarship applications has now passed. If you applied for a scholarship, you will be notified
-        about the outcome of your application in the coming weeks.
-      </p>
-      <h2 class="fz--delta">Contact</h2>
-      <p class="paragraph--is-indented">
-        If you have any questions please don’t hesitate to contact us at <a href="#">contact@cssconf.eu</a>. You can
-        also follow us on Twitter and subscribe to our newsletter to stay up to date.
-      </p>
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.scholarships['scholarships.md'].html }}
+      </div>
     </main>
   </div>
 {% endblock %}
