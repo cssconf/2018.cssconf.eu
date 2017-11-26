@@ -1,5 +1,5 @@
 ---
-title: Apply for a Scholarship
+title: Scholarships
 ---
 
 ## Apply for a Scholarship
