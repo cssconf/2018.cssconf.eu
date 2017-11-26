@@ -1,25 +1,28 @@
----
-title: Apply for a Scholarship
-introText: >
-  XXX OLD Applications to our Scholarship Program closed on January 17, 2017. We would like to thank everyone who applied for their submissions. All applicants will be notified of the outcome of their application in the next few weeks.
----
+## Apply for a Scholarship
 
-At CSSconf EU, we strive to bring together the most diverse group of people possible — we firmly believe in equality, which is why we invite anyone and everyone to participate. In order to make this possible, we are proud to announce our Scholarships Initiative for people who wouldn’t otherwise be able to attend.
+We strive to bring together the most diverse group of people possible — **we firmly believe in equality**, which is why we invite anyone and everyone to participate.
 
-Our scholarships fund will support individuals from underrepresented groups to attend CSSconf EU and/or JSConf EU. Scholarships include a free ticket to the conference that will be awarded after an application process and lottery. Depending on the funds we can raise, we plan to also fully sponsor travel expenses and accommodation, if required.
+For the third time at CSSconf EU we are offering our scholarship program which supports **individuals from underrepresented groups** to attend [CSSconf EU](http://2018.cssconf.eu/) and/or [JSConf EU](http://2018.jsconf.eu/)
 
-Anyone from an underrepresented group in tech is invited to apply for a scholarship. This includes, but is not limited to: women, people of colour, LGBTQIA+ people, disabled people, and people facing economic or social hardships.
+We are very grateful and would like to say a big Thank You to the companies and individuals who donate to our Scholarship Programme. In 2017, we were able to give away 80 tickets and we hope to be able to invite even more people in 2018, who could not otherwise afford it.
 
-Granting these scholarships is made possible thanks to our Diversity Support Tickets initiative and the generous contributions made by our sponsors. More help is needed – talk to us if you’d like to get involved: [contact@cssconf.eu](mailto:contact@cssconf.eu).
+Anyone from an underrepresented group in tech is invited to apply for a scholarship. This includes, but is not limited to: women, people of color, LGBTQIA+ people, disabled people, and people facing economic or social hardships.
 
-We are very grateful and would like to say a big Thank You to the companies and individuals who donated to our Scholarship Program: ❤️
+❤️
+Granting these scholarships is made possible thanks to our [Diversity Support Tickets](https://2018.cssconf.eu/diversity-support-tickets/) initiative and the generous contributions made by our [sponsors](https://2018.cssconf.eu/sponsors). More help is needed – talk to us if you’d like to get involved: [contact@cssconf.eu](mailto:contact@cssconf.eu).
 
-Small Improvements Software, Benny Neugebauer, Accenture, The Home Depot QuoteCenter, Bitcrowd GmbH, Igalia, itemis AG, Stephen Greig, Dave Prosser, Kelly Jordan, Christopher Astfalk, always twisted, Elias Liedholm, AgenturWebfox GmbH, Mandy Patel, exutec, Lavinia Rizac, GitHub, and 17 anonymous supporters.
+## Application
 
-## Application Form
+You are invited to apply for a [single conference ticket for CSSconf EU](https://docs.google.com/forms/d/1nD0no1ihfLsVqFxaCMRkn1_kFiht4bUplNkBObLFGRc/) or for a [Combo ticket for CSSconf EU and JSConf](https://docs.google.com/forms/d/1tLvWsds4e8JPcDAv5_2-blrbxA_T-LpkiWBuEoBLt7s/prefill). On the application form you will be asked if you need financial help with travel and accommodation and if you need a travel support person.  
 
-The deadline for scholarship applications has now passed. If you applied for a scholarship, you will be notified about the outcome of your application in the coming weeks.
+**Please note that we will have two different application deadlines in 2018.**
+
+If you are applying for ticket plus travel grant from **outside Europe** application closes on *January 14, 2018.*
+
+If you are applying for a ticket without travel grant or for tickets with travel grants **within Europe** applications close on *March 31, 2018*.
+
+All applicants will be notified of the outcome of their application a few weeks after each application closes.
 
 ## Contact
 
-If you have any questions please don’t hesitate to contact us at [contact@cssconf.eu](mailto:contact@cssconf.eu). You can also follow us on Twitter and subscribe to our newsletter to stay up to date.
+If you have any questions please don’t hesitate to contact us at contact@cssconf.eu. You can also [follow us on Twitter](https://twitter.com/cssconfeu) and [subscribe to our newsletter](https://confirmsubscription.com/h/d/879A481DB04CB70D) to stay up to date.
