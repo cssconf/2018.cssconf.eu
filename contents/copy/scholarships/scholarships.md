@@ -1,3 +1,7 @@
+---
+title: Apply for a Scholarship
+---
+
 ## Apply for a Scholarship
 
 We strive to bring together the most diverse group of people possible — **we firmly believe in equality**, which is why we invite anyone and everyone to participate.
@@ -25,4 +29,4 @@ All applicants will be notified of the outcome of their application a few weeks 
 
 ## Contact
 
-If you have any questions please don’t hesitate to contact us at contact@cssconf.eu. You can also [follow us on Twitter](https://twitter.com/cssconfeu) and [subscribe to our newsletter](https://confirmsubscription.com/h/d/879A481DB04CB70D) to stay up to date.
+If you have any questions please don’t hesitate to contact us at [contact@cssconf.eu](mailto:contact@cssconf.eu). You can also [follow us on Twitter](https://twitter.com/cssconfeu) and [subscribe to our newsletter](https://confirmsubscription.com/h/d/879A481DB04CB70D) to stay up to date.
