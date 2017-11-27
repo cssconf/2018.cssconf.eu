@@ -8,14 +8,16 @@
   flex-grow: 0;
 }
 
+.c-header-global__link {
+  display: flex;
+}
+
 .c-header-global__text--name {
   color: var(--c-puerto-rico);
-  margin-right: .3rem;
 }
 
 .c-header-global__text--date {
   color: var(--c-cinnabar);
-  margin-right: .3rem;
 }
 
 .c-header-global__text--location {
@@ -25,7 +27,7 @@
 .c-header__hide-on-mobile {
   display: none;
   white-space: nowrap;
-  @media(--s) {
-    display: inline;
+  @media (--stage-3) {
+    display: flex;
   }
 }
