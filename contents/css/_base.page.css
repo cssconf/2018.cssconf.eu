@@ -20,9 +20,8 @@ html {
 a {
   color: var(--c-cinnabar);
   text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: var(--c-illusion);
+  &:hover,
+  &:focus {
+    color: var(--c-illusion);
+  }
 }
