@@ -1,5 +1,6 @@
 /* Vendor */
 @import "_vendor.normalize.css";
+@import "_vendor.tachyons.css";
 
 /* Settings */
 @import "_settings.colors.css";
