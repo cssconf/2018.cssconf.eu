@@ -23,6 +23,6 @@ a {
 }
 
 a:hover,
-a:active {
+a:focus {
   color: var(--c-illusion);
 }

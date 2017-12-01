@@ -1,5 +1,5 @@
 .c-nav-social {
-  background-color: var(--c-puerto-rico);
-  color: var(--c-martinique);
+  background-color: var(--c-black);
+  color: var(--c-white);
   padding: calc(var(--l-unit) * 2);
 }
