@@ -18,11 +18,10 @@ html {
 }
 
 a {
-  color: var(--c-illusion);
-  text-decoration: none;
-}
-
-a:hover,
-a:active {
   color: var(--c-cinnabar);
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: var(--c-illusion);
+  }
 }
