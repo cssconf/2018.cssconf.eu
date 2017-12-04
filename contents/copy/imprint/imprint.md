@@ -3,7 +3,7 @@ title: Imprint
 ---
 
 Kristina Schneider, Berlin [@kriesse](https://twitter/kriesse)<br/>
-Polinda Hristova [@rtrospekt](https://twitter/rtrospekt)
+Polina Hristova [@rtrospekt](https://twitter/rtrospekt)
 
 
 [contact@cssconf.eu](mailto://contact@cssconf.eu)
