@@ -1,0 +1,20 @@
+{% extends "../layouts/default.html.njk" %}
+
+{% block content %}
+  <section class="c-intro">
+    <div class="l-container">
+      <h1 class="c-intro__title">{{ contents.copy.childcare['main.md'].metadata.title }}</h1>
+      <p class="c-intro__text copy--max">
+        {{ contents.copy.childcare['main.md'].metadata.introText }}
+      </p>
+    </div>
+  </section>
+
+  <div class="l-container">
+    <main>
+      <div class="markdown--indented-paragraphs">
+        {{ contents.copy.childcare['main.md'].html }}
+      </div>
+    </main>
+  </div>
+{% endblock %}
