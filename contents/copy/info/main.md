@@ -22,7 +22,7 @@ CSSconf EU unites top international speakers and newcomers with fresh ideas. The
 
 See full line-up and Schedule
 
-Talks are always in English, and video recordings will be released for free after the event. All speakers re selected via an open Call for Speakers. The voting on all proposals takes place in January 2018.
+Talks are always in English, and video recordings will be released for free after the event. All speakers are selected via an open Call for Speakers. The voting on all proposals takes place in January 2018.
 
 ### Catering
 
