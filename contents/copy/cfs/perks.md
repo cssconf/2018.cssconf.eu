@@ -2,7 +2,7 @@
 
 If your proposal is selected, we will provide:
 
-**Travel to Berlin** - this usually means that we’ll pay for your plane or train ticket, and also cover all transport costs within the city. We are happy to assist with booking your itinerary, but if you can take care of it yourself we can focus on making the conference even better.
+**Travel to Berlin** - this usually means that we’ll pay for your plane or train ticket, and also cover all transport costs within the city.
 
 **Entry to the conference** - please note that we may not be done with the speaker selections by the time tickets go on sale, so if you want to secure your attendance, let us know in the submissions form and we’ll hold a ticket for you in case your talk is not selected.
 
