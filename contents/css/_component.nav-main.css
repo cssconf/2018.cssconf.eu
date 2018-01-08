@@ -34,3 +34,14 @@
     margin-bottom: 0;
   }
 }
+
+.c-nav-main__list-el:not(:first-child) {
+  @media(--m) { margin-left: 1rem; }
+ }
+
+.c-nav-main__toggle {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  border: 0;
+}
