@@ -3,13 +3,23 @@
   background-color: var(--c-martinique);
   color: var(--c-puerto-rico);
   display: flex;
+  flex-grow: 0;
   justify-content: space-between;
   padding: calc(var(--l-unit) * 2);
-  flex-grow: 0;
+  position: relative;
+
+  @media(--m) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .c-header-global__link {
   display: flex;
+
+  @media(--m) {
+    margin-bottom: .5rem;
+  }
 }
 
 .c-header-global__text--name {

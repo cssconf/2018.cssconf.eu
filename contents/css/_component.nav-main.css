@@ -1,0 +1,36 @@
+.c-nav-main {
+  position: absolute;
+  height: calc(100vh - 57px);
+  top: 57px;
+  background: var(--c-martinique);
+  width: 100vw;
+  z-index: 1;
+  left: 0;
+  padding: 1rem;
+
+  @media(--m) {
+    background-color: #fff;
+    height: auto;
+    position: relative;
+    top: 0;
+    margin-left: -1rem;
+    margin-bottom: -1rem;
+    border-bottom: 5px solid black;
+  }
+}
+
+.c-nav-main__list {
+  list-style: none;
+  padding-left: 0;
+
+  @media(--m) { margin-bottom: 0; }
+}
+
+.c-nav-main__list-el {
+  margin-bottom: .5rem;
+
+  @media(--m) {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
