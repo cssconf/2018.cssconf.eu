@@ -16,12 +16,12 @@
     "postcss-custom-properties": "^6.2.0",
     "postcss-import": "^11.0.0",
     "postcss-media-minmax": "^3.0.0",
-    "postcss-nested": "^2.1.2",
+    "postcss-nested": "^3.0.0",
     "prettier": "^1.7.4",
     "svgo": "^1.0.3",
     "svgstore": "^2.0.2",
-    "typogr": "0.5.x",
-    "underscore": "1.4.x",
+    "typogr": "~0.6.7",
+    "underscore": "~1.8.3",
     "wintersmith": "^2.4.1"
   },
   "scripts": {
