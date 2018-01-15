@@ -1,5 +1,7 @@
 # 2018.cssconf.eu
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cssconf/2018.cssconf.eu.svg)](https://greenkeeper.io/)
+
 This repository hosts the sourcecode and the website (in branch [`gh-pages`][gh-pages]) of the CSSconf EU site 2018.
 
 ## up and running:
