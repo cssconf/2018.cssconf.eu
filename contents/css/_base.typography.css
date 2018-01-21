@@ -1,4 +1,5 @@
-body {
+body,
+button {
   font-family: var(--ff-sans-serif-regular);
 }
 
