@@ -7,3 +7,9 @@
         <use xlink:href="#{{ id }}"></use>
     </svg>
 {% endmacro %}
+
+{% macro navItem(label, link) %}
+  <li class="c-nav-main__list-el">
+    <a class="c-nav-main__link" href="{{ link }}">{{ label }}</a>
+  </li>
+{% endmacro %}

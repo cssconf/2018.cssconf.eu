@@ -1,6 +1,6 @@
-{% from "../_macros.njk" import svgIcon %}
+{% from "../_macros.njk" import navItem %}
 
-<header class="c-header-global">
+<header class="c-header-global" id="header">
   <a href="{{ env.config.baseUrl }}"
      class="c-header-global__link"
      title="Home">
@@ -10,19 +10,16 @@
       <span class="c-header-global__text--location">Berlin, Germany</span>
     </span>
   </a>
-  <nav class="c-nav-main">
+  <nav class="c-nav-main" id="nav-main">
     <ul class="c-nav-main__list">
-      <li class="c-nav-main__list-el">
-        <a class="c-nav-main__link" href="/sponsors">Sponsors</a>
-      </li>
-      <li class="c-nav-main__list-el">
-        <a class="c-nav-main__link" href="/code-of-conduct">Code of Conduct</a>
-      </li>
-      <li class="c-nav-main__list-el">
-        <a class="c-nav-main__link" href="/scholarships">Scholarships</a>
-      </li>
+      {{ navItem('Information', contents['info.json'].url) }}
+      {{ navItem('Scholarships', contents['scholarships.json'].url) }}
+      {{ navItem('Sponsors', contents['sponsors.json'].url) }}
+      {{ navItem('Team', contents['team.json'].url) }}
+      {{ navItem('Blog', 'https://blog.cssconf.eu') }}
+      {{ navItem('Code of Conduct', contents['code-of-conduct.json'].url) }}
     </ul>
-    <button>Close</button>
+    <button class="c-nav-main__close js-nav-main-toggle">Close</button>
   </nav>
   <button class="c-nav-main-toggle js-nav-main-toggle">Menu</button>
 </header>
