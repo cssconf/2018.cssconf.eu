@@ -7,6 +7,8 @@
   position: relative;
   width: 32px;
   text-indent: -999em;
+
+  @media(--m) { display: none; }
 }
 
 .is-nav-opened .c-nav-main-toggle {

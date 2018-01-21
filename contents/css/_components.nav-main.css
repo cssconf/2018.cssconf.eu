@@ -68,4 +68,6 @@
   color: var(--c-white);
   margin: 0;
   padding: 0;
+
+  @media(--m) { display: none; }
 }
