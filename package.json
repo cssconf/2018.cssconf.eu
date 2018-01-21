@@ -22,7 +22,7 @@
     "svgstore": "^2.0.2",
     "typogr": "~0.6.7",
     "underscore": "~1.8.3",
-    "wintersmith": "^2.4.1"
+    "wintersmith": "https://github.com/jnordberg/wintersmith.git#c309d09928fa1a97f905a93004ea4b3fea0502e0"
   },
   "scripts": {
     "start": "wintersmith --verbose preview",
