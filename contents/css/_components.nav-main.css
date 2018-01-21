@@ -8,6 +8,7 @@
   z-index: 1;
   left: 0;
   padding: 1rem;
+  overflow: scroll;
 
   @media(--m) {
     background-color: var(--c-white);

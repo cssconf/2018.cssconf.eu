@@ -5,9 +5,7 @@
 
   toggle.forEach(function (el) {
     el.addEventListener('click', function () {
-      const header = document.querySelector('#header');
-
-      header.classList.toggle('is-nav-opened');
+      document.querySelector('body').classList.toggle('is-nav-opened');
     });
   });
 })();
