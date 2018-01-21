@@ -47,6 +47,12 @@
 
 .c-nav-main__link { color: var(--c-bright-sun); }
 
+.c-nav-main__list-el,
+.c-nav-main__close {
+  font-size: 1.3125rem;
+  line-height: 1.619047619;
+}
+
 .c-nav-main__close {
   background-color: transparent;
   border: 0;
