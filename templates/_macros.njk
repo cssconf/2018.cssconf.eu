@@ -8,8 +8,8 @@
     </svg>
 {% endmacro %}
 
-{% macro navItem(label, link) %}
+{% macro navItem(label, link, external) %}
   <li class="c-nav-main__list-el">
-    <a class="c-nav-main__link" href="{{ link }}">{{ label }}</a>
+    <a class="c-nav-main__link" href="{{ link }}" {{ "target=\"_blank\"" if external }}>{{ label }}</a>
   </li>
 {% endmacro %}
