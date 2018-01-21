@@ -17,9 +17,7 @@
 .c-header-global__link {
   display: flex;
 
-  @media(--m) {
-    margin-bottom: .5rem;
-  }
+  @media(--m) { margin-bottom: calc(var(--l-unit) * 2); }
 }
 
 .c-header-global__text--name {
@@ -37,7 +35,6 @@
 .c-header__hide-on-mobile {
   display: none;
   white-space: nowrap;
-  @media (--stage-3) {
-    display: flex;
-  }
+
+  @media (--stage-3) { display: flex; }
 }
