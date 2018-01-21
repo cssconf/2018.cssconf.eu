@@ -1,0 +1,10 @@
+.c-nav-main-toggle {
+  border: 0;
+  color: var(--c-white);
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.is-nav-opened .c-nav-main-toggle {
+}
