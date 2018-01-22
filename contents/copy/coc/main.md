@@ -1,5 +1,5 @@
 ---
-title: Code Of Conduct
+title: Code of Conduct
 introText: >
   All attendees, speakers, sponsors and volunteers at our conference are
   required to agree with the following code of conduct. Organisers will
