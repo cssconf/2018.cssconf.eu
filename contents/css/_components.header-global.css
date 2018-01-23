@@ -3,13 +3,21 @@
   background-color: var(--c-martinique);
   color: var(--c-puerto-rico);
   display: flex;
+  flex-grow: 0;
   justify-content: space-between;
   padding: calc(var(--l-unit) * 2);
-  flex-grow: 0;
+  position: relative;
+
+  @media(--m) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .c-header-global__link {
   display: flex;
+
+  @media(--m) { margin-bottom: calc(var(--l-unit) * 2); }
 }
 
 .c-header-global__text--name {
@@ -27,7 +35,6 @@
 .c-header__hide-on-mobile {
   display: none;
   white-space: nowrap;
-  @media (--stage-3) {
-    display: flex;
-  }
+
+  @media (--stage-3) { display: flex; }
 }
