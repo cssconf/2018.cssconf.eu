@@ -33,3 +33,5 @@ Sean Fridman [@sfrdmn](https://twitter.com/sfrdmn)
 Michael P. Pfeiffer [@m_p_pfeiffer](https://twitter.com/m_p_pfeiffer)
 
 Kevin Lorenz [@verpixelt](https://twitter.com/verpixelt)
+
+Olivia Hugger [@dog_awoo](https://twitter.com/dog_awoo)
