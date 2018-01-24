@@ -1,3 +1,3 @@
-<h2 class="fz--delta">Call for Speakers</h2>
+<h2 class="fz--delta">About</h2>
 
-The due date has passed. Thanks for all your great proposals!
+CSSconf EU 2018 is coming back to Berlin! <a href="/information" class="nowrap">Get all the infos and details</a>
