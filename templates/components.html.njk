@@ -1,0 +1,34 @@
+{% macro speakerPortrait(speaker) %}
+
+  <div class="c-speaker-portrait c-speaker-portrait--variant-{{ speaker.variant }}">
+    {# TODO Use responsive image endcomment #}
+    <img
+      class="c-speaker-portrait__image"
+      src="{{ speaker.portrait }}"
+      alt="Photo of {{ speaker.name }}"
+    />
+  </div>
+  
+{% endmacro %}
+
+{% macro speakerGallery(speakers) %}
+
+  <ul class="c-speaker-gallery list pl0">
+    {% for speaker in speakers %}
+      <li class="c-speaker-gallery__item">
+        <a href="#">
+          {{ speakerPortrait(speaker) }}
+          <h2 class="c-speaker-gallery__item__title
+            c-speaker-gallery__item__title--variant-{{ speaker.variant }}
+            fz--epsilon">
+            <span>
+              {{ speaker.firstname }} <br/>
+              {{ speaker.lastname }}
+            </span>
+          </h2>
+        </a>  
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endmacro %} 
