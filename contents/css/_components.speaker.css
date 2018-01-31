@@ -3,7 +3,7 @@
   --border-size: 3px;
 }
 
-.c-speaker-portrait { 
+.c-speaker-portrait {
   &--variant-a {
     --color: var(--c-blue-violet);
   }
@@ -59,11 +59,9 @@
     transition: border-width 0.2s ease-in-out;
   }
 
-  &__item:hover {    
-    .c-speaker-portrait::before {
-      border-right-width: 1rem;
-      border-left-width: 1rem;      
-    }
+  &__item:hover .c-speaker-portrait::before {
+    border-right-width: 1rem;
+    border-left-width: 1rem;
   }
 
   &__item__title {
@@ -86,11 +84,6 @@
       bottom: 1rem;
       left: 1rem;
     }
-  }
-
-  &__item__title--variant-a {
-    top: 1rem;
-    left: 1rem;
   }
 
   .c-speaker-portrait {
