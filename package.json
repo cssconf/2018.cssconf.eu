@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "CSSconf EU Team <contact@cssconf.eu>",
   "dependencies": {
-    "autoprefixer": "^7.2.5",
+    "autoprefixer": "^8.0.0",
     "css-mqpacker": "^6.0.1",
     "cssnano": "^3.10.0",
     "moment": "^2.20.1",
