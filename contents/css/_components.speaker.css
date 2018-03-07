@@ -64,7 +64,7 @@
     border-left-width: 1rem;
   }
 
-  &__item__title {
+  &__title {
     color: var(--c-bright-sun);
     margin-bottom: 0;
     position: absolute;
