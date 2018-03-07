@@ -103,10 +103,11 @@ async function main(params) {
     'images/speaker',
   ];
   const requiredDirectoryPaths = requiredDirectories.map(dir => `${__dirname}/../../contents/${dir}`);
+  const missingDirectories = requiredDirectoryPaths.filter(dir => !fs.existsSync(dir));
 
-  if (requiredDirectoryPaths.some(dirPath => !fs.existsSync(dirPath))) {
+  if (!!missingDirectories.length) {
     console.log(chalk.gray('creating missing directories...'));
-    requiredDirectoryPaths.forEach(dirPath => mkdirp(dirPath));
+    missingDirectories.forEach(dir => mkdirp(dir));
   }
 
   // ---- cleanup...
