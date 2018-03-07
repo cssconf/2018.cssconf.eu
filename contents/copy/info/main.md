@@ -110,7 +110,6 @@ Taxis in Berlin are affordable and everywhere. You can usually hail one on the s
 
 Below are a two hotels we recommend, both a short walk away from our venue. If neither of those fit your needs, check out [HRS](http://www.hrs.com/) or private accommodation options like AirBnB or Couchsurfing.
 
-* [Hotel NHow (20 min walk)](https://www.nhow-berlin.com/en/)
 * [Michelberger Hotel (20 min walk)](http://michelbergerhotel.com/en/)
 
 If you’d like to team up with other attendees to travel to or stay in Berlin, let us and the community know on Twitter: #cssconfeu – we will help spread the word!
