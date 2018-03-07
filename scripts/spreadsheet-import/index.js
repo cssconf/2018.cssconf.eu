@@ -11,6 +11,7 @@ const rimraf = promisify(require('rimraf'));
 const fetch = require('node-fetch');
 const imageType = require('image-type');
 const imageSize = require('image-size');
+const mkdirp = require('mkdirp');
 
 const timeout = promisify(setTimeout);
 
@@ -95,6 +96,19 @@ if (!hasRcFile) {
 main(params).catch(err => console.error(err));
 
 async function main(params) {
+  // ---- ensure the directories exist...
+  const requiredDirectories = [
+    'speakers',
+    'talks',
+    'images/speaker',
+  ];
+  const requiredDirectoryPaths = requiredDirectories.map(dir => `${__dirname}/../../contents/${dir}`);
+
+  if (requiredDirectoryPaths.some(dirPath => !fs.existsSync(dirPath))) {
+    console.log(chalk.gray('creating missing directories...'));
+    requiredDirectoryPaths.forEach(dirPath => mkdirp(dirPath));
+  }
+
   // ---- cleanup...
   if (params.doCleanup) {
     console.log(chalk.gray('cleaning up...'));
