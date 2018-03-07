@@ -6,10 +6,6 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>{% if page.title %}{{ page.title }}{% endif %}</title>
-  {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
-    <meta property="og:description" content="{{ page.description }}"/>
-  {% endif %}
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ contents.css["main.css"].url }}">
   {#<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">#}
@@ -19,8 +15,21 @@
   <meta property="og:title"
         content="{{ page.title }}"/>
 
-  <meta property="og:image"
-        content="{{ url }}{{ contents.images['open-graph-image.jpg'].url }}"/>
+  {% block extraMetaData %}
+    {% set description = page.description or page.html | striptags | truncate(255) %}
+    {% set image = contents.images[page.metadata.image].url if page.metadata.image else contents.images['open-graph-image.jpg'].url %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ twitterHandle }}">
+    <meta name="twitter:creator" content="{{ twitterHandle }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    {% if description %}
+      <meta name="description" content="{{ description }}">
+      <meta name="twitter:description" content="{{ description }}">
+    {% endif %}
+    <meta name="twitter:image" content="{{ url }}{{ image }}">
+    <meta property="og:image" content="{{ url }}{{ image }}">
+  {% endblock %}
   {% include "../partials/favicon.html.njk" %}
 
   <script src="{{ contents.js['main.js'].url }}" defer></script>

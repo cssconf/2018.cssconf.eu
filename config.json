@@ -1,6 +1,7 @@
 {
   "locals": {
     "url": "https://2018.cssconf.eu",
+    "twitterHandle": "@CSSconfeu",
     "email": "contact@cssconf.eu",
     "name": "CSSconf EU | Friday, June 1 2018 | Berlin, Germany",
     "owner": "CSSconf EU Team",
