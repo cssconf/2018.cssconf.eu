@@ -175,6 +175,7 @@ async function main(params) {
 
         const frontmatter = yaml.safeDump({
           ...templateGlobals,
+          title: `${speakerData.name}: ${speakerData.talkTitle}`,
           [dataFieldName]: speakerData
         });
 
