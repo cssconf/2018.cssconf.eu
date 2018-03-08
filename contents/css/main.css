@@ -26,6 +26,9 @@
 @import "_components.nav-pages.css";
 @import "_components.nav-social.css";
 @import "_components.markdown.css";
+@import "_components.speaker.css";
+@import "_components.speaker-links.css";
+@import "_components.speaker-portrait.css";
 @import "_components.stage.css";
 @import "_components.paragraph-indent.css";
 /* Utilities */

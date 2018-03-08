@@ -13,3 +13,11 @@
     <a class="c-nav-main__link" href="{{ link }}" {{ "target=\"_blank\"" if external }}>{{ label }}</a>
   </li>
 {% endmacro %}
+
+{% macro speakerPortrait(speaker, speakerImage) %}
+  <div class="c-speaker-portrait c-speaker-portrait--variant-{{ speaker.variant }}">
+    <img class="c-speaker-portrait__image"
+         src="{{ speakerImage }}"
+         alt="Photo of {{ speaker.name }}">
+  </div>
+{% endmacro %}
