@@ -5,7 +5,8 @@
     "email": "contact@cssconf.eu",
     "name": "CSSconf EU | Friday, June 1 2018 | Berlin, Germany",
     "owner": "CSSconf EU Team",
-    "description": "CSSconf EU is conference dedicated to all those passionate about design, CSS, and the web. For the community, by the community."
+    "description": "CSSconf EU is conference dedicated to all those passionate about design, CSS, and the web. For the community, by the community.",
+    "buyTicketsLink": "https://ti.to/cssconfeu/cssconfeu-2018/"
   },
   "filenameTemplate": ":file/index.html",
   "plugins": ["./plugins/postcss.js", "./plugins/nunjucks.js", "./plugins/svg.js"],

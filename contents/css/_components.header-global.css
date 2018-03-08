@@ -14,10 +14,22 @@
   }
 }
 
+.c-header-global__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c-header-global__button {
+  margin-right: .5rem;
+
+  @media (--m) { margin-right: 0; }
+}
+
 .c-header-global__link {
   display: flex;
 
-  @media(--m) { margin-bottom: calc(var(--l-unit) * 2); }
+  @media (--m) { margin-bottom: calc(var(--l-unit) * 2); }
 }
 
 .c-header-global__text--name {
@@ -32,7 +44,7 @@
   color: var(--c-white);
 }
 
-.c-header__hide-on-mobile {
+.c-header-global__hide-on-mobile {
   display: none;
   white-space: nowrap;
 
