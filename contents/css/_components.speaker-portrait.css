@@ -34,10 +34,12 @@
     border: 1rem solid var(--color);
     border-right-width: 2rem;
     border-left-width: 2rem;
+    z-index: 1;
   }
 
   &__image {
     display: block;
+    filter: grayscale(100%);
     height: 100%;
     width: 100%;
   }
