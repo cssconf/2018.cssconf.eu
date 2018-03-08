@@ -3,9 +3,13 @@
 {% block bodyClass -%}page--coc{%- endblock %}
 
 {% block content %}
-  <section class="c-intro">
+  <section class="c-intro c-intro--with-image">
     <div class="l-container">
-      <h1 class="c-intro__title">{{ contents.copy.coc['main.md'].metadata.title }}</h1>
+      <div class="c-intro__wrapper">
+        <img src="{{ contents.images['code-of-conduct-intro.jpg'].url }}"
+             class="c-intro__image">
+        <h1 class="c-intro__title">{{ contents.copy.coc['main.md'].metadata.title }}</h1>
+      </div>
       <p class="c-intro__text copy--max">
         {{ contents.copy.coc['main.md'].metadata.introText }}
       </p>

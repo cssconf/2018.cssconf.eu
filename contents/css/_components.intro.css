@@ -12,3 +12,39 @@
 .c-intro__text {
   color: var(--c-blue-violet);
 }
+
+.c-intro--with-image {
+  margin-top: calc(var(--l-gutter) * 3);
+
+  .c-intro__wrapper {
+    align-items: center;
+    display: flex;
+    margin-bottom: 2.5rem;
+    position: relative;
+
+    &::before {
+      background-color: var(--c-big-pink);
+      content: "";
+      left: 40%;
+      max-height: 26rem;
+      max-width: 29rem;
+      height: 35vw;
+      position: absolute;
+      width: 35vw;
+      z-index: -1;
+    }
+  }
+
+  .c-intro__image {
+    width: 40vw;
+  }
+
+  .c-intro__title {
+    margin-bottom: 0;
+    margin-left: 3rem;
+  }
+
+  .c-intro__text {
+    margin-left: 11rem;
+  }
+}
