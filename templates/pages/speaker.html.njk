@@ -2,6 +2,7 @@
 {% from "../_macros.njk" import speakerPortrait %}
 
 {% set speaker = page.metadata.speaker %}
+{% set speakerTalk = contents.talks[speaker.talkId ~ '.md'] %}
 
 {% block content %}
   <section class="c-speaker c-speaker--variant-{{ speaker.variant }}">
@@ -16,6 +17,13 @@
   <div class="l-container">
     <main>
       {{ page.html }}
+
+      {% if speakerTalk %}
+        <section class="c-speaker-talk">
+          <h2 class="black fz--delta">{{ speakerTalk.metadata.talk.title }}</h2>
+          {{ speakerTalk.html }}
+        </section>
+      {% endif %}
 
       <ul class="c-speaker-links list pl0">
         {% if speaker.links.twitter %}
@@ -38,7 +46,7 @@
   {% endif %}
   <meta name="twitter:title" content="{{ speaker.talkTitle }}">
   <meta property="og:title" content="{{ speaker.talkTitle }}">
-  <meta name="twitter:description" content="{{ speaker.firstname }} {{ speaker.lastname }} is speaking at JSConf EU 2018">
+  <meta name="twitter:description" content="{{ speaker.firstname }} {{ speaker.lastname }} is speaking at CSSconf EU 2018">
   <meta name="description" content="{{ page.html | striptags | truncate(255) }}">
   {% if speaker.image %}
     <meta name="twitter:image" content="{{ url }}{{ contents.images.speaker[speaker.image.filename].url }}">
