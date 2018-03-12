@@ -48,14 +48,16 @@
 }
 
 .c-speaker__image {
-  --image-size: 17.25rem;
+  --image-width: 17.25rem;
+  --image-height: 21.64rem;
 
-  height: var(--image-size);
+  height: var(--image-height);
   margin: 0 auto;
-  width: var(--image-size);
+  width: var(--image-width);
 
   @media(--m) {
-    --image-size: 22.5rem;
+    --image-width: 22.5rem;
+    --image-height: 28.23rem;
   }
 }
 
