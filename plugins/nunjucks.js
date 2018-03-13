@@ -31,6 +31,9 @@ module.exports = function(env, callback) {
     filter.install(nenv);
   });
 
+  // Set globals
+  nenv.addGlobal('cacheBuster', Date.now());
+
   Object.keys(options.extensions).map(extName => {
     const file = options.extensions[extName];
     const extension = env.loadModule(env.resolvePath(file), true);
