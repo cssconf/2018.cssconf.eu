@@ -51,9 +51,7 @@ const sheetParams = {
     contentPath: 'speakers'
   },
   talks: {
-    templateGlobals: {
-      template: 'pages/talk.html.njk'
-    },
+    templateGlobals: {},
     dataFieldName: 'talk',
     contentPath: 'talks'
   }
@@ -97,13 +95,13 @@ main(params).catch(err => console.error(err));
 
 async function main(params) {
   // ---- ensure the directories exist...
-  const requiredDirectories = [
-    'speakers',
-    'talks',
-    'images/speaker',
-  ];
-  const requiredDirectoryPaths = requiredDirectories.map(dir => `${__dirname}/../../contents/${dir}`);
-  const missingDirectories = requiredDirectoryPaths.filter(dir => !fs.existsSync(dir));
+  const requiredDirectories = ['speakers', 'talks', 'images/speaker'];
+  const requiredDirectoryPaths = requiredDirectories.map(
+    dir => `${__dirname}/../../contents/${dir}`
+  );
+  const missingDirectories = requiredDirectoryPaths.filter(
+    dir => !fs.existsSync(dir)
+  );
 
   if (!!missingDirectories.length) {
     console.log(chalk.gray('creating missing directories...'));
@@ -149,24 +147,18 @@ async function main(params) {
     records
       // filter unpublished records when not in dev-mode.
       .filter(r => r.published || !params.publishedOnly)
-
       // render md-files
       .forEach(async function(record) {
-        const filename = path.join(
-          contentRoot,
-          contentPath,
-          `${record.id}${record.published ? '' : '-PREVIEW'}.md`
-        );
-
+        const filename = path.join(contentRoot, contentPath, `${record.id}.md`);
 
         const {content = '', ...speakerData} = record;
 
-        if(sheetId === 'speakers') {
+        if (sheetId === 'speakers') {
           speakerData.image = getLocalImage(speakerData);
           if (!speakerData.image) {
             try {
               speakerData.image = await downloadImage(speakerData);
-            } catch(err) {
+            } catch (err) {
               console.error('this is bad: ', err);
             }
           }
@@ -185,16 +177,16 @@ async function main(params) {
         );
 
         try {
-        const markdownContent =
-          '----\n\n' +
-          '# THIS FILE WAS GENERATED AUTOMATICALLY.\n' +
-          '# CHANGES MADE HERE WILL BE OVERWRITTEN.\n\n' +
-          frontmatter.trim() +
-          '\n\n----\n\n' +
-          wordwrap(content || '');
+          const markdownContent =
+            '----\n\n' +
+            '# THIS FILE WAS GENERATED AUTOMATICALLY.\n' +
+            '# CHANGES MADE HERE WILL BE OVERWRITTEN.\n\n' +
+            frontmatter.trim() +
+            '\n\n----\n\n' +
+            wordwrap(content || '');
 
-        fs.writeFileSync(filename, markdownContent);
-        } catch(err) {
+          fs.writeFileSync(filename, markdownContent);
+        } catch (err) {
           console.error('whoopsie', err);
         }
       });
@@ -207,17 +199,11 @@ function getLocalImage(speaker) {
   }
 
   const filename = getImageFilename(speaker, 'jpg');
-  const srcFilename = path.join(
-    params.imagePath,
-    filename.replace('-PREVIEW', '')
-  );
+  const srcFilename = path.join(params.imagePath, filename);
   const destFilename = path.join('contents/images/speaker', filename);
 
   if (fs.existsSync(srcFilename)) {
-    console.log(
-      ` --> image found in image-path:`,
-      filename.replace('-PREVIEW', '')
-    );
+    console.log(` --> image found in image-path:`, filename);
     const buffer = fs.readFileSync(srcFilename);
     const size = imageSize(buffer);
     fs.writeFileSync(destFilename, buffer);
@@ -278,10 +264,6 @@ async function downloadImage(speaker) {
 
 function getImageFilename(speaker, ext) {
   let filename = speaker.id;
-
-  if (!speaker.published) {
-    filename += '-PREVIEW';
-  }
 
   return filename + '.' + ext;
 }

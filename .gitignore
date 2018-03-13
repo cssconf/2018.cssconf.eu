@@ -3,7 +3,6 @@ node_modules
 /.wwwtfrc
 /service-account-credentials.json
 /secrets.tar
-/contents/speakers/*-PREVIEW.md
-/contents/images/speaker/*-PREVIEW.*
-/contents/images/speaker/temp
-/contents/talks/*-PREVIEW.md
+/contents/speakers/
+/contents/images/speaker/
+/contents/talks/
