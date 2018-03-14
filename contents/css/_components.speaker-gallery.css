@@ -1,90 +1,64 @@
-.c-speaker-gallery,
-.c-speaker-portrait {
-  --border-size: 3px;
-}
-
-.c-speaker-portrait {
-  &--variant-a {
-    --color: var(--c-blue-violet);
-  }
-
-  &--variant-b {
-    --color: var(--c-puerto-rico);
-  }
-
-  &--variant-c {
-    --color: var(--c-cinnabar);
-  }
-
-  &--variant-d {
-    --color: var(--c-illusion);
-  }
-}
-
-.c-speaker-portrait {
-  position: relative;
-  border: var(--border-size) solid var(--c-black);
-  background-color: var(--color);
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: block;
-    border: 1rem solid var(--color);
-    border-right-width: 2rem;
-    border-left-width: 2rem;
-  }
-
-  &__image {
-    z-index: -1;
-  }
-}
-
 .c-speaker-gallery {
+  --border-size: 3px;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content;
   grid-gap: var(--border-size);
+  margin-bottom: 4rem;
+  margin-top: 4rem;
   padding: var(--border-size);
+
+  @media (--m) {
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+  }
 
   &__item {
     position: relative;
   }
 
+  /* @TODO: refactor me */
   .c-speaker-portrait::before {
     transition: border-width 0.2s ease-in-out;
   }
 
   &__item:hover {
+    /* @TODO: refactor me */
     .c-speaker-portrait::before {
       border-right-width: 1rem;
       border-left-width: 1rem;
     }
   }
 
-  &__item__title {
+  &__name {
+    overflow: hidden;
+  }
+
+  &__title {
+    bottom: 0;
     color: var(--c-bright-sun);
+    display: flex;
     margin-bottom: 0;
+    left: 0;
+    padding: 1rem;
     position: absolute;
+    right: 0;
+    top: 0;
+    word-spacing: 100rem;
+    z-index: 1;
 
     &--variant-a,
     &--variant-d {
-      top: 1rem;
-      left: 1rem;
     }
 
     &--variant-b {
-      bottom: 2rem;
-      transform: rotate(-90deg);
+      transform: rotate(-90deg) translateY(100%);
+      transform-origin: bottom left;
     }
 
     &--variant-c {
-      bottom: 1rem;
-      left: 1rem;
+      align-items: flex-end;
     }
   }
 
@@ -93,6 +67,7 @@
     left: 1rem;
   }
 
+  /* @TODO: Refactor me */
   .c-speaker-portrait {
     /* Reimplement border with box shadow to acheive border collapse */
     border-width: 0;
