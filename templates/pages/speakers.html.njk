@@ -1,19 +1,5 @@
 {% extends "../layouts/default.html.njk" %}
-{% import "../components.html.njk" as components %}
 
 {% block content %}
-  <section class="c-speakers">
-    <div class="l-container">
-      <h1 class="c-speakers__title">{{ contents.copy.speakers['main.md'].metadata.title }}</h1>
-      <p class="c-speakers__text copy--max">
-        {{ contents.copy.speakers['main.md'].metadata.introText }}
-      </p>
-    </div>
-  </section>
-
-  <div class="l-container">
-    <main>
-      {{ components.speakerGallery(page.metadata.speakers) }}
-    </main>
-  </div>
+  {% include '../partials/speaker-gallery.html.njk' %}
 {% endblock %}
