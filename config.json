@@ -24,7 +24,7 @@
   },
   "nunjucks": {
     "filterdir": "./templates/filters",
-    "filters": ["log", "sortObjects"]
+    "filters": ["log", "sortObjects", "splitString"]
   },
   "postcss": {
     "entrypoint": "css/main.css",
