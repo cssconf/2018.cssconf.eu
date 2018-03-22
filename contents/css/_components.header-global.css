@@ -1,7 +1,7 @@
 .c-header-global {
   align-items: center;
   background-color: var(--c-martinique);
-  color: var(--c-puerto-rico);
+  color: var(--c-mint);
   display: flex;
   flex-grow: 0;
   justify-content: space-between;
@@ -33,7 +33,7 @@
 }
 
 .c-header-global__text--name {
-  color: var(--c-puerto-rico);
+  color: var(--c-mint);
 }
 
 .c-header-global__text--date {

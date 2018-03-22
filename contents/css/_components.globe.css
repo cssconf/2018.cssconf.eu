@@ -35,7 +35,7 @@
 
 .c-globe__orb-2 {
   animation: GYRATE 4s infinite ease-in-out;
-  background-color: var(--c-puerto-rico);
+  background-color: var(--c-mint);
   height: 1rem;
   left: -3rem;
   top: 4rem;

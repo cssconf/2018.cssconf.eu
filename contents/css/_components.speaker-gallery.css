@@ -60,6 +60,38 @@
     &--variant-c {
       align-items: flex-end;
     }
+
+    &--textcolor-white {
+      color: var(--c-white);
+    }
+
+    &--textcolor-black {
+      color: var(--c-black);
+    }
+
+    &--textcolor-bright-sun {
+      color: var(--c-bright-sun);
+    }
+
+    &--textcolor-martinique {
+      color: var(--c-martinique);
+    }
+
+    &--textcolor-blue-violet {
+      color: var(--c-blue-violet);
+    }
+
+    &--textcolor-cinnabar {
+      color: var(--c-cinnabar);
+    }
+
+    &--textcolor-illusion {
+      color: var(--c-illusion);
+    }
+
+    &--textcolor-mint {
+      color: var(--c-mint);
+    }
   }
 
   &__item__title--variant-a {
@@ -67,9 +99,10 @@
     left: 1rem;
   }
 
+
   /* @TODO: Refactor me */
   .c-speaker-portrait {
-    /* Reimplement border with box shadow to acheive border collapse */
+    /* Reimplement border with box shadow to achieve border collapse */
     border-width: 0;
     box-shadow: 0 0 0 var(--border-size) var(--c-black);
   }

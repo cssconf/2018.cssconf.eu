@@ -30,6 +30,6 @@
 .c-nav-list__anchor--social {
   &:hover,
   &:focus {
-    color: var(--c-puerto-rico);
+    color: var(--c-mint);
   }
 }
