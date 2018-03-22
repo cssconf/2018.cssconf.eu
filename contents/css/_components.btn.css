@@ -1,7 +1,7 @@
 .c-btn {
   border: 0;
   border-radius: 0;
-  background-color: var(--c-puerto-rico);
+  background-color: var(--c-mint);
   color: var(--c-blue-violet);
   cursor: pointer;
   padding: var(--l-unit) calc(var(--l-unit) * 2);
