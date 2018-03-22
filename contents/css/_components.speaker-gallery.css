@@ -39,18 +39,14 @@
     bottom: 0;
     color: var(--c-bright-sun);
     display: flex;
+    flex-direction: column;
     margin-bottom: 0;
     left: 0;
-    padding: 1rem;
+    padding: .5rem;
     position: absolute;
     right: 0;
     top: 0;
-    word-spacing: 100rem;
     z-index: 1;
-
-    &--variant-a,
-    &--variant-d {
-    }
 
     &--variant-b {
       transform: rotate(-90deg) translateY(100%);
@@ -58,7 +54,7 @@
     }
 
     &--variant-c {
-      align-items: flex-end;
+      justify-content: flex-end;
     }
 
     &--textcolor-white {
@@ -91,6 +87,37 @@
 
     &--textcolor-mint {
       color: var(--c-mint);
+    }
+  }
+
+  &__name-part {
+    span {
+      display: inline-block;
+      padding: 0 .5rem;
+    }
+
+    &:first-child,
+    &:last-child {
+      span {
+        padding-bottom: .25rem;
+        padding-top: .25rem;
+      }
+    }
+
+    &--variant-a span {
+      background-color: var(--c-cinnabar);
+    }
+
+    &--variant-b span {
+      background-color: var(--c-blue-violet);
+    }
+
+    &--variant-c span {
+      background-color: var(--c-illusion);
+    }
+
+    &--variant-d span {
+      background-color: var(--c-martinique);
     }
   }
 

@@ -24,7 +24,13 @@
                        c-speaker-gallery__title--variant-{{ speaker.variant }}
                        c-speaker-gallery__title--textcolor-{{ speaker.textcolor }}
                        fz--epsilon">
-              {{ speaker.name }}
+              {% set speakerNameParts = speaker.name | splitString(' ') %}
+              {% for namePart in speakerNameParts %}
+                <div class="c-speaker-gallery__name-part
+                            c-speaker-gallery__name-part--variant-{{ speaker.variant }}">
+                  <span>{{ namePart }}</span>
+                </div>
+              {% endfor %}
             </h2>
           </a>
         </li>
