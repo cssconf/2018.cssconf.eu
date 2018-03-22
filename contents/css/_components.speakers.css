@@ -7,7 +7,6 @@
 
   &__title {
     color: var(--c-illusion);
-    margin-bottom: -.625rem;
   }
 
   &__title,
