@@ -1,0 +1,16 @@
+.c-speakers {
+  margin-top: 2.75rem;
+
+  @media (--s) {
+    margin-top: 8.75rem;
+  }
+
+  &__title {
+    color: var(--c-illusion);
+  }
+
+  &__title,
+  &__text {
+    text-align: center;
+  }
+}
