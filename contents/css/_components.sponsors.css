@@ -1,0 +1,41 @@
+.c-sponsors {
+  margin-bottom: 4rem;
+
+  &__title {
+    font-size: 2rem;
+    margin-top: 2em;
+    text-align: center;
+
+    @media(--s) {
+      font-size: 2.75rem; /* 44 */
+      line-height: 1.090909091; /* 48 */
+    }
+  }
+
+  &__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    &--main {
+      flex-basis: 50%;
+      height: 10rem;
+    }
+
+    &--supporting,
+    &--community {
+      flex-basis: calc(100% / 3);
+      height: 6rem;
+    }
+  }
+
+  &__image {
+    display: block;
+  }
+}
