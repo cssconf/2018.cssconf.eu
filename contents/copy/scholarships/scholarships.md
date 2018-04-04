@@ -17,16 +17,8 @@ Granting these scholarships is made possible thanks to our [Diversity Support Ti
 
 ## Application
 
-You are invited to apply for a [single conference ticket for CSSconf EU](https://docs.google.com/forms/d/e/1FAIpQLSfDZZndGddKY1Rf8iVogv1dftqlorIdYHiwYjIu2mb9vSPowA/viewform) or for a [Combo ticket for CSSconf EU and JSConf](https://docs.google.com/forms/d/e/1FAIpQLScXcDNJZ1uK5VwdnHzqqrRqfQ-sQk_8mewCzPMn2ln2NbmQUQ/viewform). On the application form you will be asked if you need financial help with travel and accommodation and if you need a travel support person.
-
-**Please note that we will have two different application deadlines in 2018.**
-
-1. **The deadline for ticket plus travel grant from *outside Europe* has already passed!** It is not possible anymore to apply for travel grants if you're travelling from outside the EU.
-
-2. If you are applying for a ticket without travel grant or for tickets with travel grants **within Europe** applications close on *March 31, 2018*.
-
-All applicants will be notified of the outcome of their application a few weeks after each application closes.
+Please note that the application deadline for 2018 has passed! We no longer accept scholarship applications.
 
 ## Contact
 
-If you have any questions please don’t hesitate to contact us at [contact@cssconf.eu](mailto:contact@cssconf.eu). You can also [follow us on Twitter](https://twitter.com/cssconfeu) and [subscribe to our newsletter](https://confirmsubscription.com/h/d/879A481DB04CB70D) to stay up to date.
+If you have any questions please don’t hesitate to contact our scholarship coordinator Simone at [simone@jsconf.eu](mailto:simone@jsconf.eu).
