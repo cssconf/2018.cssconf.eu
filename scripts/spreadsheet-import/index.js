@@ -50,6 +50,11 @@ const sheetParams = {
     dataFieldName: 'speaker',
     contentPath: 'speakers'
   },
+  sponsors: {
+    templateGlobals: {},
+    dataFieldName: 'sponsor',
+    contentPath: 'sponsors'
+  },
   talks: {
     templateGlobals: {},
     dataFieldName: 'talk',
@@ -95,7 +100,7 @@ main(params).catch(err => console.error(err));
 
 async function main(params) {
   // ---- ensure the directories exist...
-  const requiredDirectories = ['speakers', 'talks', 'images/speaker'];
+  const requiredDirectories = ['speakers', 'talks', 'sponsors', 'images/speaker', 'images/sponsor'];
   const requiredDirectoryPaths = requiredDirectories.map(
     dir => `${__dirname}/../../contents/${dir}`
   );
@@ -112,7 +117,7 @@ async function main(params) {
   if (params.doCleanup) {
     console.log(chalk.gray('cleaning up...'));
 
-    await Promise.all([rimraf(path.join(contentRoot, '{speakers,talks}/*md'))]);
+    await Promise.all([rimraf(path.join(contentRoot, '{speakers,sponsors,talks}/*md'))]);
   }
 
   // ---- fetch spreadsheet-data...
@@ -151,24 +156,38 @@ async function main(params) {
       .forEach(async function(record) {
         const filename = path.join(contentRoot, contentPath, `${record.id}.md`);
 
-        const {content = '', ...speakerData} = record;
+        const {content = '', ...data} = record;
+        let title = '';
 
         if (sheetId === 'speakers') {
-          speakerData.image = getLocalImage(speakerData);
-          if (!speakerData.image) {
+          data.image = getLocalSpeakerImage(data);
+          title = `${data.name}: ${data.talkTitle}`;
+          if (!data.image) {
             try {
-              speakerData.image = await downloadImage(speakerData);
+              data.image = await downloadSpeakerImage(data);
             } catch (err) {
               console.error('this is bad: ', err);
             }
           }
-          delete speakerData.potraitImageUrl;
+          delete data.potraitImageUrl;
+        }
+
+        if (sheetId === 'sponsors') {
+          data.image = getLocalSponsorImage(data);
+          if (!data.image) {
+            try {
+              data.image = await downloadSponsorImage(data);
+            } catch (err) {
+              console.error('this is bad: ', err);
+            }
+          }
+          delete data.logoUrl;
         }
 
         const frontmatter = yaml.safeDump({
           ...templateGlobals,
-          title: `${speakerData.name}: ${speakerData.talkTitle}`,
-          [dataFieldName]: speakerData
+          title,
+          [dataFieldName]: data
         });
 
         console.log(
@@ -193,7 +212,30 @@ async function main(params) {
   });
 }
 
-function getLocalImage(speaker) {
+function getLocalSponsorImage(sponsor) {
+  if (!params.imagePath) {
+    return null;
+  }
+
+  const filename = getImageFilename(sponsor, 'svg');
+  const srcFilename = path.join(params.imagePath, filename);
+  const destFilename = path.join('contents/images/sponsor', filename);
+
+  if (fs.existsSync(srcFilename)) {
+    console.log(` --> image found in image-path:`, filename);
+    const buffer = fs.readFileSync(srcFilename);
+    fs.writeFileSync(destFilename, buffer);
+
+    return {
+      filename
+    };
+  }
+
+  return null;
+
+}
+
+function getLocalSpeakerImage(speaker) {
   if (!params.imagePath) {
     return null;
   }
@@ -218,9 +260,42 @@ function getLocalImage(speaker) {
   return null;
 }
 
-async function downloadImage(speaker) {
-  const url = speaker.potraitImageUrl;
+async function downloadSponsorImage(sponsor) {
+  const url = sponsor.logoUrl;
+  console.log('downloadImage', url);
+  if (!url) {
+    console.error(chalk.yellow('no image specified for ' + sponsor.id));
+    return {};
+  }
 
+  try {
+    const res = await fetch(url);
+
+    if (!res.headers.get('content-type').startsWith('image')) {
+      console.error(chalk.red.bold(' !!! url is not an image', url));
+      return {};
+    }
+
+    const buffer = await res.buffer();
+
+    const filename = getImageFilename(sponsor, 'svg');
+    const fullPath = 'contents/images/sponsor/' + filename;
+
+    console.info(' --> image downloaded ', chalk.green(fullPath));
+    fs.writeFileSync(fullPath, buffer);
+
+    return {
+      filename
+    };
+  } catch (err) {
+    console.error(chalk.red.bold(' !!! failed to download', url));
+    console.error(err);
+    return {};
+  }
+}
+
+async function downloadSpeakerImage(speaker) {
+  const url = speaker.potraitImageUrl;
   console.log('downloadImage', url);
   if (!url) {
     console.error(chalk.yellow('no image specified for ' + speaker.id));
@@ -262,8 +337,8 @@ async function downloadImage(speaker) {
   }
 }
 
-function getImageFilename(speaker, ext) {
-  let filename = speaker.id;
+function getImageFilename(data, ext) {
+  let filename = data.id;
 
   return filename + '.' + ext;
 }

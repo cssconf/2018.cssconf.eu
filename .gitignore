@@ -4,5 +4,7 @@ node_modules
 /service-account-credentials.json
 /secrets.tar
 /contents/speakers/
+/contents/sponsors/
 /contents/images/speaker/
+/contents/images/sponsor/
 /contents/talks/
