@@ -31,7 +31,7 @@
                  title="{{ sponsor.name }}"
                  rel="nofollow">
                 <img class="c-sponsors__image"
-                     src="{{ contents.images.sponsor[sponsor.image.filename].url }}">
+                     src="{{ contents.images.sponsor[sponsor.image.filename].url }}?{{ cacheBuster }}">
               </a>
             {% endfor %}
           </div>
