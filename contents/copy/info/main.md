@@ -80,10 +80,12 @@ CSSconf EU will run alongside JSConf EU and as part of [wwwtf.berlin](http://www
 
 We do our best to ensure that the conference, venue and events throughout the day are fully accessible, so that all attendees can wholly participate in and enjoy the conference. To do this, we work closely with venue and volunteer staff prior to and on the day of the event to ensure disability access to all areas.
 
+We’re happy to be able to offer free, all-day childcare at the venue for children aged 3 and above. For parents with younger infants, we will provide a quiet room equipped with comfy seats, diapers and other essentials where you can retreat to throughout the day.
+[Read more and register a free childcare ticket](/childcare)
+
 <!-- As part of our commitment to accessibility, we’re bringing real-time transcription (CART) to CSSconf EU. There will be a live feed of every word of each talk.
 
-We’re happy to be able to offer free, all-day childcare at the venue for children aged 3 and above. For parents with younger infants, we will provide a quiet room equipped with comfy seats, diapers and other essentials where you can retreat to throughout the day.
-Read more and register a free childcare ticket -->
+ -->
 
 ## Travel & Transport
 
