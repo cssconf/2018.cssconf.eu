@@ -22,39 +22,15 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 1.5rem 2.5rem;
-
-    @media (--s) {
-      padding: 2.5rem;
-    }
-
-    @media (--m) {
-      padding: 4rem;
-    }
+    padding: 1.5rem;
 
     &--main {
       flex-basis: 50%;
-
-      .c-sponsors__image {
-        height: 3rem;
-
-        @media (--m) {
-          height: 4rem;
-        }
-      }
     }
 
     &--supporting,
     &--community {
       flex-basis: calc(100% / 3);
-
-      .c-sponsors__image {
-        height: 2rem;
-
-        @media (--m) {
-          height: 3rem;
-        }
-      }
     }
   }
 
