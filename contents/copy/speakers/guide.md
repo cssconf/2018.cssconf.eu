@@ -42,26 +42,7 @@ If you're travelling to the venue by taxi, most taxi drivers should recognize th
 
 # Bookings & Reimbursements
 
-For most of you, everything is already booked. If you do need reimbursement, the following information is relevant:
-
-To get reimbursed for your expenses, we ask that you email the following to contact@cssconf.eu: 
-
-- An invoice of your travel expenses. **If you don't attach an invoice, there's no way for us to reimburse you.** The invoice recipient should be:
-
-    SinnerSchrader Deutschland GmbH
-    Holger Blank
-    Völckersstr. 38
-    22765 Hamburg
-
-The invoice should also include:
-1. Your name and address
-2. Your bank’s international routing information, which is usually something like Swift/BIC, IBAN
-3. Additional information such as the address of the bank is helpful too, to make sure the international wire goes through without issues. If you need an invoice template, just contact us and we'll provide you with one.
-
-- Please add the receipts for your flight(s), taxi, bus or other public transport rides to your invoice.
-- Please send the invoice and all receipts via email to **contact@cssconf.eu**. We will then forward them to our accountants and get the wire initiated.
-
-If your company paid for your travel and hotel: Awesome, thanks! We are happy to list them as a supporter on our website. Also, if you're staying in the speakers’ hotel, you will be invoiced for your stay there!
+For most of you, everything is already booked. If you do need reimbursement, please contact Simone! She'll help you figure everything out.
 
 # Contacts
 
