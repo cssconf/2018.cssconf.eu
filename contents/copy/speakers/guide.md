@@ -3,6 +3,7 @@ title: Speakers & MCs Guide
 introText: >
   All of the necessary information you need to know to make your speaking experience
   at CSSconf EU 2018 a blast!
+introImage: speakers-guide.jpg
 ---
 
 ## Welcome!
