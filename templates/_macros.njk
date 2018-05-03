@@ -21,3 +21,18 @@
          alt="Photo of {{ speaker.name }}">
   </div>
 {% endmacro %}
+
+{% macro pageIntroImage(title, introText, introImage) %}
+  <section class="c-intro c-intro--with-image">
+    <div class="l-container">
+      <div class="c-intro__wrapper">
+        <img src="{{ introImage }}"
+             class="c-intro__image">
+        <h1 class="c-intro__title">{{ title }}</h1>
+      </div>
+      <p class="c-intro__text copy--max">
+        {{ introText }}
+      </p>
+    </div>
+  </section>
+{% endmacro %}
