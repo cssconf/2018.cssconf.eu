@@ -2,6 +2,7 @@
 title: Sponsors
 introText: >
   We are currently offering sponsorship packages and media partnerships for CSSconf EU 2018.
+introImage: sponsors.jpg
 ---
 
 ## Scholarship Sponsors
