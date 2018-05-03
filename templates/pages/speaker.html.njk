@@ -19,7 +19,8 @@
       {{ page.html }}
 
       {% if speakerTalk %}
-        <section class="c-speaker-talk">
+        <section class="c-speaker-talk"
+                 id="talk">
           <h2 class="black fz--delta">{{ speakerTalk.metadata.talk.title }}</h2>
           {{ speakerTalk.html }}
         </section>

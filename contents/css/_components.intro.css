@@ -13,6 +13,31 @@
   color: var(--c-blue-violet);
 }
 
+.c-intro--centered {
+  border-bottom: none;
+  margin-bottom: 0;
+  margin-top: 2.75rem;
+  padding-bottom: 0;
+  padding-top: 0;
+
+  @media (--s) {
+    margin-top: 8.75rem;
+  }
+
+  .c-intro__title {
+    color: var(--c-illusion);
+  }
+
+  .c-intro__text {
+    color: var(--c-black);
+  }
+
+  .c-intro__title,
+  .c-intro__text {
+    text-align: center;
+  }
+}
+
 .c-intro--with-image {
   .c-intro__wrapper {
     margin-bottom: 5rem;
