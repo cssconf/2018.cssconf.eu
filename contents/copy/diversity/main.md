@@ -10,7 +10,7 @@ introText: >
 
 You purchase a ticket for yourself, and enable another person of the conference’s choosing to attend the event by paying a share towards their ticket. The support options range from contributing 25%, 50% and up to 100% towards a full ticket. We thank you in advance for your generosity and awesomeness and look forward to a more inclusive CSSconf EU than ever before.
 
-We are very grateful and would like to say a big Thank You to the companies and individuals who already donated to our [Scholarship Program](/scholarships): ❤️
+We are very grateful and would like to say a big Thank You to the companies and individuals who already donated to our [Scholarship Program](/scholarships/): ❤️
 
 [Mercedes-Benz.io](https://blog.cssconf.eu/2017/12/29/mercedes-benz-io-sponsors-scholarships/), Ambika Castle, Jannis Hell, Steini, Whitney Williams, Jan Shulte, Justine Arreche, [kosmar.de](http://www.kosmar.de), Anja Reichmann, Morgan Cugerone, Thibault Beyer, Niklas Postulart, and more anonymous supporters.
 
