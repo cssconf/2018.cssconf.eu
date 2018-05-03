@@ -24,7 +24,7 @@ Eichenstraße 4, Berlin<br>
 
 CSSconf EU unites top international speakers and newcomers with fresh ideas. They will discuss cutting-edge technologies and questions around front-end development and web design – with a specific focus on CSS.
 
-Talks are always in English, and video recordings will be released for free after the event. All speakers are [selected](http://blog.cssconf.eu/2015/08/15/a-talk-selection-process-explained/) via an open Call for Speakers. The first speakers will be announced in early February 2018.
+Talks are always in English, and video recordings will be released for free after the event. All speakers are [selected](http://blog.cssconf.eu/2015/08/15/a-talk-selection-process-explained/) via an open Call for Speakers. [See the full line-up here](/speakers).
 
 ### Catering
 
@@ -44,15 +44,14 @@ Introduced in 2017, we again will have a Festival Area! Part of the large and be
 
 **Community Area**: The CSS Community is awesome, and we’re proud to have some fantastic contributors and organizers as our guests. Come and meet them, get a demo, and learn how you can get involved too.
 
-<!-- Fun Stuff: We got you covered. During breaks, you can meet the crew behind { live : JS } and explore their audio/visual arts, learn from SDW printshop how the CSSconf bag is printed, take selfies with friends in our photo booth, play foosball, or relax in a beanbag and flip through the latest edition of Offscreen Magazine. -->
+**Fun Stuff**: We got you covered. During breaks, you can meet the crew behind { live : JS } and explore their audio/visual arts, learn from SDW printshop how the CSSconf bag is printed, take selfies with friends in our photo booth, play foosball, or relax in a beanbag and take a little break.
 
 ## Social Events
 
-**Thursday Warm Up:** As it has become our tradition in the past years, we will have a small warmup event on the evening before the conference.
+**Thursday Warm Up:** As it has become our tradition in the past years, we will have a small warmup event on the evening before the conference. Location to be announced soon.
 <!-- Around 7pm on Thursday, we will gather to get some drinks at Volksbar Berlin (Rosa-Luxemburg-Straße 39, 10178 Berlin). -->
 
-**CSSconf EU Dinner:** Around 7pm on Friday, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, to talk and discuss the events of the day with fellow CSSconf EU attendees.
-<!-- We’ll serve a streetfood-style dinner and snacks, including tasty vegan and vegetarian options, to keep you sated. -->
+**CSSconf EU Dinner:** Around 7pm on Friday, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, to talk and discuss the events of the day with fellow CSSconf EU attendees. We’ll serve a healthy and filling dinner, including tasty vegan and vegetarian options, to keep you sated.
 
 **CSSconf Closing Event:** What would a great day be if it didn’t end in celebration! More infos about our evening program soon.
 
@@ -61,8 +60,9 @@ Friends, family and the community are also welcome to join us, provided they pre
 
 <!-- All parties and gatherings at a glance
 
-Thursday, May 4: CSSconf EU Warm-Up, 7pm, Volksbar
-Friday, May 5: CSSconf EU Closing / JSConf EU Opening Party, 8pm, Glashaus
+Thursday, May 4: CSSconf EU Warm-Up, 7pm, venue tba
+Friday, May 5: CSSconf EU Dinner, 7pm, Arena
+Friday, May 5: CSSconf EU Closing / JSConf EU Opening Party, 9pm, Glashaus
 Saturday, May 6: JSConf EU Main Party, 9pm, Glashaus
 Sunday, May 7: JSConf EU Closing Party, 7:30pm, Hoppetosse
 Monday, May 8: relax.js Brunch, 10am, Datscha Xberg
@@ -74,7 +74,7 @@ Buy JSConf EU Party Ticket (Saturday) -->
 
 ### wwwtf.berlin
 
-CSSconf EU will run alongside JSConf EU and as part of [wwwtf.berlin](http://wwwtf.berlin/), a festival of community events in Berlin. There will be many social events happening before and on the weekend of CSSconf EU. Check out the full overview on wwwtf.berlin.
+CSSconf EU will run alongside JSConf EU and as part of [wwwtf.berlin](http://wwwtf.berlin/), a festival of community events in Berlin. There will be many social events happening before and on the weekend of CSSconf EU. Check out the full overview on [wwwtf.berlin](http://wwwtf.berlin/).
 
 ## Accessibility and Childcare
 
