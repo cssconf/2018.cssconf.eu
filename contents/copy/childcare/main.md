@@ -2,6 +2,7 @@
 title: Childcare
 introText: >
   👦🏾👶👧🏼
+introImage: childcare.jpg
 ---
 
 ## We’re happy to be able to offer free childcare at the venue for children aged 3 and above.
