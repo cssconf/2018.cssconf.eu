@@ -2,6 +2,7 @@
 title: Accessibility Statement
 introText: >
   CSSconf EU and JSConf EU are inclusive conferences and want to be accessible.
+introImage: accessibility.jpg
 ---
 
 We make sure that all official events related to these conferences are well accessible to people with physical disabilities, by both checking with the venue owner and by visiting them personally beforehand. However, we are aware that accessibility issues are diverse and this does not cover everything.

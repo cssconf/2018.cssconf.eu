@@ -2,6 +2,7 @@
 title: Information
 introText: >
   Dedicated to everyone who loves and writes CSS: On June 1st 2018, CSSconf EU will gather the international CSS community in Berlin, Germany. This is your chance to meet top-notch engineers & web designers, world-class speakers, and CSS-loving people at this one-day, one-track conference.
+introImage: info.jpg
 ---
 
 ## Mission & Values
