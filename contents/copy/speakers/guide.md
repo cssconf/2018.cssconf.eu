@@ -48,6 +48,7 @@ For most of you, everything is already booked. If you do need reimbursement, ple
 If you have any questions or need help, feel free to talk to us! We're all on the "wwwtf.berlin" Slack instance that you've been invited to.
 
 - **Kristina Schneider**, [contact@cssconf.eu](mailto:contact@cssconf.eu), [@kriesse](http://twitter.com/kriesse) on Twitter
+- **Polly Hristova**, [contact@cssconf.eu](mailto:contact@cssconf.eu), [@rtrospekt](http://twitter.com/rtrospekt) on Twitter
 
 Additionally, for issues with travel & booking:
 
