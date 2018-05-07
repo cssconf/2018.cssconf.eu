@@ -16,7 +16,7 @@ Thank you so much for joining us for CSSconf EU 2018! We're really excited to se
 
 *Stralauer Allee 3, 10245 Berlin*
 
-We have booked a room for you from Thursday until Monday (unless you confirmed other dates with us or have private accommodation). In case you need assistance with regards to the hotel, you can contact Simone (simone@jsconf.eu).
+We have booked a room for you from Thursday until Monday (unless you confirmed other dates with us or have private accommodation). In case you need assistance with regards to the hotel, you can contact Simone ([simone@jsconf.eu](mailto:simone@jsconf.eu)).
 
 If you're arriving by public transport, the closest stations are:
 
@@ -41,18 +41,71 @@ If you're travelling to the venue by taxi, most taxi drivers should recognize th
 
 ## Bookings & Reimbursements
 
-For most of you, everything is already booked. If you do need reimbursement, please contact Simone! She'll help you figure everything out.
+For most of you, everything is already booked. If you do need reimbursement, please contact Simone ([simone@jsconf.eu](mailto:simone@jsconf.eu))! She'll help you figure everything out. If your company has offered to pay: Awesome, thanks! We’d be happy to list them as a supporter on our website, so just let us know if that’s the case.
 
 ## Contacts
 
 If you have any questions or need help, feel free to talk to us! We're all on the "wwwtf.berlin" Slack instance that you've been invited to.
 
-- **Kristina Schneider**, contact@cssconf.eu, `@kriesse` on Twitter
+- **Kristina Schneider**, [contact@cssconf.eu](mailto:contact@cssconf.eu), [@kriesse](http://twitter.com/kriesse) on Twitter
 
 Additionally, for issues with travel & booking:
 
-- **Simone Haas,** simone@jsconf.eu, `@haas_simone` on Twitter
-- **Feli Kugland,** feli@jsconf.eu, `@kotzendekrabbe` on Twitter
+- **Simone Haas,** [simone@jsconf.eu](mailto:simone@jsconf.eu), [@haas_simone](http://twitter.com/haas_simone) on Twitter
+- **Feli Kugland,** [feli@jsconf.eu](mailto:feli@jsconf.eu), [@kotzendekrabbe](http://twitter.com/kotzendekrabbe) on Twitter
+
+## Technical Information and Schedule
+
+* The day will start at 8:30am with breakfast and registration; talks will begin at 9:30am. You should arrive before 9:30am, so that we can set up your notebook for a test run and make sure everything works well.
+* As a speaker or MC, you won’t have to queue at the venue for check-in, you can come to the registration desk directly. You will then get your speaker bag and your conference pass.
+* Projector resolution is 1080p, 16:9.
+* You can connect to the projector with VGA, HDMI or DVI. Adapters will be provided.
+* We will have a WolfVision presenter for mobile devices. Please let us know in advance if you need to use this.
+* You can connect your notebook to the stage audio. A cable will be provided.
+* There will be power supplies.
+* Please be prepared to provide the technicians with your presentation, e.g. via USB stick.
+* You’ll be given a headset, so you’ll have your hands free during your talk.
+* A presentation clicker can be provided.
+* WiFi as well as ethernet access will be available. It should be reliable, but you’re always better off having a fallback option in case the connection doesn’t work.
+* Each talk slot is 30 minutes, no Q&A. We believe it’s much better to discuss things in smaller groups afterwards and you’ll have enough time and space to do that.
+* Please arrive at the stage about 10 minutes before your talk, so you can set up properly. The MC who will introduce you will be your contact person before the talk.
+* All talks will be professionally recorded and released after the conference. They will be publicly accessible for free, so that everyone can learn from the awesome presentations you delivered. If you wish not to have your talk recorded and published, or have any issues regarding copyright (incl. embedded images, music or similar), please let us know in advance.
+
+## Accessibility
+One item of frequent feedback from past years that we wanted to share with you:
+
+Attendees often have trouble reading code on the projector screens. This is true for code on slides (we understand if it is too late to change, just wanted to mention it) where it is usually best to choose the biggest possible font size that would fit on the slide all aesthetics aside – but it is even more true for code in your editor during live coding. Please take a moment to find out how to adjust font size in your favorite editor or tool such as Chrome DevTools and then switch to something in the range of 24px text.
+
+## Parties and Social Events
+ ~~ **_More details coming soon!_** ~~
+
+**Thursday, May 31: CSSconf EU Warm-Up**
+
+On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference.
+
+**Friday, June 1: CSSconf EU Closing Event / JSconf EU opening party**
+
+What would a great day be if it didn’t end in celebration!
+
+**Saturday, June 2: JSConf EU Main Party, 9pm**
+
+We invite you to celebrate with us and the community at the shared JSConf + CSSconf party.
+
+**Sunday, May 7: JSConf EU Closing Party**
+
+We’ll close the long conference weekend with a final party!
+
+**Monday, May 8: relax.js Brunch, 10.30am-2pm, Datscha Xberg**
+
+Join the JSConf crowd for a relaxed brunch, at authentic Russian-style [Datscha Café in Kreuzberg, Graefestraße 83, 10967 Berlin](http://datscha.de/kreuzberg/). Expect all kinds of delicious choices for all tastes, served in a cozy atmosphere.
+
+## Childcare
+We’re happy to be able to offer free childcare at the venue for children age 3 and above. For parents with younger infants, we will provide a quiet room equipped with comfy seats, diapers and other essentials where you can retreat to throughout the day. Read more and how to register [here](/childcare).
+
+## Code of Conduct
+One very important point: We’re an inclusive community event and we want CSSconf EU to be a safe place for everyone to make new friends, share knowledge, learn new stuff, get excited and gain insights reglardless of skin colour, gender, religious views, sexual preference, etc.
+
+We want our community to be tolerant and welcoming, and everyone at the conference is required to agree and act according to our [Code of Conduct](/code-of-conduct). – Should you encounter or observe any form of harrassment, please let us know and we’ll take care of it!
 
 ## Travel tips
 
@@ -82,7 +135,3 @@ Berlin has two airports:
 - Being a capital city, most people in Berlin speak or at least understand English, so there's no need to learn German just for this event.
 - If you need hygiene or sanitary products, most corner shops (colloquially called "Spätis") sell those.
 - Generally, if you need anything late at night, those corner shops are open until after midnight and have a good selection of common products you'd need.
-
-## Schedule Information
-
-We will fill this in as soon as we settle on a detailed schedule! Until then, if you have any questions about the schedule, feel free to contact one of the contacts that are listed above!
