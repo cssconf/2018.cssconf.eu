@@ -63,10 +63,9 @@ Additionally, for issues with travel & booking:
 * We will have a WolfVision presenter for mobile devices. Please let us know in advance if you need to use this.
 * You can connect your notebook to the stage audio. A cable will be provided.
 * There will be power supplies.
-* Please be prepared to provide the technicians with your presentation, e.g. via USB stick.
-* You’ll be given a headset, so you’ll have your hands free during your talk.
+* You can choose between a headset or a clip-on, so you’ll have your hands free during your talk. 
 * A presentation clicker can be provided.
-* WiFi as well as ethernet access will be available. It should be reliable, but you’re always better off having a fallback option in case the connection doesn’t work.
+* Stage WiFi as well as ethernet access will be available.
 * Each talk slot is 30 minutes, no Q&A. We believe it’s much better to discuss things in smaller groups afterwards and you’ll have enough time and space to do that.
 * Please arrive at the stage about 10 minutes before your talk, so you can set up properly. The MC who will introduce you will be your contact person before the talk.
 * All talks will be professionally recorded and released after the conference. They will be publicly accessible for free, so that everyone can learn from the awesome presentations you delivered. If you wish not to have your talk recorded and published, or have any issues regarding copyright (incl. embedded images, music or similar), please let us know in advance.
