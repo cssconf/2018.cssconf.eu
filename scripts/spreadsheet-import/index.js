@@ -43,6 +43,12 @@ program
 
 const contentRoot = path.resolve(__dirname, '../../contents');
 const sheetParams = {
+  schedule: {
+    templateGlobals: {
+    },
+    dataFieldName: 'schedule',
+    contentPath: 'schedule'
+  },
   speakers: {
     templateGlobals: {
       template: 'pages/speaker.html.njk'
@@ -100,7 +106,7 @@ main(params).catch(err => console.error(err));
 
 async function main(params) {
   // ---- ensure the directories exist...
-  const requiredDirectories = ['speakers', 'talks', 'sponsors', 'images/speaker', 'images/sponsor'];
+  const requiredDirectories = ['schedule', 'speakers', 'sponsors', 'talks', 'images/speaker', 'images/sponsor'];
   const requiredDirectoryPaths = requiredDirectories.map(
     dir => `${__dirname}/../../contents/${dir}`
   );
@@ -117,7 +123,7 @@ async function main(params) {
   if (params.doCleanup) {
     console.log(chalk.gray('cleaning up...'));
 
-    await Promise.all([rimraf(path.join(contentRoot, '{speakers,sponsors,talks}/*md'))]);
+    await Promise.all([rimraf(path.join(contentRoot, '{schedule,speakers,sponsors,talks}/*md'))]);
   }
 
   // ---- fetch spreadsheet-data...

@@ -1,0 +1,55 @@
+{% extends "../layouts/default.html.njk" %}
+
+{% block content %}
+  <section class="c-intro c-intro--centered">
+    <div class="l-container">
+      <h1 class="c-intro__title">{{ contents.copy.schedule['main.md'].metadata.title }}</h1>
+      {% set introText = contents.copy.schedule['main.md'].metadata.introText %}
+      {% if introText %}
+        <p class="c-intro__text copy--max">{{ introText }}</p>
+      {% endif %}
+    </div>
+  </section>
+
+  <div class="l-container">
+    {% set schedulePages = contents.schedule._.pages |
+      filterObjects('metadata.schedule.published', true) |
+      sortObjects('metadata.schedule.order', 100, 'number') %}
+
+    {% if schedulePages %}
+      <ol class="c-schedule">
+        {% for schedulePage in schedulePages %}
+          <li class="c-schedule__item">
+            {% set data = schedulePage.metadata.schedule %}
+            {% set talk = data.talkId %}
+            {% set speakers = [] if not talk else contents.speakers._.pages |
+              filterObjects('metadata.speaker.talkId', talk) %}
+            {% set speaker = null if not talk else speakers | first %}
+            {% set speakerVariant = null if not talk else speaker.metadata.speaker.variant %}
+
+            {% if talk %}
+              <a href="{{ speaker.url }}#talk"
+                 target="_blank">
+            {% endif %}
+              <div class="c-schedule-item {{ 'c-schedule-item--variant-' ~ speakerVariant if talk }}">
+                <time class="c-schedule-item__time">{{ data.time }}</time>
+                <div class="c-schedule-item__details">
+                  {% if talk %}
+                    <h2 class="c-schedule-item__title">
+                      {{ speakers | joinObjects(' & ', 'metadata.speaker.name')}}
+                    </h2>
+                    {{ data.title }}
+                  {% else %}
+                    <h2 class="c-schedule-item__title">{{ data.title }}</h2>
+                  {% endif %}
+                </div>
+              </div>
+            {% if talk %}
+              </a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+  </div>
+{% endblock %}
