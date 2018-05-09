@@ -13,7 +13,12 @@ Thank you so much for joining us for CSSconf EU and/or JSConf EU 2018! We're rea
 
 *Boxhagener Str. 73, 10245 Berlin*
 
-We have booked a room for you from Thursday until Monday (unless you have private accommodation). In case you need assistance with regards to the hotel, you can contact Simone.
+We have booked a room for you from:
+- Thursday to Monday for combo ticket holders
+- Thursday to Saturday for CSSconf ticket holders
+- Friday to Monday for JSConf ticket holders
+
+(that is, unless you have private accommodation). In case you need assistance with regards to the hotel, you can contact Simone (simone@jsconf.eu).
 
 If you're arriving by public transport, the closest stations are:
 
@@ -47,6 +52,28 @@ If you have any questions or need help, feel free to talk to us! We're all on th
 - **Olivia Hugger**, `@serbal_chan` on Twitter
 - 
 
+## Parties and Social Events
+
+**Thursday, May 31: CSSconf EU Warm-Up**
+
+On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference. _More details coming soon!_
+
+**Friday, June 1: CSSconf EU Garden Dinner, 6:40pm / JSconf EU Opening Evening, 9pm**
+
+What would a great day be if it didn’t end in celebration! At the end of the day we'll have dinner in our outdoor area at the river, followed by the JSconf Opening, which is of course open to all CSSconf attendees!
+
+**Saturday, June 2: JSConf EU Main Party, 9pm**
+
+We invite you to celebrate with us and the community at the shared JSConf + CSSconf party.
+
+**Sunday, May 7: JSConf EU Closing Party**
+
+We’ll close the long conference weekend with a final party! _More details coming soon!_
+
+**Monday, May 8: relax.js Brunch, 10.30am-2pm, Datscha Xberg**
+
+Join the JSConf crowd for a relaxed brunch, at authentic Russian-style [Datscha Café in Kreuzberg, Graefestraße 83, 10967 Berlin](http://datscha.de/kreuzberg/). Expect all kinds of delicious choices for all tastes, served in a cozy atmosphere.
+
 # Travel tips
 
 ## Travelling by Taxi
@@ -67,7 +94,7 @@ Berlin has an excellent public transport system comprised of S-Bahn (commuter tr
 
 Berlin has two airports:
 
-- Berlin Tegel (TXL), which lies in the north of Berlin, is the busiest and also likely the one you'll arrive in if you come from outside of Europe. It's a small and fairly hectic airport, and one of its biggest downsides is that the only means of public transport connection is via bus. Hop onto the TXL bus (yes, the bus line is called TXL), and you'll be at the main station or Alexanderplatz in no time. Alternatively, just take a taxi (remember, we'll reimburse you for it).
+- Berlin Tegel (TXL), which lies in the north of Berlin, is the busiest and also likely the one you'll arrive in if you come from outside of Europe. It's a small and fairly hectic airport, and one of its biggest downsides is that the only means of public transport connection is via bus. Hop onto the TXL bus (yes, the bus line is called TXL), and you'll be at the main station or Alexanderplatz in no time. Alternatively, just take a taxi.
 - Berlin Schönefeld (SXF), which lies outside of the city limits in the south, is the low-cost and smaller of the two. Fortunately, it has good train connections, with a commuter train connecting the city centre and the airport arriving every 5-10 minutes. Additionally, there's a regional train that takes you directly to the main station. You can take the commuter train directly until Warschauer Straße and then walk to the hotel from there!
 
 ## Major Train Stations
@@ -85,7 +112,3 @@ If you're arriving from within Europe, chances are that you're arriving by train
 - Being a capital city, most people in Berlin speak or at least understand English, so there's no need to learn German just for this event.
 - If you need hygiene or sanitary products, most corner shops (colloquially called "Spätis") sell those.
 - Generally, if you need anything late at night, those corner shops are open until after midnight and have a good selection of common products you'd need.
-
-# Schedule Information
-
-We will fill this in as soon as we settle on a detailed schedule! Until then, if you have any questions about the schedule, feel free to contact one of the contacts that are listed above!
