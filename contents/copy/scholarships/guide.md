@@ -1,6 +1,6 @@
 ---
 title: Scholarship Holder's Guide
-introText:  	 All of the necessary information you need to know to make your experience at CSSconf EU 2018 a blast!
+introText: All of the necessary information you need to know to make your experience at CSSconf EU 2018 a blast!
 ---
 
 ## Welcome!
