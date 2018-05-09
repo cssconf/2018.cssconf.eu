@@ -84,9 +84,9 @@ Attendees often have trouble reading code on the projector screens. This is true
 
 On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference. _More details coming soon!_
 
-**Friday, June 1: CSSconf EU Garden Dinner, 6:40pm / JSconf EU opening party, 9pm**
+**Friday, June 1: CSSconf EU Garden Dinner, 6:40pm / JSconf EU Opening Evening, 9pm**
 
-What would a great day be if it didn’t end in celebration! At the end of the day we'll have dinner in our outdoor area at the river, followed by the JSconf opening party, which is of course open to all CSSconf attendees!
+What would a great day be if it didn’t end in celebration! At the end of the day we'll have dinner in our outdoor area at the river, followed by the JSconf Opening, which is of course open to all CSSconf attendees!
 
 **Saturday, June 2: JSConf EU Main Party, 9pm**
 
