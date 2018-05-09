@@ -92,11 +92,11 @@ What would a great day be if it didn’t end in celebration! At the end of the d
 
 We invite you to celebrate with us and the community at the shared JSConf + CSSconf party.
 
-**Sunday, May 7: JSConf EU Closing Party**
+**Sunday, June 3: JSConf EU Closing Party**
 
 We’ll close the long conference weekend with a final party! _More details coming soon!_
 
-**Monday, May 8: relax.js Brunch, 10.30am-2pm, Datscha Xberg**
+**Monday, June 4: relax.js Brunch, 10.30am-2pm, Datscha Xberg**
 
 Join the JSConf crowd for a relaxed brunch, at authentic Russian-style [Datscha Café in Kreuzberg, Graefestraße 83, 10967 Berlin](http://datscha.de/kreuzberg/). Expect all kinds of delicious choices for all tastes, served in a cozy atmosphere.
 
