@@ -64,12 +64,14 @@ Additionally, for issues with travel & booking:
 * We will have a WolfVision presenter for mobile devices. Please let us know in advance if you need to use this.
 * You can connect your notebook to the stage audio. A cable will be provided.
 * There will be power supplies.
-* You can choose between a headset or a clip-on, so you’ll have your hands free during your talk. 
+* You can choose between a headset or a clip-on, so you’ll have your hands free during your talk.
 * A presentation clicker can be provided.
 * Stage WiFi as well as ethernet access will be available.
 * Each talk slot is 30 minutes, no Q&A. We believe it’s much better to discuss things in smaller groups afterwards and you’ll have enough time and space to do that.
 * Please arrive at the stage about 10 minutes before your talk, so you can set up properly. The MC who will introduce you will be your contact person before the talk.
 * All talks will be professionally recorded and released after the conference. They will be publicly accessible for free, so that everyone can learn from the awesome presentations you delivered. If you wish not to have your talk recorded and published, or have any issues regarding copyright (incl. embedded images, music or similar), please let us know in advance.
+
+You can see the [full schedule here](/schedule).
 
 ## Accessibility
 One item of frequent feedback from past years that we wanted to share with you:
@@ -77,15 +79,14 @@ One item of frequent feedback from past years that we wanted to share with you:
 Attendees often have trouble reading code on the projector screens. This is true for code on slides (we understand if it is too late to change, just wanted to mention it) where it is usually best to choose the biggest possible font size that would fit on the slide all aesthetics aside – but it is even more true for code in your editor during live coding. Please take a moment to find out how to adjust font size in your favorite editor or tool such as Chrome DevTools and then switch to something in the range of 24px text.
 
 ## Parties and Social Events
- ~~ **_More details coming soon!_** ~~
 
 **Thursday, May 31: CSSconf EU Warm-Up**
 
-On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference.
+On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference. _More details coming soon!_
 
-**Friday, June 1: CSSconf EU Closing Event / JSconf EU opening party**
+**Friday, June 1: CSSconf EU Garden Dinner, 6:40pm / JSconf EU opening party, 9pm**
 
-What would a great day be if it didn’t end in celebration!
+What would a great day be if it didn’t end in celebration! At the end of the day we'll have dinner in our outdoor area at the river, followed by the JSconf opening party, which is of course open to all CSSconf attendees!
 
 **Saturday, June 2: JSConf EU Main Party, 9pm**
 
@@ -93,7 +94,7 @@ We invite you to celebrate with us and the community at the shared JSConf + CSSc
 
 **Sunday, May 7: JSConf EU Closing Party**
 
-We’ll close the long conference weekend with a final party!
+We’ll close the long conference weekend with a final party! _More details coming soon!_
 
 **Monday, May 8: relax.js Brunch, 10.30am-2pm, Datscha Xberg**
 
