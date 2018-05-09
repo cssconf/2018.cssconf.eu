@@ -3,13 +3,13 @@ title: Scholarship Holder's Guide
 introText:  	 All of the necessary information you need to know to make your experience at CSSconf EU 2018 a blast!
 ---
 
-# Welcome!
+## Welcome!
 
 Thank you so much for joining us for CSSconf EU and/or JSConf EU 2018! We're really excited to see you soon in Berlin, but until then, we've created this page to help you with any roadblocks you may be facing on your way there.
 
-# Hotel Information
+## Hotel Information
 
-## [A&O Berlin Friedrichshain](https://www.aohostels.com/en/berlin/berlin-friedrichshain/)
+### [A&O Berlin Friedrichshain](https://www.aohostels.com/en/berlin/berlin-friedrichshain/)
 
 *Boxhagener Str. 73, 10245 Berlin*
 
@@ -27,9 +27,9 @@ If you're arriving by public transport, the closest stations are:
 
 You will only need an *AB Ticket* to get there. For more information, refer to the transport section.
 
-# Venue Information
+## Venue Information
 
-## Arena Berlin
+### Arena Berlin
 
 *Eichenstraße 4, 12435 Berlin*
 
@@ -40,11 +40,11 @@ If you're travelling to the venue by taxi, most taxi drivers should recognize th
 - **Treptower Park** (S-Bahn, Bus) — Serviced by the S8, S9, and the Ring lines (S41 and S42). From there, you can walk or take the 165/265 bus lines.
 - **Eichenstraße/Puschkinallee** (Bus) — Serviced by exactly those 165/265 lines, as well as the 104 line. From here, the venue is a stone throw away. This station is also reachable from Schlesisches Tor.
 
-# Bookings & Reimbursements
+## Bookings & Reimbursements
 
 If you agreed to it, we have booked the hotel for you. In case you're unable to affort transportation costs, such as taxis or public transport, please contact Simone and we'll figure something out together!
 
-# Contacts
+## Contacts
 
 If you have any questions or need help, feel free to talk to us! We're all on the "wwwtf.berlin" Slack instance that you've been invited to.
 
@@ -74,13 +74,13 @@ We’ll close the long conference weekend with a final party! _More details comi
 
 Join the JSConf crowd for a relaxed brunch, at authentic Russian-style [Datscha Café in Kreuzberg, Graefestraße 83, 10967 Berlin](http://datscha.de/kreuzberg/). Expect all kinds of delicious choices for all tastes, served in a cozy atmosphere.
 
-# Travel tips
+## Travel tips
 
-## Travelling by Taxi
+### Travelling by Taxi
 
 If you're going to travel by Taxi, the most important thing to keep in mind is to always ask the driver for a receipt so that we can reimburse it later! In German, that's "Quittung bitte", but most drivers will understand what you're asking for even in English.
 
-## Travelling by public transport
+### Travelling by public transport
 
 Berlin has an excellent public transport system comprised of S-Bahn (commuter trains), U-Bahn (subway), Buses, Trams, and even ferries! Here's some important things you want to keep in mind if you plan to use it:
 
@@ -90,14 +90,14 @@ Berlin has an excellent public transport system comprised of S-Bahn (commuter tr
 - Berlin has 3 ticket types: AB will get you anywhere within Berlin, ABC will get you anywhere within Berlin *plus* some cities outside of Berlin (like Potsdam), and BC is irrelevant for you. Usually, AB is fine, but if you're arriving from Berlin Schönefeld airport (SXF), you'll need an ABC ticket to get into the city, and the other way around.
 - This isn't a formal rule, but in Germany, you're not supposed to make too much noise in public transport vehicles. People will look at you weird, and sometimes ask you to tone it down.
 
-## Airports
+### Airports
 
 Berlin has two airports:
 
 - Berlin Tegel (TXL), which lies in the north of Berlin, is the busiest and also likely the one you'll arrive in if you come from outside of Europe. It's a small and fairly hectic airport, and one of its biggest downsides is that the only means of public transport connection is via bus. Hop onto the TXL bus (yes, the bus line is called TXL), and you'll be at the main station or Alexanderplatz in no time. Alternatively, just take a taxi.
 - Berlin Schönefeld (SXF), which lies outside of the city limits in the south, is the low-cost and smaller of the two. Fortunately, it has good train connections, with a commuter train connecting the city centre and the airport arriving every 5-10 minutes. Additionally, there's a regional train that takes you directly to the main station. You can take the commuter train directly until Warschauer Straße and then walk to the hotel from there!
 
-## Major Train Stations
+### Major Train Stations
 
 If you're arriving from within Europe, chances are that you're arriving by train. Here's a list of the long-distance train stations in Berlin:
 
@@ -106,7 +106,7 @@ If you're arriving from within Europe, chances are that you're arriving by train
 - **Gesundbrunnen/Nordkreuz (North Cross)** — Situated at the north of the inner city. Connects to the Ring line, the S1 and S2 lines, and the U8 subway line.
 - **Ostbahnhof (East Station)** — The former central station. A stone throw away from the A&O hotel, just take any eastbound S-Bahn line.
 
-# Things about Berlin that you might want to know
+## Things about Berlin that you might want to know
 
 - If you would like to explore the city by bike, you can borrow bikes at a lot of shops, as well as with the "nextbike" stands you'll find scattered around the city. Berlin is a mostly bike-friendly city, but that can't be said about some of its inhabitants. Be aware at all times and you should be good, though.
 - Being a capital city, most people in Berlin speak or at least understand English, so there's no need to learn German just for this event.
