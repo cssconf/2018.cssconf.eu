@@ -22,7 +22,7 @@ In case you need assistance with regards to the hotel, you can contact Feli (fel
 
 If you're arriving by public transport, the closest stations are:
 
-- **Berlin Ostbahnhof** (S-Bahn, Bus) — One of the biggest train stations in Berlin, it's serviced by the S3, S5, S7, S9 S-Bahn lines, as well as regional and international trains.
+- **Berlin Ostbahnhof** (IC/ICE, RB/RE, S-Bahn, Bus) — One of the biggest train stations in Berlin, it's serviced by the S3, S5, S7, S9 S-Bahn lines, as well as regional and international trains.
 - **U Heinrich-Heine-Straße** (Subway, Bus) — Serviced by the U2 line which connects to Alexanderplatz and Potsdamer Platz. A short walk to the hotel.
 
 You will only need an *AB Ticket* if you use public transportation to get there. For more information, refer to the transport section.
