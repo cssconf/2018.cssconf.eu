@@ -9,23 +9,23 @@ Thank you so much for joining us for CSSconf EU and/or JSConf EU 2018! We're rea
 
 ## Hotel Information
 
-### [A&O Berlin Friedrichshain](https://www.aohostels.com/en/berlin/berlin-friedrichshain/)
+### [A&O Berlin Mitte](https://www.aohostels.com/en/berlin/berlin-mitte/)
 
-*Boxhagener Str. 73, 10245 Berlin*
+*Köpenicker Str. 127–129, 10179 Berlin*
 
-We have booked a room for you from:
+If your scholarship includes a travel grant and you have chosen to request a hotel, we have booked a room for you from:
 - Thursday to Monday for combo ticket holders
 - Thursday to Saturday for CSSconf ticket holders
 - Friday to Monday for JSConf ticket holders
 
-(that is, unless you have private accommodation). In case you need assistance with regards to the hotel, you can contact Simone (simone@jsconf.eu).
+In case you need assistance with regards to the hotel, you can contact Feli (feli@jsconf.eu).
 
 If you're arriving by public transport, the closest stations are:
 
-- **Berlin Ostkreuz** (S-Bahn, Bus) — One of the biggest train stations in Berlin, it's serviced by the S3, S5, S7, Ring (S41, S42), and more S-Bahn lines.
-- **Neue Bahnhofsstr.** (Tram, Bus) — Situated right next to the hotel and serviced by the 21 tram and the 240 bus line.
+- **Berlin Ostbahnhof** (S-Bahn, Bus) — One of the biggest train stations in Berlin, it's serviced by the S3, S5, S7, S9 S-Bahn lines, as well as regional and international trains.
+- **U Heinrich-Heine-Straße** (Subway, Bus) — Serviced by the U2 line which connects to Alexanderplatz and Potsdamer Platz. A short walk to the hotel.
 
-You will only need an *AB Ticket* to get there. For more information, refer to the transport section.
+You will only need an *AB Ticket* if you use public transportation to get there. For more information, refer to the transport section.
 
 ## Venue Information
 
@@ -49,8 +49,15 @@ If you agreed to it, we have booked the hotel for you. In case you're unable to 
 If you have any questions or need help, feel free to talk to us! We're all on the "wwwtf.berlin" Slack instance that you've been invited to.
 
 - **Simone Haas,** simone@jsconf.eu, `@haas_simone` on Twitter
-- **Olivia Hugger**, `@serbal_chan` on Twitter
-- 
+- **Olivia Hugger**, olivia@fastmail.com, `@serbal_chan` on Twitter
+- **Princiya**, princiya.marina@gmail.com, `@princi_ya` on Twitter
+- **Felicitas Kugland**, feli@jsconf.eu, `@kotzendekrabbe` on Twitter (specifically for questions regarding travel booking)
+
+## Conference Schedules
+
+The CSSconf schedule can be found here: https://2018.cssconf.eu/schedule/
+
+The JSConf schedule is not yet finalized, but a rough schedule can be found here: https://2018.jsconf.eu/news/rough-schedule/
 
 ## Parties and Social Events
 
@@ -69,10 +76,6 @@ We invite you to celebrate with us and the community at the shared JSConf + CSSc
 **Sunday, May 7: JSConf EU Closing Party**
 
 We’ll close the long conference weekend with a final party! _More details coming soon!_
-
-**Monday, May 8: relax.js Brunch, 10.30am-2pm, Datscha Xberg**
-
-Join the JSConf crowd for a relaxed brunch, at authentic Russian-style [Datscha Café in Kreuzberg, Graefestraße 83, 10967 Berlin](http://datscha.de/kreuzberg/). Expect all kinds of delicious choices for all tastes, served in a cozy atmosphere.
 
 ## Travel tips
 
