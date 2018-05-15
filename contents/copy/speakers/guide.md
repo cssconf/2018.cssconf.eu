@@ -80,9 +80,9 @@ Attendees often have trouble reading code on the projector screens. This is true
 
 ## Parties and Social Events
 
-**Thursday, May 31: CSSconf EU Warm-Up**
+**Thursday, May 31: CSSconf EU Warm-Up, 7pm, Oberhafenkantine**
 
-On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference. _More details coming soon!_
+On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference. Join us from 7pm at [Oberhafenkantine](http://www.oberhafenkantine-berlin.de/), Am Flutgraben 2, 12435 Berlin-Treptow. Sponsored by [talent.io](https://www.talent.io/).
 
 **Friday, June 1: CSSconf EU Garden Dinner, 6:40pm / JSconf EU Opening Evening, 9pm**
 

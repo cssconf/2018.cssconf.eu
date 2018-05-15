@@ -49,8 +49,7 @@ Introduced in 2017, we again will have a Festival Area! Part of the large and be
 
 ## Social Events
 
-**Thursday Warm Up:** As it has become our tradition in the past years, we will have a small warmup event on the evening before the conference. Location to be announced soon.
-<!-- Around 7pm on Thursday, we will gather to get some drinks at Volksbar Berlin (Rosa-Luxemburg-Straße 39, 10178 Berlin). -->
+**Thursday Warm Up:** As it has become our tradition in the past years, we will have a small warmup event on the evening before the conference - this year sponsored by our friends from [talent.io](https://www.talent.io/)! Join us May 31, from 7pm at [Oberhafenkantine](http://www.oberhafenkantine-berlin.de/), Am Flutgraben 2, 12435 Berlin-Treptow. Free drinks as long as they last - so better not be late...
 
 **CSSconf EU Dinner:** Around 7pm on Friday, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, to talk and discuss the events of the day with fellow CSSconf EU attendees. We’ll serve a healthy and filling dinner, including tasty vegan and vegetarian options, to keep you sated.
 
