@@ -1,0 +1,4 @@
+{
+  "template": "pages/menu.html.njk",
+  "title": "Menu"
+}
