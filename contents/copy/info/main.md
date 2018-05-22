@@ -29,7 +29,7 @@ Talks are always in English, and video recordings will be released for free afte
 
 ### Catering
 
-Our chefs and coffee specialists will make sure you don’t go hungry or run the risk of low caffeination throughout the day. You can expect quality coffee, a full breakfast, healthy lunch with various options, and hearty dinner. All meals include vegetarian, vegan, gluten-free options.
+Our chefs and coffee specialists will make sure you don’t go hungry or run the risk of low caffeination throughout the day. You can expect quality coffee, a full breakfast, healthy lunch with various options, and hearty dinner - [see the menu here](/menu). All meals include vegetarian, vegan, gluten-free options.
 
 ### Tickets
 
