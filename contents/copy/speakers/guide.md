@@ -80,6 +80,8 @@ Attendees often have trouble reading code on the projector screens. This is true
 
 ## Parties and Social Events
 
+_Please note: As speakers, you're welcome to bring guests to the parties and social events Friday to Sunday! Just let us know in advance (Name, email) via slack or [contact@cssconf.eu](mailto:contact@cssconf.eu) so we can plan ahead and send out party tickets. Thank you!_
+
 **Thursday, May 31: CSSconf EU Warm-Up, 7pm, Oberhafenkantine**
 
 On Thursday evening you are invited to join us for our pre-conf get together, a great opportunity to meet the team, each other, and fellow attendees prior to the conference. Join us from 7pm at [Oberhafenkantine](http://www.oberhafenkantine-berlin.de/), Am Flutgraben 2, 12435 Berlin-Treptow. Sponsored by [talent.io](https://www.talent.io/).
