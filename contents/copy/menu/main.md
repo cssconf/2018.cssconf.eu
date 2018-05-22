@@ -1,7 +1,7 @@
 ---
 title: Food at the conference
 introText: >
-  Get a peek of the all vegetarian menu during CSSconf EU 2018! We will also offer vegan options and a dedicated childrens menu. 🍳🥗🍔 
+  Get a peek of the all vegetarian menu during CSSconf EU 2018! We will also offer vegan options and a dedicated children's menu. 🍳🥗🍔 
 introImage: food.jpg
 ---
 
