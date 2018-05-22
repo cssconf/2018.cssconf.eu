@@ -80,7 +80,7 @@ Attendees often have trouble reading code on the projector screens. This is true
 
 ## Parties and Social Events
 
-_Please note: As speakers, you're welcome to bring guests to the parties and social events Friday-Saturday! Just let us know in advance (Name, email) via slack or [contact@cssconf.eu](mailto:contact@cssconf.eu) so we can plan ahead and send out party tickets. Thank you!_
+_Please note: As speakers, you're welcome to bring guests to the parties and social events Friday to Sunday! Just let us know in advance (Name, email) via slack or [contact@cssconf.eu](mailto:contact@cssconf.eu) so we can plan ahead and send out party tickets. Thank you!_
 
 **Thursday, May 31: CSSconf EU Warm-Up, 7pm, Oberhafenkantine**
 
