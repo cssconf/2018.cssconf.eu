@@ -67,8 +67,8 @@ investigate it and take whatever action is necessary to prevent a recurrence.
 
 You can make a personal report by:
 
-*   Contacting a staff member, identified by STAFF badges, buttons, or shirts.
-*   Emailing us: [contact@jsconf.eu](mailto:contact@jsconf.eu).
+*   Contacting a TEAM member, identified by TEAM buttons.
+*   Emailing us: [contact@cssconf.eu](mailto:contact@cssconf.eu).
 *   Calling us: We’ll publish a phone number that is staffed during main conference hours.
 
 When taking a personal report, our staff will ensure you are safe and cannot be
@@ -91,8 +91,7 @@ duration of the event. We value your attendance.
 
 We will have colored lanyards for attendees to indicate their comfort level with being photographed:
 
-*   **Black**: ask beforehand
-*   **Green**: fine to photograph
+*   **Black**: fine to photograph
 *   **Red**: do not photograph
 
 In case of any doubt, please ask before taking photographs of attendees, speakers or staff.
