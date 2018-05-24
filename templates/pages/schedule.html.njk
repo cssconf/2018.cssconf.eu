@@ -42,6 +42,9 @@
                   {% else %}
                     <h2 class="c-schedule-item__title">{{ data.title }}</h2>
                   {% endif %}
+                  {% if data.misc %}
+                    {{ data.misc | nl2br }}
+                  {% endif %}
                 </div>
               </div>
             {% if talk %}
