@@ -51,26 +51,22 @@ Introduced in 2017, we again will have a Festival Area! Part of the large and be
 
 **Thursday Warm Up:** As it has become our tradition in the past years, we will have a small warmup event on the evening before the conference - this year sponsored by our friends from [talent.io](https://www.talent.io/)! Join us May 31, from 7pm at [Oberhafenkantine](http://www.oberhafenkantine-berlin.de/), Am Flutgraben 2, 12435 Berlin-Treptow. Free drinks as long as they last - so better not be late...
 
-**CSSconf EU Dinner:** Around 7pm on Friday, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, to talk and discuss the events of the day with fellow CSSconf EU attendees. We’ll serve a healthy and filling dinner, including tasty vegan and vegetarian options, to keep you sated.
+**CSSconf EU Garden Dinner & JSConf EU pre party:** This year, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, we'll end the day with a nice garden barbecue at the banks of the Spree, where you can talk and discuss the events of the day with fellow CSSconf EU attendees. Afterwards you're invited to attend the pre party of JSConf EU, from 9pm.
 
-**CSSconf Closing Event:** What would a great day be if it didn’t end in celebration! More infos about our evening program soon.
+**JSConf EU main party:** As an attendee of CSSconf EU you're welcome to attend the party after the first day of JSConf EU - as well as all the other social events around JSConf EU! June 1, from 9pm in Arena. If you have friends you want to bring, they can purchase a [party ticket](https://ti.to/jsconfeu/jsconf-eu-2018/with/ld8dvgwkceu).
 
-<!-- The party will take place at Glashaus, a river-facing building adjacent to the conference venue, so there’ll be no long walks from dinner to drinks to party. Expect free drinks (except hard alcohol) and music from our DJ @berlindisaster!
-Friends, family and the community are also welcome to join us, provided they present a party ticket at the door. -->
+### All parties and gatherings at a glance
 
-<!-- All parties and gatherings at a glance
+For attendees of CSSconf EU and JSConf EU, access to all the below events is **included in the conference ticket**. Please make sure to wear your badge in order to enter the evening events.
 
-Thursday, May 4: CSSconf EU Warm-Up, 7pm, venue tba
-Friday, May 5: CSSconf EU Dinner, 7pm, Arena
-Friday, May 5: CSSconf EU Closing / JSConf EU Opening Party, 9pm, Glashaus
-Saturday, May 6: JSConf EU Main Party, 9pm, Glashaus
-Sunday, May 7: JSConf EU Closing Party, 7:30pm, Hoppetosse
-Monday, May 8: relax.js Brunch, 10am, Datscha Xberg
-For attendees of CSSconf EU and JSConf EU, access to the above is included in the conference ticket. Please make sure to wear your badge in order to enter the evening events.
+**Thursday, May 31:** CSSconf EU Warmup sponsored by [talent.io](https://www.talent.io/), 7pm, Oberhafenkantine, Am Flutgraben 2, 12435 Berlin-Treptow<br>
+**Friday, June 1:** CSSconf Garden Barbecue, 7pm, Arena<br>
+**Friday, June 1:** JSConf EU Pre Party, 9pm, Arena<br>
+**Saturday, June 2:** JSConf EU Main Party, 9pm, Arena<br>
+**Sunday, June 3:** JSConf EU Closing Party, 7:30pm, Hoppetosse<br>
+**Monday, June 4:** relax.js Brunch, 10.30am, Datscha Xberg
 
-If you’re not attending the conferences, but would like to come along to the above gatherings, you can purchase limited Party Tickets.
-Buy CSSconf EU Party Ticket (Friday)
-Buy JSConf EU Party Ticket (Saturday) -->
+If you’re not attending the conferences, but would like to come along to the JSConf EU party on Saturday, you can [buy a party ticket](https://ti.to/jsconfeu/jsconf-eu-2018/with/ld8dvgwkceu).
 
 ### wwwtf.berlin
 
