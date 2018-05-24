@@ -1,14 +1,16 @@
 {% extends "../layouts/default.html.njk" %}
 
+{% from "../_macros.njk" import pageIntro %}
+
 {% block content %}
-  <section class="c-intro">
-    <div class="l-container">
-      <h1 class="c-intro__title">{{ contents.copy.scholarships['scholarships.md'].metadata.title }}</h1>
-      <p class="c-intro__text copy--max">
-        {{ contents.copy.scholarships['scholarships.md'].metadata.introText }}
-      </p>
-    </div>
-  </section>
+  {% set data = contents.copy.scholarships['scholarships.md'] %}
+
+  {{
+    pageIntro(
+      data.metadata.title,
+      data.metadata.introText
+    )
+  }}
 
   <div class="l-container">
     <main>
