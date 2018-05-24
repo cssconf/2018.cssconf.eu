@@ -118,6 +118,6 @@ If you’d like to team up with other attendees to travel to or stay in Berlin, 
 
 ## Stay Tuned
 
-We post all updates around [CSSconf EU on Twitter](https://twitter.com/cssconfeu). Use the hashtag #cssconfeu to tweet about the conference, connect with other attendees, and share your photos of the day when the time comes! You can also find us on [Facebook](https://www.facebook.com/cssconfeu/) and [subscribe to our newsletter](https://confirmsubscription.com/h/d/879A481DB04CB70D).
+We post all updates around [CSSconf EU on Twitter](https://twitter.com/cssconfeu). Use the hashtag #cssconfeu to tweet about the conference, connect with other attendees, and share your photos of the day when the time comes! You can also find us on [Facebook](https://www.facebook.com/cssconfeu/) and [subscribe to our newsletter](https://jsconf.us11.list-manage.com/subscribe?u=7a8adcde0f3c219f61b12a94c&id=ca2a86b0bd).
 
 Any questions we didn’t address? Reach out to us at <a href="mailto:contact@cssconf.eu">contact@cssconf.eu</a>, the team is here to help!
