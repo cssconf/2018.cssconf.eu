@@ -22,12 +22,14 @@
   </div>
 {% endmacro %}
 
-{% macro pageIntroImage(title, introText, introImage) %}
-  <section class="c-intro c-intro--with-image">
+{% macro pageIntro(title, introText, introImage) %}
+  <section class="c-intro {{ "c-intro--with-image" if introImage }}">
     <div class="l-container">
       <div class="c-intro__wrapper">
-        <img src="{{ introImage }}"
-             class="c-intro__image">
+        {% if introImage %}
+          <img src="{{ introImage }}"
+              class="c-intro__image">
+        {% endif %}
         <h1 class="c-intro__title">{{ title }}</h1>
       </div>
       <p class="c-intro__text copy--max">
