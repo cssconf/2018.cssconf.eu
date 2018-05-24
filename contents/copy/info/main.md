@@ -51,7 +51,7 @@ Introduced in 2017, we again will have a Festival Area! Part of the large and be
 
 **Thursday Warm Up:** As it has become our tradition in the past years, we will have a small warmup event on the evening before the conference - this year sponsored by our friends from [talent.io](https://www.talent.io/)! Join us May 31, from 7pm at [Oberhafenkantine](http://www.oberhafenkantine-berlin.de/), Am Flutgraben 2, 12435 Berlin-Treptow. Free drinks as long as they last - so better not be late...
 
-**CSSconf EU Garden Dinner & JSConf EU pre party:** This year, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, we'll end the day with a nice garden barbecue at the banks of the Spree, where you can talk and discuss the events of the day with fellow CSSconf EU attendees. Afterwards you're invited to attend the pre party of JSConf EU, from 9pm.
+**CSSconf EU Garden Dinner supported by the AMP Project / JSConf EU pre party:** This year, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, we'll end the day with a nice garden dinner at the banks of the Spree, where you can talk and discuss the events of the day with fellow CSSconf EU attendees. Afterwards you're invited to attend the pre party of JSConf EU, from 9pm.
 
 **JSConf EU main party:** As an attendee of CSSconf EU you're welcome to attend the party after the first day of JSConf EU - as well as all the other social events around JSConf EU! June 1, from 9pm in Arena. If you have friends you want to bring, they can purchase a [party ticket](https://ti.to/jsconfeu/jsconf-eu-2018/with/ld8dvgwkceu).
 
@@ -60,7 +60,7 @@ Introduced in 2017, we again will have a Festival Area! Part of the large and be
 For attendees of CSSconf EU and JSConf EU, access to all the below events is **included in the conference ticket**. Please make sure to wear your badge in order to enter the evening events.
 
 **Thursday, May 31:** CSSconf EU Warmup sponsored by [talent.io](https://www.talent.io/), 7pm, Oberhafenkantine, Am Flutgraben 2, 12435 Berlin-Treptow<br>
-**Friday, June 1:** CSSconf Garden Barbecue, 7pm, Arena<br>
+**Friday, June 1:** CSSconf Garden Dinner supported by the AMP Project, 7pm, Arena<br>
 **Friday, June 1:** JSConf EU Pre Party, 9pm, Arena<br>
 **Saturday, June 2:** JSConf EU Main Party, 9pm, Arena<br>
 **Sunday, June 3:** JSConf EU Closing Party, 7:30pm, Hoppetosse<br>
