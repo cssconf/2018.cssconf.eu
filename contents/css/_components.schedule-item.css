@@ -2,9 +2,14 @@
   border-top: 2px solid var(--c-black);
   display: flex;
 
-  &__time {
+  &__time,
+  &__title {
     font-size: 1.5rem;
-    line-height: 3.2rem;
+    line-height: 1.25;
+    margin-top: .8rem;
+  }
+
+  &__time {
     width: 7.5rem;
   }
 
@@ -14,9 +19,7 @@
 
   &__title {
     color: var(--c-black);
-    font-size: 1.5rem;
-    line-height: 3.2rem;
-    margin: 0;
+    margin-bottom: .8rem;
   }
 
   &__misc {
