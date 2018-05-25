@@ -50,6 +50,10 @@ If you have any questions or need help, feel free to talk to us! We're all on th
 - **Kristina Schneider**, [contact@cssconf.eu](mailto:contact@cssconf.eu), [@kriesse](http://twitter.com/kriesse) on Twitter
 - **Polly Hristova**, [contact@cssconf.eu](mailto:contact@cssconf.eu), [@rtrospekt](http://twitter.com/rtrospekt) on Twitter
 
+Speaker manager at the conference day:
+
+- **Lucie Höhler** [mail@luciehoehler.de](mailto:mail@luciehoehler.de), phone: +49 163 8596012, [@autofocus](http://twitter.com/autofocus) on Twitter
+
 Additionally, for issues with travel & booking:
 
 - **Simone Haas,** [simone@jsconf.eu](mailto:simone@jsconf.eu), [@haas_simone](http://twitter.com/haas_simone) on Twitter
