@@ -17,6 +17,17 @@
     font-size: 1.5rem;
     margin-bottom: .7rem;
     margin-top: .7rem;
+
+  &__misc {
+    background: var(--c-big-pink);
+    padding: 1rem;
+
+    b {
+      color: var(--c-blue-violet);
+      display: inline-block;
+      margin-bottom: .5rem;
+      text-transform: uppercase;
+    }
   }
 }
 

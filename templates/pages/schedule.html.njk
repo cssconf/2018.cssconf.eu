@@ -43,7 +43,9 @@
                     <h2 class="c-schedule-item__title">{{ data.title }}</h2>
                   {% endif %}
                   {% if data.misc %}
-                    {{ data.misc | nl2br }}
+                    <div class="c-schedule-item__misc">
+                      {{ data.misc | nl2br }}
+                    </div>
                   {% endif %}
                 </div>
               </div>
