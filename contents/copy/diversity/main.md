@@ -42,9 +42,9 @@ Anyone from an under-represented group in tech is invited to [apply for a schola
 
 In addition to the Diversity Support Tickets initiative for attendees, we also aspire to encourage a diverse group of speakers to apply. We provide a lot of information about the application process, additional blog posts covering the topic, as well as personal support (emails, slack chat). We reach out via email to under-represented individuals and groups to encourage them to submit talk proposals.
 
-CSSconf EU and its [team](/team) are active members of the local community. In our desire to support those just getting started in web development we organize free weekend workshops called [CSSclasses](http://cssclasses.cssconf.eu/). Those workshops aim to introduce people completely new to programming to the basics of becoming creative with code. Each event has up to 70 attendees, and is completely free of charge. We have run over 15 CSSclasses events in Berlin, Hamburg and Edinburgh.
+CSSconf EU and its [team](/team) are active members of the local community. In our desire to support those just getting started in web development we organize free weekend workshops called [CSSclasses](http://cssclasses.cssconf.eu/). Those workshops aim to introduce people completely new to programming to the basics of becoming creative with code. Each event has up to 70 attendees, and is completely free of charge. We have run over 20 CSSclasses events in Berlin, Hamburg and Edinburgh.
 
-We operate under a [Code of Conduct](/code-of-conduct) that we enforce. We educate ourselves and our team about how to put on a safe and inclusive event. We are constantly learning, educating ourselves on how to do better, and we plan so as to be as transparent about our process as possible, and the Diversity Support Tickets initiative we launched in 2015 is one attempt at improving in this area.
+We operate under a [Code of Conduct](/code-of-conduct) that we enforce. We educate ourselves and our team about how to ensure a safe and inclusive event. We are constantly learning, educating ourselves on how to do better, and we plan to be as transparent about our process as possible. The Diversity Support Tickets initiative which we launched in 2015 is one attempt at improving in this area.
 
 ## Can I contribute or sponsor in other ways?
 
