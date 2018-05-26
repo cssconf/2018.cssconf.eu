@@ -37,10 +37,23 @@
   &__image {
     display: block;
   }
-}
 
-.c-sponsors--footer {
-  margin-bottom: 0;
-  overflow: hidden;
-  background-color: var(--c-big-pink);
+  &--footer {
+    margin-bottom: 0;
+    overflow: hidden;
+    background-color: var(--c-big-pink);
+  }
+
+  &--footer &__logo {
+    padding: 1rem;
+
+    &--main {
+      flex-basis: calc(100% / 3);
+    }
+  }
+
+  &--footer &__image {
+    padding: 1.5rem;
+    background-color: var(--c-white);
+  }
 }
