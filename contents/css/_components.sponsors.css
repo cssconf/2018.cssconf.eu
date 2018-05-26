@@ -15,7 +15,7 @@
   &__logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   &__logo {
@@ -37,4 +37,10 @@
   &__image {
     display: block;
   }
+}
+
+.c-sponsors--footer {
+  margin-bottom: 0;
+  overflow: hidden;
+  background-color: var(--c-big-pink);
 }
