@@ -44,14 +44,12 @@ program
 const contentRoot = path.resolve(__dirname, '../../contents');
 const sheetParams = {
   artists: {
-    templateGlobals: {
-    },
+    templateGlobals: {},
     dataFieldName: 'artist',
     contentPath: 'artists'
   },
   schedule: {
-    templateGlobals: {
-    },
+    templateGlobals: {},
     dataFieldName: 'schedule',
     contentPath: 'schedule'
   },
@@ -71,7 +69,12 @@ const sheetParams = {
     templateGlobals: {},
     dataFieldName: 'talk',
     contentPath: 'talks'
-  }
+  },
+  team: {
+    templateGlobals: {},
+    dataFieldName: 'team',
+    contentPath: 'team'
+  },
 };
 
 const wwwtfrcFile = __dirname + '/../../.wwwtfrc';
@@ -112,7 +115,7 @@ main(params).catch(err => console.error(err));
 
 async function main(params) {
   // ---- ensure the directories exist...
-  const requiredDirectories = ['artists', 'schedule', 'speakers', 'sponsors', 'talks', 'images/artist', 'images/speaker', 'images/sponsor'];
+  const requiredDirectories = ['artists', 'schedule', 'speakers', 'sponsors', 'talks', 'team', 'images/artist', 'images/speaker', 'images/sponsor', 'images/team'];
   const requiredDirectoryPaths = requiredDirectories.map(
     dir => `${__dirname}/../../contents/${dir}`
   );
@@ -129,7 +132,7 @@ async function main(params) {
   if (params.doCleanup) {
     console.log(chalk.gray('cleaning up...'));
 
-    await Promise.all([rimraf(path.join(contentRoot, '{artists,schedule,speakers,sponsors,talks}/*md'))]);
+    await Promise.all([rimraf(path.join(contentRoot, '{artists,schedule,speakers,sponsors,talks,team}/*md'))]);
   }
 
   // ---- fetch spreadsheet-data...
@@ -190,6 +193,19 @@ async function main(params) {
           if (!data.image) {
             try {
               data.image = await downloadArtistImage(data);
+            } catch (err) {
+              console.error('this is bad: ', err);
+            }
+          }
+          delete data.potraitImageUrl;
+        }
+
+        if (sheetId === 'team') {
+          data.image = getLocalTeamImage(data);
+          title = `${data.firstname} ${data.lastname}`;
+          if (!data.image) {
+            try {
+              data.image = await downloadTeamImage(data);
             } catch (err) {
               console.error('this is bad: ', err);
             }
@@ -337,6 +353,74 @@ async function downloadArtistImage(artist) {
     const size = imageSize(buffer);
     const filename = getImageFilename(artist, info.ext);
     const fullPath = 'contents/images/artist/' + filename;
+
+    console.info(' --> image downloaded ', chalk.green(fullPath));
+    fs.writeFileSync(fullPath, buffer);
+
+    return {
+      filename,
+      width: size.width,
+      height: size.height
+    };
+  } catch (err) {
+    console.error(chalk.red.bold(' !!! failed to download', url));
+    console.error(err);
+    return {};
+  }
+}
+
+function getLocalTeamImage(team) {
+  if (!params.imagePath) {
+    return null;
+  }
+
+  const filename = getTeamFilename(team, 'jpg');
+  const srcFilename = path.join(params.imagePath, filename);
+  const destFilename = path.join('contents/images/team', filename);
+
+  if (fs.existsSync(srcFilename)) {
+    console.log(` --> image found in image-path:`, filename);
+    const buffer = fs.readFileSync(srcFilename);
+    const size = imageSize(buffer);
+    fs.writeFileSync(destFilename, buffer);
+
+    return {
+      filename,
+      width: size.width,
+      height: size.height
+    };
+  }
+
+  return null;
+}
+
+async function downloadTeamImage(team) {
+  const url = team.potraitImageUrl;
+  console.log('downloadImage', url);
+  if (!url) {
+    console.error(chalk.yellow('no image specified for ' + team.id));
+    return {};
+  }
+
+  try {
+    const res = await fetch(url);
+
+    if (!res.headers.get('content-type').startsWith('image')) {
+      console.error(chalk.red.bold(' !!! url is not an image', url));
+      return {};
+    }
+
+    const buffer = await res.buffer();
+
+    const info = imageType(buffer);
+    if (!info) {
+      console.error(chalk.red.bold(' !!! no type-imformation for image', url));
+      return {};
+    }
+
+    const size = imageSize(buffer);
+    const filename = getImageFilename(team, info.ext);
+    const fullPath = 'contents/images/team/' + filename;
 
     console.info(' --> image downloaded ', chalk.green(fullPath));
     fs.writeFileSync(fullPath, buffer);
