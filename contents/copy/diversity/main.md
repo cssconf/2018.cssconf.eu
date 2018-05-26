@@ -4,7 +4,7 @@ introText: >
   Enabling more people to attend CSSconf EU
 ---
 
-## CSSconf EU strives to create a genuinely welcoming, safe, and inspiring event for the CSS community. This year we’re offering Diversity Support Tickets to allow an even more diverse audience to participate in the conference.
+## CSSconf EU strives to create a genuinely welcoming, safe, and inspiring event for the CSS community. We offer Diversity Support Tickets to allow an even more diverse audience to participate in the conference.
 
 ## How do Diversity Support Tickets work?
 
@@ -29,7 +29,6 @@ Travis CI GmbH,
 Michael Schultze,
 [Ida Aalen and Dag-Inge Aas](https://confrere.com/features/),
 and more anonymous supporters.
-
 
 ## Why Diversity Support Tickets?
 
