@@ -5,7 +5,7 @@ introText: >
 introImage: team.jpg
 ---
 
-This event is made possible by the work of the many volunteers who spend a lot of time pouring their blood and sweat into preparing a fantastic day for you.
+CSSconf EU is made possible by the work of the many volunteers who spend a lot of time and love preparing a fantastic day for you.
 
 ## The Organizers
 
