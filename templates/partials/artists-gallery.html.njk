@@ -1,0 +1,41 @@
+{% from "../_macros.njk" import speakerPortrait %}
+
+<section class="c-intro c-intro--centered">
+  <div class="l-container">
+    <h1 class="c-intro__title">{{ contents.copy.artists['main.md'].metadata.title }}</h1>
+    <p class="c-intro__text copy--max">
+      {{ contents.copy.artists['main.md'].metadata.introText }}
+    </p>
+  </div>
+</section>
+
+{% set artistPages = contents.artists._.pages | sortObjects('metadata.artist.order', 100, 'number') | reverse %}
+
+<div class="l-container">
+  <ul class="c-speaker-gallery list pl0">
+    {% for artistPage in artistPages %}
+      {% set artist = artistPage.metadata.artist %}
+
+      {% if artist.published and artist.reviewed %}
+        <li class="c-speaker-gallery__item">
+          {% if artist.links.twitter %}<a href="{{ artist.links.twitter }}">{% endif %}
+            {{ speakerPortrait(artist, contents.images.artist[artist.image.filename].url) }}
+            <h2 class="c-speaker-gallery__title
+                        c-speaker-gallery__title--variant-{{ artist.variant }}
+                        c-speaker-gallery__title--textcolor-{{ artist.textcolor }}
+                        fz--epsilon">
+              <div class="c-speaker-gallery__name-part
+                          c-speaker-gallery__name-part--variant-{{ artist.variant }}">
+                <span>{{ artist.firstname }}</span>
+              </div>
+              <div class="c-speaker-gallery__name-part
+                          c-speaker-gallery__name-part--variant-{{ artist.variant }}">
+                <span>{{ artist.lastname }}</span>
+              </div>
+            </h2>
+          {% if artist.links.twitter %}</a>{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
