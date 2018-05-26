@@ -12,7 +12,24 @@ You purchase a ticket for yourself, and enable another person of the conference�
 
 We are very grateful and would like to say a big Thank You to the companies and individuals who already donated to our [Scholarship Program](/scholarships/): ❤️
 
-[Mercedes-Benz.io](https://blog.cssconf.eu/2017/12/29/mercedes-benz-io-sponsors-scholarships/), Ambika Castle, Jannis Hell, Steini, Whitney Williams, Jan Shulte, Justine Arreche, [kosmar.de](http://www.kosmar.de), Anja Reichmann, Morgan Cugerone, Thibault Beyer, Niklas Postulart, and more anonymous supporters.
+[Mercedes-Benz.io](https://blog.cssconf.eu/2017/12/29/mercedes-benz-io-sponsors-scholarships/),
+Ambika Castle,
+Jannis Hell,
+Steini,
+Whitney Williams,
+Justine Arreche,
+[kosmar.de](http://www.kosmar.de),
+Travis CI GmbH,
+Morgan Cugerone,
+Thibault Beyer,
+Niklas Postulart,
+Christoffer Sörensen,
+Marc Dahlenburg,
+Travis CI GmbH,
+Michael Schultze,
+[Ida Aalen and Dag-Inge Aas](https://confrere.com/features/),
+and more anonymous supporters.
+
 
 ## Why Diversity Support Tickets?
 
@@ -33,4 +50,3 @@ We operate under a [Code of Conduct](/code-of-conduct) that we enforce. We educa
 ## Can I contribute or sponsor in other ways?
 
 Help from sponsors is greatly needed – if you are interested in supporting CSSconf EU to become more accessible and inclusive, please reach out directly via [e-mail: contact@cssconf.eu](mailto:contact@cssconf.eu).
-
