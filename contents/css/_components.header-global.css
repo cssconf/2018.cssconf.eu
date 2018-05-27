@@ -48,5 +48,5 @@
   display: none;
   white-space: nowrap;
 
-  @media (--stage-3) { display: flex; }
+  @media (--m) { display: flex; }
 }
