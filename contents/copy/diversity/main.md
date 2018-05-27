@@ -10,26 +10,6 @@ introText: >
 
 You purchase a ticket for yourself, and enable another person of the conference’s choosing to attend the event by paying a share towards their ticket. The support options range from contributing 25%, 50% and up to 100% towards a full ticket. We thank you in advance for your generosity and awesomeness and look forward to a more inclusive CSSconf EU than ever before.
 
-We are very grateful and would like to say a big Thank You to the companies and individuals who already donated to our [Scholarship Program](/scholarships/): ❤️
-
-[Mercedes-Benz.io](https://blog.cssconf.eu/2017/12/29/mercedes-benz-io-sponsors-scholarships/),
-Ambika Castle,
-Jannis Hell,
-Steini,
-Whitney Williams,
-Justine Arreche,
-[kosmar.de](http://www.kosmar.de),
-Travis CI GmbH,
-Morgan Cugerone,
-Thibault Beyer,
-Niklas Postulart,
-Christoffer Sörensen,
-Marc Dahlenburg,
-Travis CI GmbH,
-Michael Schultze,
-[Ida Aalen and Dag-Inge Aas](https://confrere.com/features/),
-and more anonymous supporters.
-
 ## Why Diversity Support Tickets?
 
 We believe that only a diverse community is a healthy community, and we welcome and encourage participation by everyone. The Diversity Support Tickets initiative is one attempt to increase the number of participants that would love to attend but are financially or otherwise unable to do so.

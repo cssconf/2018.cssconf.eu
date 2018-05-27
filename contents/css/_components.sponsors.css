@@ -26,11 +26,19 @@
 
     &--main {
       flex-basis: 50%;
+
+      @media(--l) {
+        flex-basis: calc(100% / 3);
+      }
     }
 
     &--supporting,
     &--community {
       flex-basis: calc(100% / 3);
+
+      @media(--l) {
+        flex-basis: calc(100% / 4);
+      }
     }
   }
 
