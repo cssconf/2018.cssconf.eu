@@ -54,7 +54,18 @@ Michele Guido [@sheley](https://twitter.com/sheley)
 
 Vanessa Yuen [@vanessayuenn](https://twitter.com/vanessayuenn)
 
-## Staff behind the scene
+
+## The Alumni
+
+Since 2013, many volunteers have contributed to making CSSconf EU happen. Thanks and love to all of you, in no particular order: Lena Reinhard, Jed Schmidt, Robin Mehner, Kida Mehner, Minja Töniges, Robert Fleischmann, Philip von Bargen, Karl Westin, Katharina Jockenhöfer, Alex Feyerke, Max Fellmuth, Helge Grimm, Anne Wizorek, Jana Ahrens, Katrin Kampfrath, Lourdes Montano …
+
+## The CSSconf Family
+
+Our international [CSSconf family](http://cssconf.org/) has been supportive with advice, hands-on help and friendship. Special thanks to Nicole Sullivan, CSSconf AU, Thomas Gorissen, CSSconf Nordic, CSSconf Budapest for ongoing support and friendship!
+
+## Staff
+
+Many of our behind-the-scene staff has been working with us for years, and won’t stop to amaze us with their fantastic work, ideas, and stress resistance. Thanks for all your hard work and creative contributions to the conference!
 
 [Artribute](http://artribute.de/) – Event Planning, Venue, Catering, EVERYTHING!
 
@@ -63,11 +74,3 @@ Vanessa Yuen [@vanessayuenn](https://twitter.com/vanessayuenn)
 [WECAP](https://wecap.de/) – Video Recording
 
 [keep on](http://wearekeepon.com/) – Moodfilm
-
-## The Alumni
-
-Since 2013, many volunteers have contributed to making CSSconf EU happen. Thanks and love to all of you, in no particular order: Robert Fleischmann, Lena Reinhard, Jed Schmidt, Robin Mehner, Kida Mehner, Minja Töniges, Philip von Bargen, Karl Westin, Katharina Jockenhöfer, Alex Feyerke, Max Fellmuth, Helge Grimm, Anne Wizorek, Jana Ahrens, Katrin Kampfrath, Lourdes Montano …
-
-## The CSSconf Family
-
-Our international CSSconf family has been supportive with advice, hands-on help and friendship – special thanks to Nicole Sullivan, CSSconf AU, Thomas Gorissen, CSSconf Nordic, CSSconf Budapest for ongoing support and friendship!
