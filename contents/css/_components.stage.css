@@ -11,6 +11,10 @@
     margin-bottom: 24rem;
   }
 
+  @media (--l) {
+    background-size: cover;
+  }
+
   &__logo {
     color: #191919;
     font-size: 138px;
