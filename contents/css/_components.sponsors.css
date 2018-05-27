@@ -15,7 +15,7 @@
   &__logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   &__logo {
@@ -36,5 +36,24 @@
 
   &__image {
     display: block;
+  }
+
+  &--footer {
+    margin-bottom: 0;
+    overflow: hidden;
+    background-color: var(--c-big-pink);
+  }
+
+  &--footer &__logo {
+    padding: 1rem;
+
+    &--main {
+      flex-basis: calc(100% / 3);
+    }
+  }
+
+  &--footer &__image {
+    padding: 1.5rem;
+    background-color: var(--c-white);
   }
 }
