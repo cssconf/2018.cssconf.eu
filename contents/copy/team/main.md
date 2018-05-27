@@ -56,13 +56,13 @@ Vanessa Yuen [@vanessayuenn](https://twitter.com/vanessayuenn)
 
 ## Staff behind the scene
 
-Artribute – Event Planning, Venue, Catering, EVERYTHING! http://artribute.de/
+[Artribute](http://artribute.de/) – Event Planning, Venue, Catering, EVERYTHING!
 
-Marina Ostrowski – Venue Concept http://www.marinaos.com
+[Marina Ostrowski](http://www.marinaos.com) – Venue Concept
 
-WECAP – Video Recording https://wecap.de/
+[WECAP](https://wecap.de/) – Video Recording
 
-keep on – Moodfilm http://wearekeepon.com/
+[keep on](http://wearekeepon.com/) – Moodfilm
 
 ## The Alumni
 
