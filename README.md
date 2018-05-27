@@ -11,7 +11,7 @@ This repository hosts the sourcecode and the website (in branch [`gh-pages`][gh-
 
 Should bring up the server on port 8080
 
-## where is...
+## where is …
 
  - stylesheets: in `contents/css`. `contents/css/main.css` is the file that is pulled through postcss to become `/css/main.css` on the hosted site.
 
@@ -28,11 +28,11 @@ Should bring up the server on port 8080
    - `templates/pages` is for page-specific templates. So if there are special markup-needs for a given site, this is the place it belongs.
    - `templates/partials` is for smaller template-snippets that need to be reused or are just confusing to look at in a bigger file.
    - `templates/_macros.njk` contains all sorts of macro-definitions (called "mixins" in other template-engines, mostly used for often reused chunks of template-logic)
-   - `templates/filters`: you can drop js functions here that will then be available (after enabling them in `config.json`) in templates as filters. 
-   
+   - `templates/filters`: you can drop js functions here that will then be available (after enabling them in `config.json`) in templates as filters.
+
      For example `{{ someValue | myCoolFilterFunction }}` will call the exported function from `templates/filters/myCoolFilterFunction.js` with `someValue` as parameter. The value returned from that function is rendered.
 
- - the content: content (like real content now) is also found in the `contents` directory. For now, we support json and markdown files (with frontmatter) here. The [wintersmith-documentation][] has a good (and short) introduction to that. 
+ - the content: content (like real content now) is also found in the `contents` directory. For now, we support json and markdown files (with frontmatter) here. The [wintersmith-documentation][] has a good (and short) introduction to that.
 
    Even shorter: every (json or markdown) file is rendered as html-file by the same name (so `contents/blub.json` is rendered as `blub.html`). It has to contain a `template`-parameter (either in the json or in the [frontmatter][] of the markdown-file) that points to the template that will render the page.
 
@@ -58,7 +58,7 @@ There might be better ways, but this works for me:
 First, start application with `--inspect` flag:
 
     node --inspect node_modules/.bin/wintersmith --verbose preview`
-    
+
 Next, go to [chrome://inspect](chrome://inspect) in chrome and "Open dedicated DevTools for Node". This should connect a new devtools-instance to the wintersmith-server running in node.
 
 Depending on what you want to debug, find the corresponding file, set a breakpoint or enable break on caught exceptions or whatever. To have a look at the content-tree you can do this:
