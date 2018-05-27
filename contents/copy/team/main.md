@@ -1,23 +1,24 @@
 ---
 title: Team
 introText: >
-  Meet the people behind CSSconf EU
+  CSSconf EU is made possible by the work of many volunteers who spend a lot of time and love preparing a fantastic day for you.
 introImage: team.jpg
 ---
 
-CSSconf EU is made possible by the work of the many volunteers who spend a lot of time and love preparing a fantastic day for you.
 
-## The Organizers
+## Organizers
 
 Kristina Schneider [@kriesse](https://twitter.com/kriesse)
 
 Polly Hristova [@rtrospekt](https://twitter.com/rtrospekt)
 
-## The Volunteer Team
+### Organizer Alumni
 
-Felicitas Kugland [@kotzendekrabbe](https://twitter.com/kotzendekrabbe)
+Michael P. Pfeiffer [@m_p_pfeiffer](https://twitter.com/m_p_pfeiffer) 2013 – 2015
 
-Simone Haas [@haas_simone](https://twitter.com/haas_simone)
+Kevin Lorenz [@verpixelt](https://twitter.com/verpixelt) 2015 – 2107
+
+## Core Team
 
 Łukasz Klis [@lukaszklis](https://twitter.com/lukaszklis)
 
@@ -31,10 +32,42 @@ Nicolas Zimmel [@toomanyclouds](https://twitter.com/toomanyclouds)
 
 Sean Fridman [@sfrdmn](https://twitter.com/sfrdmn)
 
-Michael P. Pfeiffer [@m_p_pfeiffer](https://twitter.com/m_p_pfeiffer)
-
 Olivia Hugger [@dog_awoo](https://twitter.com/dog_awoo)
+
+### The JSConf EU Family
+
+Holger Blank [@hblank](https://twitter.com/hblank)
+
+Jan Lehnardt [@janl](https://twitter.com/janl)
+
+Malte Ubl [@cramforce](https://twitter.com/cramforce)
+
+Simone Haas [@haas_simone](https://twitter.com/haas_simone)
+
+Felicitas Kugland [@kotzendekrabbe](https://twitter.com/kotzendekrabbe)
+
+Megan Christian [@kotzendekrabbe](https://twitter.com/kotzendekrabbe)
+
+### The Community Lounge Team
 
 Michele Guido [@sheley](https://twitter.com/sheley)
 
 Vanessa Yuen [@vanessayuenn](https://twitter.com/vanessayuenn)
+
+## Staff behind the scene
+
+Artribute – Event Planning, Venue, Catering, EVERYTHING! http://artribute.de/
+
+Marina Ostrowski – Venue Concept http://www.marinaos.com
+
+WECAP – Video Recording https://wecap.de/
+
+keep on – Moodfilm http://wearekeepon.com/
+
+## The Alumni
+
+Since 2013, many volunteers have contributed to making CSSconf EU happen. Thanks and love to all of you, in no particular order: Robert Fleischmann, Lena Reinhard, Jed Schmidt, Robin Mehner, Kida Mehner, Minja Töniges, Philip von Bargen, Karl Westin, Katharina Jockenhöfer, Alex Feyerke, Max Fellmuth, Helge Grimm, Anne Wizorek, Jana Ahrens, Katrin Kampfrath, Lourdes Montano …
+
+## The CSSconf Family
+
+Our international CSSconf family has been supportive with advice, hands-down help and friendship – special thanks to Nicole Sullivan, CSSconf AU, Thomas Gorissen, CSSconf Nordic, CSSconf Budapest for ongoing support and friendship!
