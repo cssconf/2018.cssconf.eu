@@ -53,7 +53,15 @@ Introduced in 2017, we again will have a Festival Area! Part of the large and be
 **Warm Up:** As it has become our tradition in the past years, we will have a small warmup event on the evening before the conference - this year sponsored by our friends from [talent.io](https://www.talent.io/)! Join us May 31, from 7pm at [Oberhafenkantine](http://www.oberhafenkantine-berlin.de/), Am Flutgraben 2, 12435 Berlin-Treptow. Free drinks as long as they last - so better not be late...
 
 ### FRIDAY
-**CSSconf EU Garden Dinner supported by the AMP Project / JSConf EU pre party:** This year, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, we'll end the day with a nice garden dinner at the banks of the Spree, where you can talk and discuss the events of the day with fellow CSSconf EU attendees. Afterwards you're invited to attend the pre party of JSConf EU, from 9pm.
+**CSSconf EU Garden Dinner supported by the AMP Project:** This year, after the talks have ended and the big family photo has been taken, we’ll come together for food, drinks and, most importantly, we'll end the day with a nice garden dinner at the banks of the Spree, where you can talk and discuss the events of the day with fellow CSSconf EU attendees.
+
+### Musical guest
+
+And for everyone who likes to sit back with their drink and digest the day's input, we have a special treat waiting: our musical guests for the evening, duo **Trippner&Demmin**! Matthias Trippner and Sebastian Demmin are well amongst the technically best musicians Berlin’s Jazz and Electronic scene has to offer. They’ve remixed and composed for artists like Daft Punkt, A-HA or the electronica visionaires from Terranova. We're very excited to welcome them at our conference!
+
+<img src="/images/TrippnerDemmin.jpg">
+
+**JSConf EU pre party:** After our CSSconf Dinner you're invited to attend the pre party of JSConf EU, from 9pm!
 
 ### SATURDAY
 **JSConf EU main party:** As an attendee of CSSconf EU you're welcome to attend the party after the first day of JSConf EU - as well as all the other social events around JSConf EU! June 1, from 9pm in Arena. If you have friends you want to bring, they can purchase a [party ticket](https://ti.to/jsconfeu/jsconf-eu-2018/with/ld8dvgwkceu).
