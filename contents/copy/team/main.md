@@ -70,4 +70,4 @@ Since 2013, many volunteers have contributed to making CSSconf EU happen. Thanks
 
 ## The CSSconf Family
 
-Our international CSSconf family has been supportive with advice, hands-down help and friendship – special thanks to Nicole Sullivan, CSSconf AU, Thomas Gorissen, CSSconf Nordic, CSSconf Budapest for ongoing support and friendship!
+Our international CSSconf family has been supportive with advice, hands-on help and friendship – special thanks to Nicole Sullivan, CSSconf AU, Thomas Gorissen, CSSconf Nordic, CSSconf Budapest for ongoing support and friendship!
