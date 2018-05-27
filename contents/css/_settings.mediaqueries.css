@@ -5,8 +5,3 @@
 @custom-media --xl (width >= 80rem);
 @custom-media --xxl (width >= 100rem);
 @custom-media --xxxl (width >= 112rem);
-
-@custom-media --stage-1 (width >= 33rem);
-@custom-media --stage-2 (width >= 38rem);
-@custom-media --stage-3 (width >= 43rem);
-@custom-media --stage-4 (width >= 49rem);
