@@ -6,4 +6,20 @@
   min-width: 17.25rem;
   padding-left: var(--l-gutter);
   padding-right: var(--l-gutter);
+
+  &--l {
+    max-width: 64rem;
+  }
+
+  &--xl {
+    max-width: 80rem;
+  }
+
+  &--xxl {
+    max-width: 100rem;
+  }
+
+  &--xxxl {
+    max-width: 112rem;
+  }
 }
