@@ -6,12 +6,6 @@ introImage: team.jpg
 ---
 
 
-## Organizers
-
-Kristina Schneider [@kriesse](https://twitter.com/kriesse)
-
-Polly Hristova [@rtrospekt](https://twitter.com/rtrospekt)
-
 ### Organizer Alumni
 
 Michael P. Pfeiffer [@m_p_pfeiffer](https://twitter.com/m_p_pfeiffer) 2013 – 2015
@@ -46,7 +40,7 @@ Simone Haas [@haas_simone](https://twitter.com/haas_simone)
 
 Felicitas Kugland [@kotzendekrabbe](https://twitter.com/kotzendekrabbe)
 
-Megan Christian [@kotzendekrabbe](https://twitter.com/kotzendekrabbe)
+Megan Christian
 
 ### The Community Lounge Team
 
