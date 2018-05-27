@@ -55,8 +55,14 @@
   &--footer &__logo {
     padding: 1rem;
 
-    &--main {
-      flex-basis: calc(100% / 3);
+    &--main,
+    &--supporting,
+    &--community {
+      flex-basis: calc(100% / 2);
+
+      @media(--m) {
+        flex-basis: calc(100% / 3);
+      }
     }
   }
 
