@@ -10,7 +10,7 @@ introImage: food.jpg
 * Scrambled eggs, with either herbs, tomatoes, goat cheese or baby spinach
 * Various kinds of cheese or cream cheese with grapes
 * Fruit yogurt or natural yogurt
-* Fruit salad and fruits
+* Fruit salad and assorted fruit
 * Bircher muesli
 * Jam specialties: Strawberry vanilla, raspberry & apricot
 * Freshly made pancakes with maple syrup
@@ -19,7 +19,7 @@ introImage: food.jpg
 
 ### Lunch
 
-* Chickpeas salad with grilled vegetables, couscous and mint yogurt
+* Chickpea salad with grilled vegetables, couscous and mint yogurt
 * Penne Rigate with lime foam, roasted mushrooms and arugula
 * Fusilli with white asparagus ragout, cherry tomatoes and basil pesto
 
@@ -27,7 +27,7 @@ introImage: food.jpg
 
 * Carrot cake with coconut
 * Chocolate-cherry tartlets
-* Fruits
+* Assorted fruit
 
 ### Foodtruck (outside)
 
@@ -36,7 +36,7 @@ introImage: food.jpg
 ### Dinner
 
 * Mediterranean vegetable salad with feta, dill and arugula
-* Black beans burger with avocado, red onions and herb sala
+* Black bean burger with avocado, red onions and herb salad
 * Grilled halloumi burger with braised tomatoes, pimientos and harissa sauce
 * Marinated tofu burger with grilled eggplant, cheddar and coriander salsa
 * Strawberry sorbet
