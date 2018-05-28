@@ -48,6 +48,10 @@ Michele Guido [@sheley](https://twitter.com/sheley)
 
 Vanessa Yuen [@vanessayuenn](https://twitter.com/vanessayuenn)
 
+### Meno
+
+Meno Abels [@fastandfearless](https://twitter.com/fastandfearless)
+
 
 ## The Alumni
 
@@ -61,10 +65,13 @@ Our international [CSSconf family](http://cssconf.org/) has been supportive with
 
 Many of our behind-the-scene staff has been working with us for years, and won’t stop to amaze us with their fantastic work, ideas, and stress resistance. Thanks for all your hard work and creative contributions to the conference!
 
-[Artribute](http://artribute.de/) – Event Planning, Venue, Catering, EVERYTHING!
+[Björn Kloos + artribute-team](http://artribute.de/):
+Vivienne Popp, Jule Küppers, Tim Felix Dreske, Philipp Großmann, Gregor Elsner Harald Höllrigl, Sven Kunze, Amin Motamedi – Event Planning and Project Management, Catering, Event Technology, Stage and Grandstand Construction, Furniture, Decorations
 
-[Marina Ostrowski](http://www.marinaos.com) – Venue Concept
+[Marina Ostrowski](http://www.marinaos.com) – Concept, Art Consulting
 
 [WECAP](https://wecap.de/) – Video Recording
 
 [keep on](http://wearekeepon.com/) – Moodfilm
+
+[Siebdruckwerkstatt Neukölln](http://www.sdw-neukoelln.de/) – Screen Printing, Shirts & Bags
