@@ -134,10 +134,6 @@ To subscribe to the newsletter, it is sufficient to provide your e-mail address.
 
 You will be asked to consent to the use of your personal data to receive our newsletter as follows:
 
-**JSConf EU**
-
-“By entering your e-mail address and clicking the button below, you confirm that you are 16 years or older. You agree that the JSConf EU (represented by SinnerSchrader Deutschland GmbH, Völckersstraße 38, 22765 Hamburg) will use the data and information provided by you in connection with the use of the newsletter to regularly send you information about the JSConf EU by e-mail. By clicking below, you agree that JSCconf EU may process your information in accordance with these terms. You can change your mind at any time by clicking the unsubscribe link in the footer of any e-mail you receive from us, or by contacting us at contact@jsconf.eu. JSConf EU will treat your information with respect. For further information, please see our privacy policy on our website.”
-
 **CSSconf EU**
 
 “By entering your e-mail address and clicking the button below, you confirm that you are 16 years or older. You agree that the CSSconf EU (represented by SinnerSchrader Deutschland GmbH, Völckersstraße 38, 22765 Hamburg) will use the data and information provided by you in connection with the use of the newsletter to regularly send you information about the CSSconf EU by e-mail. By clicking below, you agree that CSSconf EU may process your information in accordance with these terms. You can change your mind at any time by clicking the unsubscribe link in the footer of any e-mail you receive from us, or by contacting us at contact@cssconf.eu. CSSconf EU will treat your information with respect. For further information, please see our privacy policy on our website.”
