@@ -40,7 +40,7 @@
 {% endmacro %}
 
 {% macro teamMemberPortrait(teamMember, teamMemberImage) %}
-  <div class="c-team__person">
+  <div class="c-team__person c-team__person--variant-{{ teamMember.variant }}">
     <img class="c-team__avatar"
         src="{{ teamMemberImage }}"
         alt="Photo of {{ teamMember.firstname }} {{ teamMember.lastname }}">

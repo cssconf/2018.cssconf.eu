@@ -38,6 +38,22 @@
     }
   }
 
+  &__person--variant-a::before {
+    background-color: var(--c-blue-violet);
+  }
+
+  &__person--variant-b::before {
+    background-color: var(--c-mint);
+  }
+
+  &__person--variant-c::before {
+    background-color: var(--c-cinnabar);
+  }
+
+  &__person--variant-d::before {
+    background-color: var(--c-illusion);
+  }
+
   &__avatar {
     margin-left: 1rem;
     width: 4.5rem;
