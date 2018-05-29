@@ -1,16 +1,6 @@
 /* special handling for classless html generated from markdown-files */
 
-.markdown--indented-paragraphs {
-  p, h3 {
-    padding-left: calc(var(--l-unit) * 5);
-    @media(--s) { padding-left: calc(var(--l-unit) * 8); }
-  }
-
-  ul, ol {
-    padding-left: calc(var(--l-unit) * 9);
-    @media(--s) { padding-left: calc(var(--l-unit) * 12); }
-  }
-
+.c-markdown {
   h2 {
     font-size: 2rem;
     margin-top: 2em;
@@ -24,5 +14,17 @@
     font-size: 1.75rem; /* 28 */
     line-height: 1.285714286; /* 26 */
     margin-top: 2em;
+  }
+}
+
+.c-markdown--indented-paragraphs {
+  p, h3 {
+    padding-left: calc(var(--l-unit) * 5);
+    @media(--s) { padding-left: calc(var(--l-unit) * 8); }
+  }
+
+  ul, ol {
+    padding-left: calc(var(--l-unit) * 9);
+    @media(--s) { padding-left: calc(var(--l-unit) * 12); }
   }
 }
