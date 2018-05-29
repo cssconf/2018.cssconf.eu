@@ -21,7 +21,7 @@
       flex-basis: 45%;
     }
 
-    &:before {
+    &::before {
       content: '';
       display: block;
       position: absolute;
@@ -36,6 +36,22 @@
         height: calc(100% + 2rem);
       }
     }
+  }
+
+  &__person--variant-a::before {
+    background-color: var(--c-blue-violet);
+  }
+
+  &__person--variant-b::before {
+    background-color: var(--c-mint);
+  }
+
+  &__person--variant-c::before {
+    background-color: var(--c-cinnabar);
+  }
+
+  &__person--variant-d::before {
+    background-color: var(--c-illusion);
   }
 
   &__avatar {

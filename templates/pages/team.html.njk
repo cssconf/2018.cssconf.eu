@@ -1,6 +1,6 @@
 {% extends "../layouts/default.html.njk" %}
 
-{% from "../_macros.njk" import pageIntro %}
+{% from "../_macros.njk" import pageIntro, teamMemberPortrait %}
 
 {% block content %}
   {% set data = contents.copy.team['main.md'] %}
@@ -13,38 +13,38 @@
     )
   }}
 
-
   <div class="l-container">
-    <h2 id="organizers">Organizers</h2>
-    <div class="c-team">
-      <div class="c-team__person">
-        <img class="c-team__avatar"
-             {# src="{{ speakerImage }}" #}
-             src="https://pbs.twimg.com/profile_images/996664608034344965/aQlow1-K_400x400.jpg"
-             alt="Photo of {{ team.name }}">
-        <div class="c-team__caption">
-          <h4 class="c-team__name">Kristina Schneider</h4>
-          <p class="c-team__description">Organizer since 2013</p>
-          <a class="c-team__link" href="https://twitter.com/kriesse" target="_blank">@kriesse</a>
+    <div class="c-markdown">
+      {% set teamTypes = ['organizers', 'organizer-alumni', 'core-team', 'jsconf-family', 'community-lounge-team', 'meno'] %}
+
+      {% for teamType in teamTypes %}
+        {% set teamPages = contents.team._.pages |
+          filterObjects('metadata.team.type', teamType) |
+          filterObjects('metadata.team.published', true) |
+          filterObjects('metadata.team.reviewed', true) |
+          sortObjects('metadata.team.filename', 'aaa', 'string') %}
+        {% set teamTypeTitle = teamPages | first %}
+
+        {% if teamType === 'organizers' or teamType === 'core-team' %}
+          <h2>{{ teamTypeTitle.metadata.team.typeTitle }}</h2>
+        {% else %}
+          <h3>{{ teamTypeTitle.metadata.team.typeTitle }}</h3>
+        {% endif %}
+
+        <div class="c-team">
+          {% for teamPage in teamPages %}
+            {% set teamMember = teamPage.metadata.team %}
+
+            {{ teamMemberPortrait(teamMember, contents.images.team[teamMember.image.filename].url) }}
+          {% endfor %}
         </div>
-      </div>
-      <div class="c-team__person">
-        <img class="c-team__avatar"
-             {# src="{{ speakerImage }}" #}
-             src="https://pbs.twimg.com/profile_images/655557066183069696/rekvmVi8_400x400.jpg"
-             alt="Photo of {{ team.name }}">
-        <div class="c-team__caption">
-          <h4 class="c-team__name">Polly Hristova</h4>
-          <p class="c-team__description">Organizer since 2017</p>
-          <a class="c-team__link" href="https://twitter.com/rtrospekt" target="_blank">@rtrospekt</a>
-        </div>
-      </div>
+      {% endfor %}
     </div>
   </div>
 
   <div class="l-container">
     <main>
-      <div class="markdown--indented-paragraphs">
+      <div class="c-markdown c-markdown--indented-paragraphs">
         {{ data.html }}
       </div>
     </main>
