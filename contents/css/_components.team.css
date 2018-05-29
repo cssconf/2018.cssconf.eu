@@ -21,7 +21,7 @@
       flex-basis: 45%;
     }
 
-    &:before {
+    &::before {
       content: '';
       display: block;
       position: absolute;
